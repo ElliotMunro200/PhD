@@ -92,9 +92,48 @@ def DQNet_update(model, optimizer, replay_buffer, batch_size):
     optimizer.step()
     return loss
 
+def train_DQN(env,model,replay_buffer,batch_size,optimizer, num_frames, n_avg):
+    losses = []
+    all_rewards = []
+    episode_reward = 0
+    state = env.reset()
+    for frame_idx in range(1, num_frames + 1):
+        print("frame index:"+str(frame_idx))
+        epsilon = epsilon_by_frame(frame_idx)
+        action = model.act(state, epsilon)
+
+        next_state, reward, done, _ = env.step(action)
+        replay_buffer.push(state, action, reward, next_state, done)
+
+        state = next_state
+        episode_reward += reward
+
+        if done:
+            state = env.reset()
+            all_rewards.append(episode_reward)
+            episode_reward = 0
+
+        if len(replay_buffer) > batch_size:
+            loss = DQNet_update(model, optimizer, replay_buffer, batch_size)
+            losses.append(loss.data)
+
+        #if frame_idx % num_frames == 0:
+            #plot(frame_idx, all_rewards, losses)
+
+    train_DQN_plot(all_rewards, n_avg, num_frames)
+
+def train_DQN_plot(all_rewards, n, num_frames):
+    plt.figure(figsize=(20, 5))
+    plt.title("DQN: mean rewards over next "+str(n)+" episodes (" + str(num_frames) + " total frames)")
+    plt.xlabel(str(n)+"th episode number")
+    plt.ylabel("Rewards")
+    # plot the mean reward over the next 100 episodes
+    plt.plot([np.mean(all_rewards[i:i + n]) for i in range(0, len(all_rewards), n)])
+    plt.show()
+
 
 def train_h_DQN(env, meta_model, model, meta_replay_buffer, replay_buffer,
-                meta_optimizer, optimizer, num_frames, n_avg):
+                batch_size,meta_optimizer, optimizer, num_frames, n_avg):
     state = env.reset()
     frame_idx = 1
     done = False
@@ -126,8 +165,9 @@ def train_h_DQN(env, meta_model, model, meta_replay_buffer, replay_buffer,
                 [next_state, onehot_goal]), done)
             state = next_state
 
-            model_loss = DQNet_update(model, optimizer, replay_buffer, 32)
-            meta_model_loss = DQNet_update(meta_model, meta_optimizer, meta_replay_buffer, 32)
+            model_loss = DQNet_update(model, optimizer, replay_buffer, batch_size)
+            meta_model_loss = DQNet_update(meta_model, meta_optimizer,
+                                           meta_replay_buffer, batch_size)
             losses.append(model_loss)
             meta_losses.append(meta_model_loss)
             frame_idx += 1
@@ -145,7 +185,7 @@ def train_h_DQN(env, meta_model, model, meta_replay_buffer, replay_buffer,
 
 def train_h_DQN_plot(all_rewards, n, num_frames):
     plt.figure(figsize=(20, 5))
-    plt.title("Mean rewards over next "+str(n)+" episodes (" + str(num_frames) + " total frames)")
+    plt.title("h-DQN: mean rewards over next "+str(n)+" episodes (" + str(num_frames) + " total frames)")
     plt.xlabel(str(n)+"th episode number")
     plt.ylabel("Rewards")
     # plot the mean reward over the next 100 episodes
@@ -164,23 +204,38 @@ def plot(frame_idx, rewards, losses):
 
 
 if __name__ == "__main__":
-    num_frames = 10000
-    n_avg = int(num_frames/1000)
-    env = SDP_env()
-    num_goals = env.num_states
-    num_actions = env.num_actions
-    model = DQNet(2 * num_goals, num_actions)
-    meta_model = DQNet(num_goals, num_goals)
-    optimizer = optim.Adam(model.parameters())
-    meta_optimizer = optim.Adam(meta_model.parameters())
-    replay_buffer = ReplayBuffer(int(num_frames/10))
-    meta_replay_buffer = ReplayBuffer(int(num_frames/10))
-    train_h_DQN(env, meta_model, model, meta_replay_buffer, replay_buffer,
-                meta_optimizer, optimizer, num_frames, n_avg)
+    #possible_outputs = ["DQN_only","h-DQN_only","DQN_h-DQN_comparison"]
+    DQN = True
+    h_DQN = True
+    num_frames = 5000
+    batch_size = 32
+    buffer_size = int(num_frames/10)
+    n_avg = int(num_frames / 1000)
 
+    #DQN
+    if DQN:
+        env = SDP_env()
+        num_states = env.num_states
+        num_actions = env.num_actions
+        model = DQNet(num_states, num_actions)
+        optimizer = optim.Adam(model.parameters())
+        replay_buffer = ReplayBuffer(buffer_size)
+        train_DQN(env,model,replay_buffer,batch_size,optimizer, num_frames, n_avg)
 
-
-
+    #h-DQN
+    if h_DQN:
+        goal_state_rep_f = 2
+        env = SDP_env()
+        num_goals = env.num_states
+        num_actions = env.num_actions
+        model = DQNet(goal_state_rep_f*num_goals, num_actions)
+        meta_model = DQNet(num_goals, num_goals)
+        optimizer = optim.Adam(model.parameters())
+        meta_optimizer = optim.Adam(meta_model.parameters())
+        replay_buffer = ReplayBuffer(buffer_size)
+        meta_replay_buffer = ReplayBuffer(buffer_size)
+        train_h_DQN(env,meta_model,model,meta_replay_buffer,replay_buffer,
+                    batch_size,meta_optimizer,optimizer,num_frames,n_avg)
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #h-DQN control sequence
