@@ -231,8 +231,8 @@ if __name__ == "__main__":
     #DQN
     if DQN:
         env = gym.make(config["env_name"]) #SDP_env()
-        num_states = env.observation_space.shape[0] #env.num_states
-        num_actions = env.action_space.n #env.num_actions
+        num_states = env.num_states
+        num_actions = env.num_actions
         model = DQNet(num_states, num_actions)
         optimizer = optim.Adam(model.parameters())
         replay_buffer = ReplayBuffer(buffer_size)
