@@ -189,7 +189,7 @@ def train_h_DQN(env, meta_model, model, meta_replay_buffer, replay_buffer,
             meta_losses.append(meta_model_loss)
             if frame_idx % (num_frames/100) == 0:
                 metric_name = "loss"
-                train_log(metric_name,model_loss,frame_idx)
+                train_log(metric_name,loss,frame_idx)
             frame_idx += 1
 
         meta_replay_buffer.push(meta_state, goal, extrinsic_reward, state, done)

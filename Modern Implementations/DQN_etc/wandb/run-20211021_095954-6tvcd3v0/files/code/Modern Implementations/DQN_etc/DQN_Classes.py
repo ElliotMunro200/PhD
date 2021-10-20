@@ -59,7 +59,7 @@ class DQNet(nn.Module):
 
 
 def to_onehot(x):
-    oh = np.zeros(4)
+    oh = np.zeros(6)
     oh[x - 1] = 1.
     return oh
 
@@ -97,8 +97,7 @@ def DQNet_update(model, optimizer, replay_buffer, batch_size):
     optimizer.step() #"Performs a single optimization step (parameter update)."
     return loss
 
-def train_DQN(env, model, replay_buffer, batch_size, optimizer, num_frames, n_avg):
-    wandb.watch(model, log="all", log_freq=10)
+def train_DQN(env,model,replay_buffer,batch_size,optimizer, num_frames, n_avg):
     losses = []
     all_rewards = []
     episode_reward = 0
@@ -115,8 +114,6 @@ def train_DQN(env, model, replay_buffer, batch_size, optimizer, num_frames, n_av
         episode_reward += reward
 
         if done:
-            metric_name = "reward"
-            train_log(metric_name, episode_reward, frame_idx)
             state = env.reset()
             all_rewards.append(episode_reward)
             episode_reward = 0
@@ -124,19 +121,11 @@ def train_DQN(env, model, replay_buffer, batch_size, optimizer, num_frames, n_av
         if len(replay_buffer) > batch_size:
             loss = DQNet_update(model, optimizer, replay_buffer, batch_size)
             losses.append(loss.data)
-            if frame_idx % (num_frames/100) == 0:
-                metric_name = "loss"
-                train_log(metric_name,loss,frame_idx)
 
         #if frame_idx % num_frames == 0:
             #plot(frame_idx, all_rewards, losses)
 
     train_DQN_plot(all_rewards, n_avg, num_frames)
-
-def train_log(metric_name, metric_val, frame_idx):
-    metric_val = float(metric_val)
-    wandb.log({metric_name: metric_val}, step=frame_idx)
-    print("Logging "+str(metric_name)+" of: "+str(metric_val)+", at frame index: "+str(frame_idx)+", to WandB")
 
 def train_DQN_plot(all_rewards, n, num_frames):
     plt.figure(figsize=(20, 5))
@@ -150,7 +139,6 @@ def train_DQN_plot(all_rewards, n, num_frames):
 
 def train_h_DQN(env, meta_model, model, meta_replay_buffer, replay_buffer,
                 batch_size,meta_optimizer, optimizer, num_frames, n_avg):
-    wandb.watch(model, log="all", log_freq=10)
     state = env.reset()
     frame_idx = 1
     done = False
@@ -187,16 +175,11 @@ def train_h_DQN(env, meta_model, model, meta_replay_buffer, replay_buffer,
                                            meta_replay_buffer, batch_size)
             losses.append(model_loss)
             meta_losses.append(meta_model_loss)
-            if frame_idx % (num_frames/100) == 0:
-                metric_name = "loss"
-                train_log(metric_name,model_loss,frame_idx)
             frame_idx += 1
 
         meta_replay_buffer.push(meta_state, goal, extrinsic_reward, state, done)
 
         if done:
-            metric_name = "reward"
-            train_log(metric_name, episode_reward, frame_idx)
             state = env.reset()
             done = False
             all_rewards.append(episode_reward)
@@ -224,10 +207,16 @@ def plot(frame_idx, rewards, losses):
     plt.plot(losses)
     plt.show()
 
+def make_env():
+    env = gym.make(config["env_name"])
+    env = Monitor(env)  # record stats such as returns
+    return env
+
+
 if __name__ == "__main__":
     #possible_outputs = ["DQN_only","h-DQN_only","DQN_h-DQN_comparison"]
-    DQN = False
-    h_DQN = True
+    DQN = True
+    h_DQN = False
     num_frames = 5000
     batch_size = 32
     buffer_size = int(num_frames/10)
@@ -249,7 +238,8 @@ if __name__ == "__main__":
 
     #DQN
     if DQN:
-        env = gym.make(config["env_name"])
+        env = DummyVecEnv([make_env])
+        env = VecVideoRecorder(env, f"videos/{run.id}", record_video_trigger=lambda x: x % 2000 == 0, video_length=200)
         num_states = env.observation_space.shape[0]  #env.num_states
         num_actions = env.action_space.n  #env.num_actions
         model = DQNet(num_states, num_actions)
@@ -260,9 +250,9 @@ if __name__ == "__main__":
     #h-DQN
     if h_DQN:
         goal_state_rep_f = 2
-        env = gym.make(config["env_name"]) #SDP_env()
-        num_goals = env.observation_space.shape[0]  # env.num_states
-        num_actions = env.action_space.n  # env.num_actions
+        env = SDP_env()
+        num_goals = env.num_states
+        num_actions = env.num_actions
         model = DQNet(goal_state_rep_f*num_goals, num_actions)
         meta_model = DQNet(num_goals, num_goals)
         optimizer = optim.Adam(model.parameters())

@@ -59,7 +59,7 @@ class DQNet(nn.Module):
 
 
 def to_onehot(x):
-    oh = np.zeros(4)
+    oh = np.zeros(6)
     oh[x - 1] = 1.
     return oh
 
@@ -189,7 +189,7 @@ def train_h_DQN(env, meta_model, model, meta_replay_buffer, replay_buffer,
             meta_losses.append(meta_model_loss)
             if frame_idx % (num_frames/100) == 0:
                 metric_name = "loss"
-                train_log(metric_name,model_loss,frame_idx)
+                train_log(metric_name,loss,frame_idx)
             frame_idx += 1
 
         meta_replay_buffer.push(meta_state, goal, extrinsic_reward, state, done)
@@ -226,7 +226,7 @@ def plot(frame_idx, rewards, losses):
 
 if __name__ == "__main__":
     #possible_outputs = ["DQN_only","h-DQN_only","DQN_h-DQN_comparison"]
-    DQN = False
+    DQN = True
     h_DQN = True
     num_frames = 5000
     batch_size = 32
@@ -260,8 +260,8 @@ if __name__ == "__main__":
     #h-DQN
     if h_DQN:
         goal_state_rep_f = 2
-        env = gym.make(config["env_name"]) #SDP_env()
-        num_goals = env.observation_space.shape[0]  # env.num_states
+        env = env = gym.make(config["env_name"]) #SDP_env()
+        num_states = env.observation_space.shape[0]  # env.num_states
         num_actions = env.action_space.n  # env.num_actions
         model = DQNet(goal_state_rep_f*num_goals, num_actions)
         meta_model = DQNet(num_goals, num_goals)

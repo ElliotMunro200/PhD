@@ -1,0 +1,28 @@
+2021-10-21 10:42:29,691 INFO    MainThread:11548 [wandb_setup.py:_flush():71] setting env: {}
+2021-10-21 10:42:29,691 INFO    MainThread:11548 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-10-21 10:42:29,691 INFO    MainThread:11548 [wandb_init.py:_log_setup():357] Logging user logs to C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\DQN_etc\wandb\run-20211021_104229-2h3u35ah\logs\debug.log
+2021-10-21 10:42:29,691 INFO    MainThread:11548 [wandb_init.py:_log_setup():358] Logging internal logs to C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\DQN_etc\wandb\run-20211021_104229-2h3u35ah\logs\debug-internal.log
+2021-10-21 10:42:29,691 INFO    MainThread:11548 [wandb_init.py:_jupyter_setup():307] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001A77097B700>
+2021-10-21 10:42:29,691 INFO    MainThread:11548 [wandb_init.py:init():390] calling init triggers
+2021-10-21 10:42:29,691 INFO    MainThread:11548 [wandb_init.py:init():395] wandb.init called with sweep_config: {}
+config: {'env_name': 'CartPole-v0'}
+2021-10-21 10:42:29,691 INFO    MainThread:11548 [wandb_init.py:init():435] starting backend
+2021-10-21 10:42:29,691 INFO    MainThread:11548 [backend.py:_multiprocessing_setup():94] multiprocessing start_methods=spawn, using: spawn
+2021-10-21 10:42:29,706 INFO    MainThread:11548 [backend.py:ensure_launched():198] starting backend process...
+2021-10-21 10:42:30,050 INFO    MainThread:11548 [backend.py:ensure_launched():203] started backend process with pid: 10920
+2021-10-21 10:42:30,066 INFO    MainThread:11548 [wandb_init.py:init():444] backend started and connected
+2021-10-21 10:42:30,113 INFO    MainThread:11548 [wandb_run.py:_label_probe_notebook():866] probe notebook
+2021-10-21 10:42:30,128 INFO    MainThread:11548 [wandb_run.py:_label_probe_notebook():876] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-10-21 10:42:30,128 INFO    MainThread:11548 [wandb_init.py:init():503] updated telemetry
+2021-10-21 10:42:30,206 INFO    MainThread:11548 [wandb_init.py:init():533] communicating current version
+2021-10-21 10:42:32,029 INFO    MainThread:11548 [wandb_init.py:init():538] got version response 
+2021-10-21 10:42:32,029 INFO    MainThread:11548 [wandb_init.py:init():548] communicating run to backend with 30 second timeout
+2021-10-21 10:42:32,451 INFO    MainThread:11548 [wandb_init.py:init():576] starting run threads in backend
+2021-10-21 10:42:37,467 INFO    MainThread:11548 [wandb_run.py:_console_start():1693] atexit reg
+2021-10-21 10:42:37,467 INFO    MainThread:11548 [wandb_run.py:_redirect():1567] redirect: SettingsConsole.WRAP
+2021-10-21 10:42:37,467 INFO    MainThread:11548 [wandb_run.py:_redirect():1604] Wrapping output streams.
+2021-10-21 10:42:37,482 INFO    MainThread:11548 [wandb_run.py:_redirect():1628] Redirects installed.
+2021-10-21 10:42:37,482 INFO    MainThread:11548 [wandb_init.py:init():603] run started, returning control to user process
+2021-10-21 10:42:37,482 INFO    MainThread:11548 [wandb_watch.py:watch():43] Watching
+2021-10-21 10:42:37,482 INFO    MainThread:11548 [wandb_init.py:_pause_backend():270] pausing backend
+2021-10-21 10:42:37,482 INFO    MainThread:11548 [jupyter.py:save_ipynb():377] looking for notebook: None
