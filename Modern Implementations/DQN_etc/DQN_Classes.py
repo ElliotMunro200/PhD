@@ -9,7 +9,8 @@ import torch.optim as optim
 from torch.autograd import Variable
 import matplotlib.pyplot as plt
 
-
+#deque data structure means that when full, it will remove the first item (oldest) in the list
+#and add the new item to the end (front) of the list.
 class ReplayBuffer(object):
     def __init__(self, capacity):
         self.capacity = capacity
