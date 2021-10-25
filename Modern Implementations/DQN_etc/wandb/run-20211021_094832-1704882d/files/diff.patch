@@ -1,0 +1,58 @@
+diff --git a/Modern Implementations/DQN_etc/DQN_Classes.py b/Modern Implementations/DQN_etc/DQN_Classes.py
+index 91fa580..ad10ee5 100644
+--- a/Modern Implementations/DQN_etc/DQN_Classes.py	
++++ b/Modern Implementations/DQN_etc/DQN_Classes.py	
+@@ -6,7 +6,8 @@ from SDP_env_Class import SDP_env
+ import torch
+ import torch.nn as nn
+ import torch.optim as optim
+-from torch.autograd import Variable
++from torch.autograd import Variable #deprecated:
++#The Variable API has been deprecated: Variables are no longer necessary to use autograd with tensors.
+ import matplotlib.pyplot as plt
+ import gym
+ import wandb
+@@ -89,9 +90,9 @@ def DQNet_update(model, optimizer, replay_buffer, batch_size):
+ 
+     loss = (q_value - Variable(expected_q_value.data)).pow(2).mean()
+ 
+-    optimizer.zero_grad()
+-    loss.backward()
+-    optimizer.step()
++    optimizer.zero_grad() #"Sets the gradients of all optimized 'torch.Tensor' s to zero."
++    loss.backward() #"Computes the sum of gradients of given tensors with respect to [model] graph leaves."
++    optimizer.step() #"Performs a single optimization step (parameter update)."
+     return loss
+ 
+ def train_DQN(env,model,replay_buffer,batch_size,optimizer, num_frames, n_avg):
+@@ -221,7 +222,7 @@ if __name__ == "__main__":
+     }
+ 
+     run = wandb.init(
+-        project="PyTorch", #name of project on WandB
++        project="PyTorch",  #name of project on WandB
+         config=config,
+         sync_tensorboard=True,  # auto-upload sb3's tensorboard metrics
+         monitor_gym=True,  # auto-upload the videos of agents playing the game
+@@ -230,9 +231,9 @@ if __name__ == "__main__":
+ 
+     #DQN
+     if DQN:
+-        env = gym.make(config["env_name"]) #SDP_env()
+-        num_states = env.observation_space.shape[0] #env.num_states
+-        num_actions = env.action_space.n #env.num_actions
++        env = gym.make(config["env_name"])  #SDP_env()
++        num_states = env.observation_space.shape[0]  #env.num_states
++        num_actions = env.action_space.n  #env.num_actions
+         model = DQNet(num_states, num_actions)
+         optimizer = optim.Adam(model.parameters())
+         replay_buffer = ReplayBuffer(buffer_size)
+@@ -252,7 +253,7 @@ if __name__ == "__main__":
+         meta_replay_buffer = ReplayBuffer(buffer_size)
+         train_h_DQN(env,meta_model,model,meta_replay_buffer,replay_buffer,
+                     batch_size,meta_optimizer,optimizer,num_frames,n_avg)
+-
++    run.finish()
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #h-DQN control sequence
+ 

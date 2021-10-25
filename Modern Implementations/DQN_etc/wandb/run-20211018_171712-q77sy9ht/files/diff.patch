@@ -1,0 +1,49 @@
+diff --git a/Modern Implementations/DQN_etc/DQN_Classes.py b/Modern Implementations/DQN_etc/DQN_Classes.py
+index 16f1592..91fa580 100644
+--- a/Modern Implementations/DQN_etc/DQN_Classes.py	
++++ b/Modern Implementations/DQN_etc/DQN_Classes.py	
+@@ -8,6 +8,8 @@ import torch.nn as nn
+ import torch.optim as optim
+ from torch.autograd import Variable
+ import matplotlib.pyplot as plt
++import gym
++import wandb
+ 
+ 
+ class ReplayBuffer(object):
+@@ -206,17 +208,31 @@ def plot(frame_idx, rewards, losses):
+ if __name__ == "__main__":
+     #possible_outputs = ["DQN_only","h-DQN_only","DQN_h-DQN_comparison"]
+     DQN = True
+-    h_DQN = True
++    h_DQN = False
+     num_frames = 5000
+     batch_size = 32
+     buffer_size = int(num_frames/10)
+     n_avg = int(num_frames / 1000)
+ 
++    config = {
++        #"policy_type": "MlpPolicy",
++        #"total_timesteps": 25000,
++        "env_name": "CartPole-v0",
++    }
++
++    run = wandb.init(
++        project="PyTorch", #name of project on WandB
++        config=config,
++        sync_tensorboard=True,  # auto-upload sb3's tensorboard metrics
++        monitor_gym=True,  # auto-upload the videos of agents playing the game
++        save_code=True,  # optional
++    )
++
+     #DQN
+     if DQN:
+-        env = SDP_env()
+-        num_states = env.num_states
+-        num_actions = env.num_actions
++        env = gym.make(config["env_name"]) #SDP_env()
++        num_states = env.observation_space.shape[0] #env.num_states
++        num_actions = env.action_space.n #env.num_actions
+         model = DQNet(num_states, num_actions)
+         optimizer = optim.Adam(model.parameters())
+         replay_buffer = ReplayBuffer(buffer_size)

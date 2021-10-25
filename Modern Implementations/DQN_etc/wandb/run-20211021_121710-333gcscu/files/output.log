@@ -1,0 +1,35 @@
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-fa001381000b>", line 1, in <module>
+    runfile('C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py', wdir='C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc')
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 272, in <module>
+    train_h_DQN(env,meta_model,model,meta_replay_buffer,replay_buffer,
+  File "C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 185, in train_h_DQN
+    model_loss = DQNet_update(model, optimizer, replay_buffer, batch_size)
+  File "C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 87, in DQNet_update
+    q_value = model(state)
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\torch\nn\modules\module.py", line 1071, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 47, in forward
+    return self.layers(x)
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\torch\nn\modules\linear.py", line 96, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\torch\nn\functional.py", line 1847, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (32x10 and 8x256)
+1
+12
+Logging reward of: 20.0, at frame index: 21, to WandB
+21

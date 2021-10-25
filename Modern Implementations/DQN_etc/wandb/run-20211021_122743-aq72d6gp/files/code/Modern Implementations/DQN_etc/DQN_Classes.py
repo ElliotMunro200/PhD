@@ -14,8 +14,7 @@ import wandb
 from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.vec_env import DummyVecEnv, VecVideoRecorder
 
-#deque data structure means that when full, it will remove the first item (oldest) in the list
-#and add the new item to the end (front) of the list.
+
 class ReplayBuffer(object):
     def __init__(self, capacity):
         self.capacity = capacity
@@ -190,7 +189,7 @@ def train_h_DQN(env, meta_model, model, meta_replay_buffer, replay_buffer,
             meta_losses.append(meta_model_loss)
             if frame_idx % (num_frames/100) == 0:
                 metric_name = "loss"
-                train_log(metric_name,model_loss,frame_idx)
+                train_log(metric_name,loss,frame_idx)
             frame_idx += 1
 
         meta_replay_buffer.push(meta_state, goal, extrinsic_reward, state, done)

@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.9.4",
+    "heartbeatAt": "2021-10-20T21:21:33.669892",
+    "startedAt": "2021-10-20T21:21:28.388802",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py",
+    "codePath": "Modern Implementations\\DQN_etc\\DQN_Classes.py",
+    "git": {
+        "remote": "https://github.com/ElliotMunro200/PhD.git",
+        "commit": "acd0d2a2af86fc78550ace47c21833d29d3db91c"
+    },
+    "email": "emunro2020@gmail.com",
+    "root": "C:/Users/Jack-Server/Documents/GitHub/PhD",
+    "host": "Jack-Server-PC",
+    "username": "Jack-Server",
+    "executable": "C:\\Users\\Jack-Server\\.conda\\envs\\testenv2\\python.exe"
+}

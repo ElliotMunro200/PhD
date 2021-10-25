@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-fa001381000b>", line 1, in <module>
+    runfile('C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py', wdir='C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc')
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 238, in <module>
+    env = DummyVecEnv([env])
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\stable_baselines3\common\vec_env\dummy_vec_env.py", line 25, in __init__
+    self.envs = [fn() for fn in env_fns]
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\stable_baselines3\common\vec_env\dummy_vec_env.py", line 25, in <listcomp>
+    self.envs = [fn() for fn in env_fns]

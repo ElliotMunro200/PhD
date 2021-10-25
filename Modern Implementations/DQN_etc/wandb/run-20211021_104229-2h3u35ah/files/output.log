@@ -1,0 +1,35 @@
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\.conda\envs\testenv2\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-fa001381000b>", line 1, in <module>
+    runfile('C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py', wdir='C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc')
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 251, in <module>
+    train_DQN(env,model,replay_buffer,batch_size,optimizer, num_frames, n_avg)
+  File "C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 126, in train_DQN
+    train_log(metric_name, episode_reward, frame_idx)
+  File "C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 138, in train_log
+    print("Logging loss of: "+str(loss)+", at frame index: "+str(frame_idx)+", to WandB")
+NameError: name 'loss' is not defined
+frame index:1
+frame index:2
+frame index:3
+frame index:4
+frame index:5
+frame index:6
+frame index:7
+frame index:8
+frame index:9
+frame index:10
+frame index:11
+frame index:12
+frame index:13
+frame index:14
+frame index:15
+frame index:16
+frame index:17
+frame index:18
