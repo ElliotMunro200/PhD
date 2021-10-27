@@ -1,0 +1,1572 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+1
+3
+3
+Logging reward of: 0.01, at frame index: 8, to WandB
+8
+Logging loss of: 0.19356787204742432, at frame index: 10, to WandB
+Logging reward of: 0.01, at frame index: 11, to WandB
+11
+Logging reward of: 0.01, at frame index: 12, to WandB
+12
+Logging reward of: 0.01, at frame index: 15, to WandB
+15
+Logging reward of: 0.01, at frame index: 16, to WandB
+16
+17
+Logging loss of: 0.010412481613457203, at frame index: 20, to WandB
+Logging reward of: 0.01, at frame index: 25, to WandB
+25
+Logging reward of: 0.01, at frame index: 26, to WandB
+26
+Logging reward of: 0.01, at frame index: 27, to WandB
+27
+Logging reward of: 0.01, at frame index: 28, to WandB
+28
+28
+28
+Logging loss of: 0.04719488322734833, at frame index: 30, to WandB
+Logging reward of: 0.01, at frame index: 31, to WandB
+31
+32
+Logging reward of: 0.01, at frame index: 36, to WandB
+36
+Logging reward of: 0.01, at frame index: 37, to WandB
+37
+Logging reward of: 0.01, at frame index: 38, to WandB
+38
+Logging reward of: 0.01, at frame index: 39, to WandB
+39
+40
+Logging loss of: 0.017965642735362053, at frame index: 40, to WandB
+Logging reward of: 0.01, at frame index: 42, to WandB
+42
+Logging reward of: 0.01, at frame index: 43, to WandB
+43
+Logging reward of: 0.01, at frame index: 48, to WandB
+48
+48
+Logging reward of: 0.01, at frame index: 49, to WandB
+49
+Logging reward of: 0.01, at frame index: 50, to WandB
+50
+Logging loss of: 0.08946563303470612, at frame index: 50, to WandB
+51
+Logging reward of: 0.01, at frame index: 53, to WandB
+53
+Logging reward of: 0.01, at frame index: 54, to WandB
+54
+54
+54
+Logging reward of: 0.01, at frame index: 55, to WandB
+55
+Logging reward of: 0.01, at frame index: 56, to WandB
+56
+57
+58
+Logging reward of: 0.01, at frame index: 59, to WandB
+59
+59
+Logging loss of: 0.13930407166481018, at frame index: 60, to WandB
+Logging reward of: 0.01, at frame index: 62, to WandB
+62
+Logging reward of: 0.01, at frame index: 63, to WandB
+63
+Logging reward of: 0.01, at frame index: 70, to WandB
+70
+Logging loss of: 0.1361214816570282, at frame index: 70, to WandB
+Logging reward of: 0.01, at frame index: 71, to WandB
+71
+Logging reward of: 0.01, at frame index: 72, to WandB
+72
+72
+72
+Logging reward of: 0.01, at frame index: 73, to WandB
+73
+73
+Logging reward of: 0.01, at frame index: 74, to WandB
+74
+Logging reward of: 0.01, at frame index: 77, to WandB
+77
+Logging reward of: 0.01, at frame index: 78, to WandB
+78
+Logging reward of: 0.01, at frame index: 79, to WandB
+79
+Logging reward of: 0.01, at frame index: 80, to WandB
+80
+80
+Logging loss of: 0.14493384957313538, at frame index: 80, to WandB
+Logging reward of: 0.01, at frame index: 81, to WandB
+81
+Logging reward of: 0.01, at frame index: 82, to WandB
+82
+Logging reward of: 0.01, at frame index: 83, to WandB
+83
+84
+85
+85
+Logging reward of: 0.01, at frame index: 88, to WandB
+88
+88
+88
+88
+Logging reward of: 0.01, at frame index: 89, to WandB
+89
+89
+Logging reward of: 0.01, at frame index: 90, to WandB
+90
+90
+Logging loss of: 0.1801132708787918, at frame index: 90, to WandB
+Logging reward of: 0.01, at frame index: 91, to WandB
+91
+Logging reward of: 0.01, at frame index: 92, to WandB
+92
+Logging reward of: 0.01, at frame index: 93, to WandB
+93
+93
+93
+93
+93
+95
+Logging reward of: 0.01, at frame index: 98, to WandB
+98
+Logging reward of: 0.01, at frame index: 99, to WandB
+99
+100
+100
+100
+100
+Logging loss of: 0.1392432302236557, at frame index: 100, to WandB
+Logging reward of: 0.01, at frame index: 102, to WandB
+102
+104
+105
+Logging loss of: 0.18982157111167908, at frame index: 110, to WandB
+118
+118
+118
+Logging reward of: 1.0, at frame index: 119, to WandB
+119
+Logging reward of: 0.01, at frame index: 120, to WandB
+120
+120
+Logging loss of: 0.445674329996109, at frame index: 120, to WandB
+Logging reward of: 0.01, at frame index: 121, to WandB
+121
+Logging reward of: 0.01, at frame index: 122, to WandB
+122
+Logging reward of: 0.01, at frame index: 123, to WandB
+123
+123
+Logging reward of: 0.01, at frame index: 124, to WandB
+124
+Logging reward of: 0.01, at frame index: 127, to WandB
+127
+Logging reward of: 0.01, at frame index: 128, to WandB
+128
+Logging reward of: 0.01, at frame index: 129, to WandB
+129
+Logging reward of: 0.01, at frame index: 130, to WandB
+130
+130
+130
+Logging loss of: 0.06967489421367645, at frame index: 130, to WandB
+Logging reward of: 0.01, at frame index: 131, to WandB
+131
+Logging reward of: 0.01, at frame index: 132, to WandB
+132
+Logging reward of: 0.01, at frame index: 133, to WandB
+133
+133
+Logging reward of: 0.01, at frame index: 134, to WandB
+134
+Logging reward of: 0.01, at frame index: 137, to WandB
+137
+137
+139
+139
+140
+Logging loss of: 0.05443652719259262, at frame index: 140, to WandB
+143
+Logging reward of: 0.01, at frame index: 144, to WandB
+144
+Logging reward of: 0.01, at frame index: 145, to WandB
+145
+Logging reward of: 0.01, at frame index: 146, to WandB
+146
+Logging reward of: 0.01, at frame index: 147, to WandB
+147
+Logging loss of: 0.15616264939308167, at frame index: 150, to WandB
+153
+Logging reward of: 0.01, at frame index: 156, to WandB
+156
+Logging reward of: 0.01, at frame index: 157, to WandB
+157
+Logging reward of: 0.01, at frame index: 158, to WandB
+158
+Logging reward of: 0.01, at frame index: 159, to WandB
+159
+159
+Logging reward of: 0.01, at frame index: 160, to WandB
+160
+160
+160
+160
+Logging loss of: 0.10721340030431747, at frame index: 160, to WandB
+162
+166
+Logging reward of: 0.01, at frame index: 167, to WandB
+167
+167
+Logging reward of: 0.01, at frame index: 170, to WandB
+170
+170
+170
+170
+Logging loss of: 0.339756578207016, at frame index: 170, to WandB
+Logging reward of: 0.01, at frame index: 171, to WandB
+171
+Logging reward of: 0.01, at frame index: 172, to WandB
+172
+172
+172
+Logging reward of: 0.01, at frame index: 173, to WandB
+173
+Logging reward of: 0.01, at frame index: 174, to WandB
+174
+175
+175
+Logging reward of: 0.01, at frame index: 177, to WandB
+177
+Logging reward of: 0.01, at frame index: 180, to WandB
+180
+Logging loss of: 0.23003891110420227, at frame index: 180, to WandB
+182
+182
+184
+185
+185
+186
+Logging loss of: 0.2187255322933197, at frame index: 190, to WandB
+Logging reward of: 0.01, at frame index: 193, to WandB
+193
+Logging reward of: 0.01, at frame index: 194, to WandB
+194
+Logging reward of: 0.01, at frame index: 199, to WandB
+199
+Logging reward of: 0.01, at frame index: 200, to WandB
+200
+Logging loss of: 0.24660749733448029, at frame index: 200, to WandB
+Logging reward of: 0.01, at frame index: 201, to WandB
+201
+Logging reward of: 0.01, at frame index: 204, to WandB
+204
+204
+Logging reward of: 0.01, at frame index: 205, to WandB
+205
+205
+Logging reward of: 0.01, at frame index: 208, to WandB
+208
+Logging reward of: 0.01, at frame index: 209, to WandB
+209
+Logging loss of: 0.640209972858429, at frame index: 210, to WandB
+Logging reward of: 0.01, at frame index: 212, to WandB
+212
+213
+Logging reward of: 0.01, at frame index: 215, to WandB
+215
+215
+215
+215
+Logging reward of: 0.01, at frame index: 218, to WandB
+218
+Logging reward of: 0.01, at frame index: 219, to WandB
+219
+219
+219
+219
+Logging reward of: 0.01, at frame index: 220, to WandB
+220
+Logging loss of: 0.5487785935401917, at frame index: 220, to WandB
+221
+222
+Logging reward of: 0.01, at frame index: 223, to WandB
+223
+223
+Logging reward of: 0.01, at frame index: 224, to WandB
+224
+224
+Logging reward of: 0.01, at frame index: 225, to WandB
+225
+225
+225
+Logging reward of: 0.01, at frame index: 226, to WandB
+226
+227
+227
+228
+Logging loss of: 0.4172419607639313, at frame index: 230, to WandB
+Logging reward of: 0.01, at frame index: 237, to WandB
+237
+237
+Logging reward of: 0.01, at frame index: 238, to WandB
+238
+238
+Logging loss of: 0.3450125753879547, at frame index: 240, to WandB
+Logging reward of: 0.01, at frame index: 241, to WandB
+241
+Logging reward of: 0.01, at frame index: 242, to WandB
+242
+Logging reward of: 0.01, at frame index: 245, to WandB
+245
+Logging reward of: 0.01, at frame index: 246, to WandB
+246
+Logging reward of: 0.01, at frame index: 247, to WandB
+247
+247
+Logging reward of: 0.01, at frame index: 248, to WandB
+248
+248
+248
+Logging reward of: 0.01, at frame index: 249, to WandB
+249
+Logging reward of: 0.01, at frame index: 250, to WandB
+250
+250
+250
+Logging loss of: 0.106847383081913, at frame index: 250, to WandB
+Logging reward of: 0.01, at frame index: 251, to WandB
+251
+251
+Logging reward of: 0.01, at frame index: 254, to WandB
+254
+254
+Logging reward of: 0.01, at frame index: 255, to WandB
+255
+255
+255
+255
+Logging reward of: 0.01, at frame index: 256, to WandB
+256
+Logging reward of: 0.01, at frame index: 257, to WandB
+257
+Logging reward of: 0.01, at frame index: 258, to WandB
+258
+260
+260
+Logging loss of: 0.4957576394081116, at frame index: 260, to WandB
+261
+262
+262
+262
+262
+262
+Logging reward of: 0.01, at frame index: 265, to WandB
+265
+Logging reward of: 0.01, at frame index: 266, to WandB
+266
+Logging reward of: 0.01, at frame index: 267, to WandB
+267
+Logging reward of: 0.01, at frame index: 268, to WandB
+268
+268
+268
+268
+268
+Logging reward of: 0.01, at frame index: 269, to WandB
+269
+Logging reward of: 0.01, at frame index: 270, to WandB
+270
+Logging loss of: 0.1582295149564743, at frame index: 270, to WandB
+Logging reward of: 0.01, at frame index: 271, to WandB
+271
+271
+271
+271
+271
+Logging reward of: 0.01, at frame index: 272, to WandB
+272
+Logging reward of: 0.01, at frame index: 277, to WandB
+277
+Logging loss of: 0.7061701416969299, at frame index: 280, to WandB
+Logging reward of: 0.01, at frame index: 286, to WandB
+286
+Logging reward of: 0.01, at frame index: 287, to WandB
+287
+Logging reward of: 0.01, at frame index: 288, to WandB
+288
+288
+Logging reward of: 0.01, at frame index: 289, to WandB
+289
+Logging reward of: 0.01, at frame index: 290, to WandB
+290
+290
+290
+Logging loss of: 0.7844141721725464, at frame index: 290, to WandB
+Logging reward of: 0.01, at frame index: 295, to WandB
+295
+Logging reward of: 0.01, at frame index: 296, to WandB
+296
+Logging reward of: 0.01, at frame index: 297, to WandB
+297
+297
+Logging reward of: 0.01, at frame index: 298, to WandB
+298
+Logging reward of: 0.01, at frame index: 299, to WandB
+299
+Logging reward of: 0.01, at frame index: 300, to WandB
+300
+300
+300
+Logging loss of: 0.2617556154727936, at frame index: 300, to WandB
+Logging reward of: 0.01, at frame index: 301, to WandB
+301
+301
+301
+Logging loss of: 0.05353795737028122, at frame index: 310, to WandB
+Logging reward of: 1.0, at frame index: 312, to WandB
+312
+Logging reward of: 0.01, at frame index: 313, to WandB
+313
+315
+315
+315
+315
+Logging reward of: 0.01, at frame index: 318, to WandB
+318
+318
+Logging reward of: 0.01, at frame index: 319, to WandB
+319
+Logging reward of: 0.01, at frame index: 320, to WandB
+320
+320
+320
+320
+320
+320
+Logging loss of: 0.3848794102668762, at frame index: 320, to WandB
+Logging reward of: 0.01, at frame index: 323, to WandB
+323
+Logging reward of: 0.01, at frame index: 324, to WandB
+324
+Logging reward of: 0.01, at frame index: 325, to WandB
+325
+Logging reward of: 0.01, at frame index: 326, to WandB
+326
+Logging reward of: 0.01, at frame index: 327, to WandB
+327
+Logging reward of: 0.01, at frame index: 328, to WandB
+328
+328
+328
+Logging reward of: 0.01, at frame index: 329, to WandB
+329
+329
+329
+Logging loss of: 0.10820075124502182, at frame index: 330, to WandB
+Logging reward of: 0.01, at frame index: 332, to WandB
+332
+Logging reward of: 0.01, at frame index: 333, to WandB
+333
+333
+333
+333
+Logging reward of: 0.01, at frame index: 334, to WandB
+334
+334
+334
+Logging reward of: 0.01, at frame index: 335, to WandB
+335
+335
+Logging reward of: 0.01, at frame index: 336, to WandB
+336
+336
+Logging loss of: 0.26829394698143005, at frame index: 340, to WandB
+347
+Logging loss of: 0.3508499264717102, at frame index: 350, to WandB
+Logging reward of: 0.01, at frame index: 351, to WandB
+351
+351
+351
+351
+352
+355
+355
+355
+Logging reward of: 0.01, at frame index: 356, to WandB
+356
+356
+Logging reward of: 0.01, at frame index: 357, to WandB
+357
+357
+357
+Logging reward of: 0.01, at frame index: 358, to WandB
+358
+358
+358
+358
+358
+Logging loss of: 0.24836142361164093, at frame index: 360, to WandB
+Logging reward of: 0.01, at frame index: 365, to WandB
+365
+365
+368
+Logging loss of: 0.6902952194213867, at frame index: 370, to WandB
+375
+375
+375
+378
+Logging reward of: 1.0, at frame index: 380, to WandB
+380
+380
+380
+380
+Logging loss of: 0.6882967948913574, at frame index: 380, to WandB
+Logging reward of: 0.01, at frame index: 385, to WandB
+385
+385
+385
+Logging reward of: 0.01, at frame index: 386, to WandB
+386
+Logging reward of: 0.01, at frame index: 387, to WandB
+387
+387
+387
+Logging loss of: 0.4408067762851715, at frame index: 390, to WandB
+Logging reward of: 0.01, at frame index: 394, to WandB
+394
+Logging reward of: 0.01, at frame index: 395, to WandB
+395
+Logging reward of: 0.01, at frame index: 396, to WandB
+396
+Logging reward of: 0.01, at frame index: 397, to WandB
+397
+Logging reward of: 0.01, at frame index: 398, to WandB
+398
+398
+Logging reward of: 0.01, at frame index: 399, to WandB
+399
+399
+399
+Logging reward of: 0.01, at frame index: 400, to WandB
+400
+Logging loss of: 0.14598625898361206, at frame index: 400, to WandB
+Logging reward of: 0.01, at frame index: 401, to WandB
+401
+401
+401
+401
+Logging reward of: 0.01, at frame index: 402, to WandB
+402
+402
+402
+402
+402
+Logging reward of: 0.01, at frame index: 403, to WandB
+403
+403
+Logging reward of: 0.01, at frame index: 404, to WandB
+404
+404
+Logging reward of: 0.01, at frame index: 405, to WandB
+405
+405
+Logging reward of: 0.01, at frame index: 406, to WandB
+406
+Logging reward of: 0.01, at frame index: 407, to WandB
+407
+Logging reward of: 0.01, at frame index: 408, to WandB
+408
+408
+Logging loss of: 0.24897360801696777, at frame index: 410, to WandB
+Logging reward of: 0.01, at frame index: 411, to WandB
+411
+414
+Logging reward of: 0.01, at frame index: 420, to WandB
+420
+Logging loss of: 0.2978467047214508, at frame index: 420, to WandB
+Logging reward of: 0.01, at frame index: 421, to WandB
+421
+Logging reward of: 0.01, at frame index: 426, to WandB
+426
+Logging reward of: 0.01, at frame index: 427, to WandB
+427
+427
+Logging reward of: 0.01, at frame index: 428, to WandB
+428
+Logging loss of: 0.24335069954395294, at frame index: 430, to WandB
+Logging reward of: 0.01, at frame index: 433, to WandB
+433
+433
+433
+433
+433
+433
+433
+Logging reward of: 0.01, at frame index: 438, to WandB
+438
+438
+438
+438
+Logging reward of: 0.01, at frame index: 439, to WandB
+439
+439
+439
+Logging loss of: 0.15303292870521545, at frame index: 440, to WandB
+Logging reward of: 0.01, at frame index: 444, to WandB
+444
+Logging reward of: 0.01, at frame index: 445, to WandB
+445
+Logging loss of: 0.5482288599014282, at frame index: 450, to WandB
+452
+454
+454
+455
+Logging reward of: 0.01, at frame index: 456, to WandB
+456
+456
+Logging loss of: 0.5308727025985718, at frame index: 460, to WandB
+Logging reward of: 1.0, at frame index: 467, to WandB
+467
+Logging reward of: 0.01, at frame index: 468, to WandB
+468
+468
+468
+468
+470
+Logging loss of: 0.38303685188293457, at frame index: 470, to WandB
+Logging loss of: 0.6481976509094238, at frame index: 480, to WandB
+Logging reward of: 1.0, at frame index: 481, to WandB
+481
+481
+481
+481
+481
+Logging reward of: 0.01, at frame index: 484, to WandB
+484
+484
+484
+484
+Logging loss of: 0.5094248652458191, at frame index: 490, to WandB
+Logging reward of: 0.01, at frame index: 495, to WandB
+495
+495
+Logging reward of: 0.01, at frame index: 496, to WandB
+496
+496
+Logging reward of: 0.01, at frame index: 497, to WandB
+497
+Logging reward of: 0.01, at frame index: 498, to WandB
+498
+Logging loss of: 0.17937982082366943, at frame index: 500, to WandB
+501
+Logging loss of: 0.2907443046569824, at frame index: 510, to WandB
+513
+515
+517
+517
+Logging reward of: 1.0, at frame index: 519, to WandB
+519
+519
+519
+519
+519
+519
+519
+519
+Logging reward of: 0.01, at frame index: 520, to WandB
+520
+520
+520
+520
+520
+520
+520
+520
+520
+520
+Logging loss of: 0.354769766330719, at frame index: 520, to WandB
+Logging reward of: 0.01, at frame index: 523, to WandB
+523
+523
+523
+523
+Logging reward of: 0.01, at frame index: 524, to WandB
+524
+524
+524
+524
+524
+Logging reward of: 0.01, at frame index: 525, to WandB
+525
+525
+525
+525
+Logging reward of: 0.01, at frame index: 526, to WandB
+526
+Logging reward of: 0.01, at frame index: 527, to WandB
+527
+527
+527
+527
+Logging reward of: 0.01, at frame index: 528, to WandB
+528
+Logging loss of: 0.7167908549308777, at frame index: 530, to WandB
+Logging reward of: 0.01, at frame index: 531, to WandB
+531
+Logging reward of: 0.01, at frame index: 532, to WandB
+532
+532
+532
+532
+Logging reward of: 0.01, at frame index: 533, to WandB
+533
+533
+533
+533
+Logging loss of: 0.32652777433395386, at frame index: 540, to WandB
+Logging reward of: 0.01, at frame index: 542, to WandB
+542
+Logging reward of: 0.01, at frame index: 543, to WandB
+543
+Logging reward of: 0.01, at frame index: 546, to WandB
+546
+Logging reward of: 0.01, at frame index: 547, to WandB
+547
+547
+Logging reward of: 0.01, at frame index: 548, to WandB
+548
+Logging reward of: 0.01, at frame index: 549, to WandB
+549
+550
+550
+550
+550
+550
+Logging loss of: 0.6540659666061401, at frame index: 550, to WandB
+Logging reward of: 0.01, at frame index: 552, to WandB
+552
+552
+552
+Logging reward of: 0.01, at frame index: 555, to WandB
+555
+556
+556
+556
+556
+556
+556
+556
+556
+Logging reward of: 0.01, at frame index: 558, to WandB
+558
+558
+558
+558
+558
+558
+558
+558
+Logging reward of: 0.01, at frame index: 559, to WandB
+559
+559
+559
+Logging reward of: 0.01, at frame index: 560, to WandB
+560
+560
+Logging loss of: 0.29609379172325134, at frame index: 560, to WandB
+Logging reward of: 0.01, at frame index: 569, to WandB
+569
+Logging reward of: 0.01, at frame index: 570, to WandB
+570
+570
+570
+570
+570
+570
+Logging loss of: 0.2653340697288513, at frame index: 570, to WandB
+Logging reward of: 0.01, at frame index: 575, to WandB
+575
+575
+575
+575
+575
+575
+Logging reward of: 0.01, at frame index: 578, to WandB
+578
+578
+Logging reward of: 0.01, at frame index: 579, to WandB
+579
+579
+Logging reward of: 0.01, at frame index: 580, to WandB
+580
+Logging loss of: 0.28274303674697876, at frame index: 580, to WandB
+Logging reward of: 0.01, at frame index: 581, to WandB
+581
+Logging reward of: 0.01, at frame index: 584, to WandB
+584
+584
+584
+584
+584
+Logging reward of: 0.01, at frame index: 585, to WandB
+585
+Logging reward of: 0.01, at frame index: 588, to WandB
+588
+Logging reward of: 0.01, at frame index: 589, to WandB
+589
+589
+Logging reward of: 0.01, at frame index: 590, to WandB
+590
+590
+590
+590
+590
+590
+590
+Logging loss of: 0.08765636384487152, at frame index: 590, to WandB
+591
+591
+Logging reward of: 0.01, at frame index: 595, to WandB
+595
+595
+597
+598
+598
+Logging reward of: 0.01, at frame index: 600, to WandB
+600
+Logging loss of: 0.06541774421930313, at frame index: 600, to WandB
+601
+601
+601
+601
+601
+601
+Logging reward of: 0.01, at frame index: 605, to WandB
+605
+605
+606
+Logging loss of: 0.45141568779945374, at frame index: 610, to WandB
+Logging reward of: 0.01, at frame index: 612, to WandB
+612
+Logging reward of: 0.01, at frame index: 613, to WandB
+613
+Logging reward of: 0.01, at frame index: 614, to WandB
+614
+Logging loss of: 0.330475389957428, at frame index: 620, to WandB
+Logging loss of: 0.1614091694355011, at frame index: 630, to WandB
+Logging reward of: 0.01, at frame index: 631, to WandB
+631
+Logging reward of: 0.01, at frame index: 632, to WandB
+632
+Logging reward of: 0.01, at frame index: 637, to WandB
+637
+Logging reward of: 0.01, at frame index: 638, to WandB
+638
+Logging reward of: 0.01, at frame index: 639, to WandB
+639
+Logging reward of: 0.01, at frame index: 640, to WandB
+640
+Logging loss of: 0.3990039527416229, at frame index: 640, to WandB
+Logging reward of: 0.01, at frame index: 641, to WandB
+641
+Logging reward of: 0.01, at frame index: 642, to WandB
+642
+642
+Logging reward of: 0.01, at frame index: 643, to WandB
+643
+Logging reward of: 0.01, at frame index: 646, to WandB
+646
+Logging reward of: 0.01, at frame index: 647, to WandB
+647
+647
+Logging reward of: 0.01, at frame index: 648, to WandB
+648
+648
+648
+648
+648
+648
+648
+648
+648
+Logging reward of: 0.01, at frame index: 649, to WandB
+649
+Logging reward of: 0.01, at frame index: 650, to WandB
+650
+650
+Logging loss of: 0.18901044130325317, at frame index: 650, to WandB
+651
+651
+651
+651
+651
+651
+651
+651
+Logging reward of: 0.01, at frame index: 657, to WandB
+657
+Logging reward of: 0.01, at frame index: 658, to WandB
+658
+Logging loss of: 0.35865533351898193, at frame index: 660, to WandB
+Logging reward of: 0.01, at frame index: 663, to WandB
+663
+Logging reward of: 0.01, at frame index: 666, to WandB
+666
+666
+666
+666
+666
+666
+666
+666
+Logging reward of: 0.01, at frame index: 667, to WandB
+667
+Logging reward of: 0.01, at frame index: 668, to WandB
+668
+668
+668
+668
+668
+668
+668
+Logging reward of: 0.01, at frame index: 669, to WandB
+669
+Logging reward of: 0.01, at frame index: 670, to WandB
+670
+670
+Logging loss of: 0.312412828207016, at frame index: 670, to WandB
+Logging reward of: 0.01, at frame index: 671, to WandB
+671
+Logging reward of: 0.01, at frame index: 672, to WandB
+672
+672
+672
+672
+672
+Logging reward of: 0.01, at frame index: 673, to WandB
+673
+673
+673
+673
+Logging reward of: 0.01, at frame index: 674, to WandB
+674
+674
+674
+674
+674
+Logging reward of: 0.01, at frame index: 675, to WandB
+675
+Logging reward of: 0.01, at frame index: 676, to WandB
+676
+676
+676
+Logging reward of: 0.01, at frame index: 677, to WandB
+677
+677
+677
+677
+Logging reward of: 0.01, at frame index: 678, to WandB
+678
+678
+678
+678
+678
+Logging loss of: 0.621590256690979, at frame index: 680, to WandB
+683
+684
+684
+684
+684
+684
+684
+684
+684
+684
+684
+684
+684
+684
+684
+684
+Logging loss of: 0.40331950783729553, at frame index: 690, to WandB
+Logging reward of: 0.01, at frame index: 691, to WandB
+691
+691
+691
+691
+691
+691
+691
+691
+691
+Logging reward of: 0.01, at frame index: 692, to WandB
+692
+692
+692
+692
+692
+692
+692
+692
+692
+692
+Logging reward of: 0.01, at frame index: 693, to WandB
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+693
+Logging reward of: 0.01, at frame index: 694, to WandB
+694
+694
+694
+694
+694
+694
+694
+Logging reward of: 0.01, at frame index: 695, to WandB
+695
+695
+Logging reward of: 0.01, at frame index: 696, to WandB
+696
+Logging reward of: 0.01, at frame index: 697, to WandB
+697
+697
+Logging reward of: 0.01, at frame index: 698, to WandB
+698
+Logging reward of: 0.01, at frame index: 699, to WandB
+699
+699
+699
+699
+699
+699
+699
+699
+Logging loss of: 0.2908693850040436, at frame index: 700, to WandB
+Logging reward of: 0.01, at frame index: 702, to WandB
+702
+702
+704
+704
+704
+704
+704
+704
+704
+Logging reward of: 0.01, at frame index: 707, to WandB
+707
+707
+707
+708
+Logging reward of: 0.01, at frame index: 710, to WandB
+710
+710
+Logging loss of: 0.11671026796102524, at frame index: 710, to WandB
+Logging reward of: 0.01, at frame index: 711, to WandB
+711
+711
+711
+711
+711
+711
+Logging reward of: 0.01, at frame index: 712, to WandB
+712
+713
+719
+720
+Logging loss of: 0.2535606324672699, at frame index: 720, to WandB
+Logging reward of: 0.01, at frame index: 723, to WandB
+723
+723
+723
+723
+Logging reward of: 0.01, at frame index: 724, to WandB
+724
+Logging reward of: 0.01, at frame index: 725, to WandB
+725
+725
+Logging reward of: 0.01, at frame index: 726, to WandB
+726
+726
+Logging reward of: 0.01, at frame index: 727, to WandB
+727
+727
+727
+Logging reward of: 0.01, at frame index: 728, to WandB
+728
+728
+728
+Logging loss of: 0.1183491200208664, at frame index: 730, to WandB
+Logging reward of: 0.01, at frame index: 731, to WandB
+731
+731
+Logging reward of: 0.01, at frame index: 732, to WandB
+732
+732
+732
+Logging reward of: 0.01, at frame index: 733, to WandB
+733
+733
+Logging reward of: 0.01, at frame index: 734, to WandB
+734
+Logging reward of: 0.01, at frame index: 735, to WandB
+735
+Logging reward of: 0.01, at frame index: 736, to WandB
+736
+737
+737
+737
+737
+740
+740
+740
+740
+740
+740
+740
+Logging loss of: 0.23343908786773682, at frame index: 740, to WandB
+742
+Logging reward of: 0.01, at frame index: 743, to WandB
+743
+Logging reward of: 0.01, at frame index: 744, to WandB
+744
+744
+744
+745
+745
+745
+745
+745
+745
+745
+745
+745
+745
+746
+746
+746
+746
+746
+746
+746
+746
+746
+746
+749
+749
+749
+Logging loss of: 0.4596026837825775, at frame index: 750, to WandB
+Logging reward of: 0.01, at frame index: 751, to WandB
+751
+Logging reward of: 0.01, at frame index: 752, to WandB
+752
+753
+753
+753
+753
+753
+753
+753
+754
+755
+Logging reward of: 0.01, at frame index: 757, to WandB
+757
+Logging loss of: 0.2072855532169342, at frame index: 760, to WandB
+Logging reward of: 0.01, at frame index: 764, to WandB
+764
+764
+764
+764
+764
+764
+764
+764
+764
+770
+Logging loss of: 0.37197932600975037, at frame index: 770, to WandB
+775
+775
+775
+775
+775
+Logging reward of: 1.0, at frame index: 777, to WandB
+777
+777
+777
+777
+777
+777
+777
+777
+Logging reward of: 0.01, at frame index: 778, to WandB
+778
+778
+778
+778
+778
+778
+778
+778
+778
+778
+778
+778
+778
+778
+778
+778
+Logging reward of: 0.01, at frame index: 779, to WandB
+779
+779
+779
+779
+779
+779
+779
+779
+779
+779
+779
+Logging loss of: 0.1039113774895668, at frame index: 780, to WandB
+781
+781
+781
+781
+781
+781
+781
+781
+781
+781
+782
+Logging loss of: 0.5039491057395935, at frame index: 790, to WandB
+Logging reward of: 0.01, at frame index: 792, to WandB
+792
+792
+792
+792
+792
+792
+Logging reward of: 0.01, at frame index: 793, to WandB
+793
+Logging reward of: 0.01, at frame index: 798, to WandB
+798
+Logging reward of: 0.01, at frame index: 799, to WandB
+799
+799
+799
+799
+799
+799
+799
+Logging reward of: 0.01, at frame index: 800, to WandB
+800
+800
+800
+800
+800
+800
+800
+800
+800
+800
+800
+800
+800
+800
+800
+Logging loss of: 0.6464537382125854, at frame index: 800, to WandB
+Logging reward of: 0.01, at frame index: 809, to WandB
+809
+809
+809
+809
+809
+810
+Logging loss of: 0.5060777068138123, at frame index: 810, to WandB
+Logging reward of: 0.01, at frame index: 820, to WandB
+820
+Logging loss of: 0.18322062492370605, at frame index: 820, to WandB
+Logging reward of: 0.01, at frame index: 821, to WandB
+821
+Logging reward of: 0.01, at frame index: 822, to WandB
+822
+Logging reward of: 0.01, at frame index: 823, to WandB
+823
+Logging reward of: 0.01, at frame index: 824, to WandB
+824
+Logging reward of: 0.01, at frame index: 825, to WandB
+825
+Logging reward of: 0.01, at frame index: 826, to WandB
+826
+827
+827
+827
+827
+828
+828
+829
+829
+829
+829
+829
+Logging loss of: 0.5154663324356079, at frame index: 830, to WandB
+Logging reward of: 0.01, at frame index: 833, to WandB
+833
+833
+833
+839
+Logging loss of: 0.5369918942451477, at frame index: 840, to WandB
+842
+842
+Logging loss of: 0.3127310872077942, at frame index: 850, to WandB
+Logging reward of: 1.0, at frame index: 854, to WandB
+854
+854
+854
+854
+854
+854
+854
+854
+854
+854
+854
+Logging reward of: 0.01, at frame index: 857, to WandB
+857
+Logging reward of: 0.01, at frame index: 858, to WandB
+858
+Logging reward of: 0.01, at frame index: 859, to WandB
+859
+860
+860
+860
+860
+860
+860
+860
+860
+860
+Logging loss of: 0.6333733201026917, at frame index: 860, to WandB
+Logging reward of: 0.01, at frame index: 862, to WandB
+862
+Logging reward of: 0.01, at frame index: 863, to WandB
+863
+864
+864
+864
+864
+864
+864
+864
+864
+864
+864
+864
+864
+864
+864
+864
+Logging reward of: 0.01, at frame index: 870, to WandB
+870
+870
+870
+870
+Logging loss of: 0.5531231164932251, at frame index: 870, to WandB
+Logging reward of: 0.01, at frame index: 871, to WandB
+871
+871
+871
+871
+Logging reward of: 0.01, at frame index: 872, to WandB
+872
+872
+872
+872
+872
+Logging reward of: 0.01, at frame index: 873, to WandB
+873
+Logging reward of: 0.01, at frame index: 874, to WandB
+874
+874
+874
+874
+874
+874
+874
+874
+874
+874
+874
+874
+874
+874
+874
+874
+874
+877
+879
+879
+879
+879
+879
+879
+879
+879
+879
+879
+Logging loss of: 1.4236328601837158, at frame index: 880, to WandB
+885
+887
+887
+887
+887
+887
+887
+887
+887
+887
+Logging loss of: 0.2214399129152298, at frame index: 890, to WandB
+Logging loss of: 0.029931625351309776, at frame index: 900, to WandB
+Logging loss of: 0.25092613697052, at frame index: 910, to WandB
+912
+912
+912
+920
+Logging loss of: 0.30352067947387695, at frame index: 920, to WandB
+929
+929
+929
+929
+Logging loss of: 0.3570956289768219, at frame index: 930, to WandB
+Logging reward of: 1.0, at frame index: 931, to WandB
+931
+931
+931
+931
+931
+931
+931
+931
+931
+931
+931
+931
+931
+Logging loss of: 0.27697792649269104, at frame index: 940, to WandB
+Logging reward of: 0.01, at frame index: 942, to WandB
+942
+942
+942
+942
+942
+942
+942
+942
+Logging reward of: 0.01, at frame index: 943, to WandB
+943
+943
+943
+943
+943
+943
+Logging reward of: 0.01, at frame index: 944, to WandB
+944
+944
+944
+944
+944
+944
+944
+944
+944
+944
+944
+944
+944
+944
+944
+Logging reward of: 0.01, at frame index: 945, to WandB
+945
+945
+945
+945
+945
+945
+945
+947
+950
+950
+Logging loss of: 0.7671934366226196, at frame index: 950, to WandB
+953
+Logging reward of: 0.01, at frame index: 954, to WandB
+954
+Logging reward of: 0.01, at frame index: 955, to WandB
+955
+Logging loss of: 0.401930570602417, at frame index: 960, to WandB
+Logging reward of: 0.01, at frame index: 962, to WandB
+962
+965
+966
+Logging loss of: 0.4267443120479584, at frame index: 970, to WandB
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+973
+Logging reward of: 1.0, at frame index: 975, to WandB
+975
+Logging reward of: 0.01, at frame index: 978, to WandB
+978
+Logging reward of: 0.01, at frame index: 979, to WandB
+979
+Logging loss of: 0.2940433621406555, at frame index: 980, to WandB
+981
+Logging loss of: 0.22349849343299866, at frame index: 990, to WandB
+992
+995
+Logging loss of: 1.3113832473754883, at frame index: 1000, to WandB

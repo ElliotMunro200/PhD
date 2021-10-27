@@ -1,0 +1,15 @@
+diff --git a/Modern Implementations/DQN_etc/DQN_Classes.py b/Modern Implementations/DQN_etc/DQN_Classes.py
+index 05563b5..b1f3aa2 100644
+--- a/Modern Implementations/DQN_etc/DQN_Classes.py	
++++ b/Modern Implementations/DQN_etc/DQN_Classes.py	
+@@ -227,8 +227,8 @@ def plot(frame_idx, rewards, losses):
+ 
+ if __name__ == "__main__":
+     #possible_outputs = ["DQN_only","h-DQN_only","DQN_h-DQN_comparison"]
+-    DQN = False
+-    h_DQN = True
++    DQN = True
++    h_DQN = False
+     num_frames = 5000
+     batch_size = 32
+     buffer_size = int(num_frames/10)

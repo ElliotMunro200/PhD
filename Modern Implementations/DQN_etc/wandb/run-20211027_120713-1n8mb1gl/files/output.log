@@ -1,0 +1,29 @@
+1
+3
+3
+3
+Logging reward of: 0.01, at frame index: 6, to WandB
+6
+Logging reward of: 0.01, at frame index: 7, to WandB
+7
+7
+Logging reward of: 0.01, at frame index: 8, to WandB
+8
+9
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Traceback (most recent call last):
+  File "/home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 273, in <module>
+    train_h_DQN(env,meta_model,model,meta_replay_buffer,replay_buffer,
+  File "/home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 193, in train_h_DQN
+    train_log(metric_name,model_loss,frame_idx)
+  File "/home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 138, in train_log
+    metric_val = float(metric_val)
+TypeError: float() argument must be a string or a number, not 'NoneType'
+Traceback (most recent call last):
+  File "/home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 273, in <module>
+    train_h_DQN(env,meta_model,model,meta_replay_buffer,replay_buffer,
+  File "/home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 193, in train_h_DQN
+    train_log(metric_name,model_loss,frame_idx)
+  File "/home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 138, in train_log
+    metric_val = float(metric_val)
+TypeError: float() argument must be a string or a number, not 'NoneType'

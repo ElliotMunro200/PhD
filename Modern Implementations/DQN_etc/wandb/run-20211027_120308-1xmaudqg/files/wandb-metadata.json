@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.11.0-34-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-10-26T23:03:10.333284",
+    "startedAt": "2021-10-26T23:03:08.997812",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py",
+    "codePath": "Modern Implementations/DQN_etc/DQN_Classes.py",
+    "git": {
+        "remote": "https://github.com/ElliotMunro200/PhD.git",
+        "commit": "82b0403e787951ab5e6bb1b640ab7470f52ae143"
+    },
+    "email": "74408400+ElliotMunro200@users.noreply.github.com",
+    "root": "/home/elliot/Documents/GitHub/PhD",
+    "host": "OUCS1557",
+    "username": "elliot",
+    "executable": "/usr/bin/python3.8"
+}

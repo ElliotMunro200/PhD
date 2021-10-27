@@ -1,0 +1,171 @@
+2021-10-27 12:03:09,466 INFO    MainThread:204321 [internal.py:wandb_internal():88] W&B internal server running at pid: 204321, started at: 2021-10-27 12:03:09.465992
+2021-10-27 12:03:09,468 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: check_version
+2021-10-27 12:03:09,468 INFO    WriterThread:204321 [datastore.py:open_for_write():77] open: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/run-1xmaudqg.wandb
+2021-10-27 12:03:09,469 DEBUG   SenderThread:204321 [sender.py:send():185] send: header
+2021-10-27 12:03:09,469 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: check_version
+2021-10-27 12:03:09,543 DEBUG   SenderThread:204321 [sender.py:send():185] send: run
+2021-10-27 12:03:10,320 INFO    SenderThread:204321 [dir_watcher.py:__init__():169] watching files in: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files
+2021-10-27 12:03:10,321 INFO    SenderThread:204321 [sender.py:_start_run_threads():768] run started: 1xmaudqg with start time 1635289389
+2021-10-27 12:03:10,321 DEBUG   SenderThread:204321 [sender.py:send():185] send: summary
+2021-10-27 12:03:10,322 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-27 12:03:10,329 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: run_start
+2021-10-27 12:03:10,332 DEBUG   HandlerThread:204321 [meta.py:__init__():40] meta init
+2021-10-27 12:03:10,333 DEBUG   HandlerThread:204321 [meta.py:__init__():54] meta init done
+2021-10-27 12:03:10,333 DEBUG   HandlerThread:204321 [meta.py:probe():212] probe
+2021-10-27 12:03:10,338 DEBUG   HandlerThread:204321 [meta.py:_setup_git():202] setup git
+2021-10-27 12:03:10,370 DEBUG   HandlerThread:204321 [meta.py:_setup_git():209] setup git done
+2021-10-27 12:03:10,370 DEBUG   HandlerThread:204321 [meta.py:_save_code():90] save code
+2021-10-27 12:03:10,383 DEBUG   HandlerThread:204321 [meta.py:_save_code():111] save code done
+2021-10-27 12:03:10,384 DEBUG   HandlerThread:204321 [meta.py:_save_patches():128] save patches
+2021-10-27 12:03:10,641 DEBUG   HandlerThread:204321 [meta.py:_save_patches():170] save patches done
+2021-10-27 12:03:10,642 DEBUG   HandlerThread:204321 [meta.py:_save_pip():58] save pip
+2021-10-27 12:03:10,642 DEBUG   HandlerThread:204321 [meta.py:_save_pip():72] save pip done
+2021-10-27 12:03:10,642 DEBUG   HandlerThread:204321 [meta.py:probe():250] probe done
+2021-10-27 12:03:10,668 DEBUG   SenderThread:204321 [sender.py:send():185] send: files
+2021-10-27 12:03:10,668 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file wandb-metadata.json with policy now
+2021-10-27 12:03:10,669 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file code/Modern Implementations/DQN_etc/DQN_Classes.py with policy now
+2021-10-27 12:03:10,669 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file diff.patch with policy now
+2021-10-27 12:03:10,674 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-27 12:03:10,676 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: stop_status
+2021-10-27 12:03:11,033 DEBUG   SenderThread:204321 [sender.py:send():185] send: history
+2021-10-27 12:03:11,033 DEBUG   SenderThread:204321 [sender.py:send():185] send: summary
+2021-10-27 12:03:11,036 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-27 12:03:11,036 DEBUG   SenderThread:204321 [sender.py:send():185] send: history
+2021-10-27 12:03:11,037 DEBUG   SenderThread:204321 [sender.py:send():185] send: summary
+2021-10-27 12:03:11,040 INFO    Thread-12 :204321 [upload_job.py:push():117] Skipped uploading /tmp/tmp6df6hl56wandb/w7xtrk6w-code/Modern Implementations/DQN_etc/DQN_Classes.py
+2021-10-27 12:03:11,041 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-27 12:03:11,042 DEBUG   SenderThread:204321 [sender.py:send():185] send: history
+2021-10-27 12:03:11,042 DEBUG   SenderThread:204321 [sender.py:send():185] send: summary
+2021-10-27 12:03:11,044 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-27 12:03:11,045 DEBUG   SenderThread:204321 [sender.py:send():185] send: history
+2021-10-27 12:03:11,045 DEBUG   SenderThread:204321 [sender.py:send():185] send: summary
+2021-10-27 12:03:11,066 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-27 12:03:11,325 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_created():217] file/dir created: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/wandb-summary.json
+2021-10-27 12:03:11,326 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_created():217] file/dir created: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/code/Modern Implementations/DQN_etc/DQN_Classes.py
+2021-10-27 12:03:11,326 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_created():217] file/dir created: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/diff.patch
+2021-10-27 12:03:11,326 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_created():217] file/dir created: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/wandb-metadata.json
+2021-10-27 12:03:11,327 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_created():217] file/dir created: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/output.log
+2021-10-27 12:03:11,327 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_created():217] file/dir created: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/requirements.txt
+2021-10-27 12:03:11,328 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_created():217] file/dir created: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/code
+2021-10-27 12:03:11,328 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_created():217] file/dir created: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/code/Modern Implementations/DQN_etc
+2021-10-27 12:03:11,328 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_created():217] file/dir created: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/code/Modern Implementations
+2021-10-27 12:03:11,648 INFO    Thread-13 :204321 [upload_job.py:push():137] Uploaded file /tmp/tmp6df6hl56wandb/354hsqna-diff.patch
+2021-10-27 12:03:11,892 INFO    Thread-11 :204321 [upload_job.py:push():137] Uploaded file /tmp/tmp6df6hl56wandb/2k2miza4-wandb-metadata.json
+2021-10-27 12:03:12,322 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/output.log
+2021-10-27 12:03:13,193 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:13,193 DEBUG   SenderThread:204321 [sender.py:send():185] send: telemetry
+2021-10-27 12:03:13,194 DEBUG   SenderThread:204321 [sender.py:send():185] send: exit
+2021-10-27 12:03:13,194 INFO    SenderThread:204321 [sender.py:send_exit():317] handling exit code: 1
+2021-10-27 12:03:13,194 INFO    SenderThread:204321 [sender.py:send_exit():319] handling runtime: 2
+2021-10-27 12:03:13,195 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-27 12:03:13,196 INFO    SenderThread:204321 [sender.py:send_exit():329] send defer
+2021-10-27 12:03:13,196 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:13,197 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:13,197 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 0
+2021-10-27 12:03:13,198 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:13,198 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 0
+2021-10-27 12:03:13,198 INFO    SenderThread:204321 [sender.py:transition_state():342] send defer: 1
+2021-10-27 12:03:13,199 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:13,199 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 1
+2021-10-27 12:03:13,260 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:13,260 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 1
+2021-10-27 12:03:13,260 INFO    SenderThread:204321 [sender.py:transition_state():342] send defer: 2
+2021-10-27 12:03:13,261 DEBUG   SenderThread:204321 [sender.py:send():185] send: stats
+2021-10-27 12:03:13,262 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:13,263 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 2
+2021-10-27 12:03:13,263 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:13,264 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 2
+2021-10-27 12:03:13,264 INFO    SenderThread:204321 [sender.py:transition_state():342] send defer: 3
+2021-10-27 12:03:13,264 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:13,265 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 3
+2021-10-27 12:03:13,265 DEBUG   SenderThread:204321 [sender.py:send():185] send: summary
+2021-10-27 12:03:13,267 INFO    SenderThread:204321 [sender.py:_save_file():901] saving file wandb-summary.json with policy end
+2021-10-27 12:03:13,267 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:13,267 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 3
+2021-10-27 12:03:13,267 INFO    SenderThread:204321 [sender.py:transition_state():342] send defer: 4
+2021-10-27 12:03:13,268 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:13,268 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 4
+2021-10-27 12:03:13,269 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:13,269 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 4
+2021-10-27 12:03:13,299 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:13,323 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/wandb-summary.json
+2021-10-27 12:03:13,324 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/output.log
+2021-10-27 12:03:13,671 INFO    SenderThread:204321 [sender.py:transition_state():342] send defer: 5
+2021-10-27 12:03:13,672 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:13,673 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:13,673 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 5
+2021-10-27 12:03:13,673 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:13,674 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 5
+2021-10-27 12:03:13,674 INFO    SenderThread:204321 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-27 12:03:13,775 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:14,324 INFO    Thread-8  :204321 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/config.yaml
+2021-10-27 12:03:14,325 INFO    SenderThread:204321 [dir_watcher.py:finish():313] scan: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files
+2021-10-27 12:03:14,325 INFO    SenderThread:204321 [dir_watcher.py:finish():327] scan save: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/diff.patch diff.patch
+2021-10-27 12:03:14,325 INFO    SenderThread:204321 [dir_watcher.py:finish():327] scan save: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/requirements.txt requirements.txt
+2021-10-27 12:03:14,325 INFO    SenderThread:204321 [dir_watcher.py:finish():327] scan save: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/output.log output.log
+2021-10-27 12:03:14,331 INFO    SenderThread:204321 [dir_watcher.py:finish():327] scan save: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/wandb-summary.json wandb-summary.json
+2021-10-27 12:03:14,331 INFO    SenderThread:204321 [dir_watcher.py:finish():327] scan save: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/config.yaml config.yaml
+2021-10-27 12:03:14,334 INFO    SenderThread:204321 [dir_watcher.py:finish():327] scan save: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/wandb-metadata.json wandb-metadata.json
+2021-10-27 12:03:14,337 INFO    SenderThread:204321 [dir_watcher.py:finish():327] scan save: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/code/Modern Implementations/DQN_etc/DQN_Classes.py code/Modern Implementations/DQN_etc/DQN_Classes.py
+2021-10-27 12:03:14,337 INFO    SenderThread:204321 [sender.py:transition_state():342] send defer: 6
+2021-10-27 12:03:14,338 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:14,338 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:14,338 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 6
+2021-10-27 12:03:14,339 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:14,339 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 6
+2021-10-27 12:03:14,339 INFO    SenderThread:204321 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-27 12:03:14,440 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:14,440 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:14,543 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:14,543 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:14,646 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:14,647 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:14,755 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:14,758 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:14,860 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:14,860 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:14,964 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:14,964 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:15,068 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:15,068 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:15,172 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:15,172 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:15,273 INFO    Thread-15 :204321 [upload_job.py:push():137] Uploaded file /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/output.log
+2021-10-27 12:03:15,277 INFO    Thread-14 :204321 [upload_job.py:push():137] Uploaded file /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/requirements.txt
+2021-10-27 12:03:15,279 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:15,283 INFO    Thread-17 :204321 [upload_job.py:push():137] Uploaded file /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/config.yaml
+2021-10-27 12:03:15,284 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:15,287 INFO    Thread-16 :204321 [upload_job.py:push():137] Uploaded file /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/files/wandb-summary.json
+2021-10-27 12:03:15,387 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:15,388 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:15,487 INFO    Thread-7  :204321 [sender.py:transition_state():342] send defer: 7
+2021-10-27 12:03:15,488 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:15,489 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 7
+2021-10-27 12:03:15,489 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:15,489 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 7
+2021-10-27 12:03:15,490 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:15,831 INFO    SenderThread:204321 [sender.py:transition_state():342] send defer: 8
+2021-10-27 12:03:15,832 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:15,833 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:15,833 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 8
+2021-10-27 12:03:15,834 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:15,834 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 8
+2021-10-27 12:03:15,834 INFO    SenderThread:204321 [sender.py:transition_state():342] send defer: 9
+2021-10-27 12:03:15,836 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: defer
+2021-10-27 12:03:15,836 INFO    HandlerThread:204321 [handler.py:handle_request_defer():147] handle defer: 9
+2021-10-27 12:03:15,836 DEBUG   SenderThread:204321 [sender.py:send():185] send: final
+2021-10-27 12:03:15,837 DEBUG   SenderThread:204321 [sender.py:send():185] send: footer
+2021-10-27 12:03:15,837 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: defer
+2021-10-27 12:03:15,838 INFO    SenderThread:204321 [sender.py:send_request_defer():338] handle sender defer: 9
+2021-10-27 12:03:15,935 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-27 12:03:15,936 DEBUG   SenderThread:204321 [sender.py:send_request():199] send_request: poll_exit
+2021-10-27 12:03:15,936 INFO    SenderThread:204321 [file_pusher.py:join():182] waiting for file pusher
+2021-10-27 12:03:16,678 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: get_summary
+2021-10-27 12:03:16,680 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: sampled_history
+2021-10-27 12:03:16,682 DEBUG   HandlerThread:204321 [handler.py:handle_request():130] handle_request: shutdown
+2021-10-27 12:03:16,682 INFO    HandlerThread:204321 [handler.py:finish():731] shutting down handler
+2021-10-27 12:03:16,837 INFO    WriterThread:204321 [datastore.py:close():281] close: /home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/wandb/run-20211027_120308-1xmaudqg/run-1xmaudqg.wandb
+2021-10-27 12:03:17,675 INFO    SenderThread:204321 [sender.py:finish():1029] shutting down sender
+2021-10-27 12:03:17,676 INFO    SenderThread:204321 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-27 12:03:17,676 INFO    SenderThread:204321 [file_pusher.py:join():182] waiting for file pusher
+2021-10-27 12:03:17,680 INFO    MainThread:204321 [internal.py:handle_exit():78] Internal process exited

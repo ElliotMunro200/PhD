@@ -1,0 +1,13 @@
+diff --git a/Modern Implementations/DQN_etc/DQN_Classes.py b/Modern Implementations/DQN_etc/DQN_Classes.py
+index 05563b5..d3f99a1 100644
+--- a/Modern Implementations/DQN_etc/DQN_Classes.py	
++++ b/Modern Implementations/DQN_etc/DQN_Classes.py	
+@@ -229,7 +229,7 @@ if __name__ == "__main__":
+     #possible_outputs = ["DQN_only","h-DQN_only","DQN_h-DQN_comparison"]
+     DQN = False
+     h_DQN = True
+-    num_frames = 5000
++    num_frames = 25000
+     batch_size = 32
+     buffer_size = int(num_frames/10)
+     n_avg = int(num_frames / 1000)

@@ -10,6 +10,7 @@ from torch.autograd import Variable #deprecated:
 #The Variable API has been deprecated: Variables are no longer necessary to use autograd with tensors.
 import matplotlib.pyplot as plt
 import gym
+from ale_py.roms import Pong
 import wandb
 from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.vec_env import DummyVecEnv, VecVideoRecorder
@@ -60,7 +61,7 @@ class DQNet(nn.Module):
 
 
 def to_onehot(x):
-    oh = np.zeros(4)
+    oh = np.zeros(6)
     oh[x - 1] = 1.
     return oh
 
@@ -227,21 +228,21 @@ def plot(frame_idx, rewards, losses):
 
 if __name__ == "__main__":
     #possible_outputs = ["DQN_only","h-DQN_only","DQN_h-DQN_comparison"]
-    DQN = False
-    h_DQN = True
-    num_frames = 5000
-    batch_size = 32
+    DQN = True
+    h_DQN = False
+    num_frames = 10000
+    batch_size = 10 #MAKE SURE THAT THIS IS NOT BIGGER THAN THE LOG FREQ: NUM_FRAMES/100, normally is 32
     buffer_size = int(num_frames/10)
     n_avg = int(num_frames / 1000)
 
     config = {
         #"policy_type": "MlpPolicy",
         #"total_timesteps": 25000,
-        "env_name": "CartPole-v0",
+        "env_name": Pong,
     }
 
     run = wandb.init(
-        project="PyTorch",  #name of project on WandB
+        project="PyTorch_"+str(config["env_name"]),  #name of project on WandB
         config=config,
         sync_tensorboard=True,  # auto-upload sb3's tensorboard metrics
         monitor_gym=True,  # auto-upload the videos of agents playing the game
@@ -250,9 +251,12 @@ if __name__ == "__main__":
 
     #DQN
     if DQN:
+        # env = SDP_env()
+        # num_states = env.num_states
+        # num_actions = env.num_actions
         env = gym.make(config["env_name"])
-        num_states = env.observation_space.shape[0]  #env.num_states
-        num_actions = env.action_space.n  #env.num_actions
+        num_states = env.observation_space.shape[0]
+        num_actions = env.action_space.n
         model = DQNet(num_states, num_actions)
         optimizer = optim.Adam(model.parameters())
         replay_buffer = ReplayBuffer(buffer_size)
@@ -260,10 +264,13 @@ if __name__ == "__main__":
 
     #h-DQN
     if h_DQN:
+        # env = SDP_env()
+        # num_states = env.num_states
+        # num_actions = env.num_actions
         goal_state_rep_f = 2
-        env = gym.make(config["env_name"]) #SDP_env()
-        num_goals = env.observation_space.shape[0]  # env.num_states
-        num_actions = env.action_space.n  # env.num_actions
+        env = gym.make(config["env_name"])
+        num_goals = env.observation_space.shape[0]
+        num_actions = env.action_space.n
         model = DQNet(goal_state_rep_f*num_goals, num_actions)
         meta_model = DQNet(num_goals, num_goals)
         optimizer = optim.Adam(model.parameters())
@@ -274,7 +281,8 @@ if __name__ == "__main__":
                     batch_size,meta_optimizer,optimizer,num_frames,n_avg)
     run.finish()
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#h-DQN control sequence
+
+###~~~#h-DQN control sequence#~~~###
 
 #imports
 #instantiate environment-class object (init, reset, step(action))

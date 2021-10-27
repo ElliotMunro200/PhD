@@ -1,0 +1,31 @@
+diff --git a/Modern Implementations/DQN_etc/DQN_Classes.py b/Modern Implementations/DQN_etc/DQN_Classes.py
+index 05563b5..2cb490e 100644
+--- a/Modern Implementations/DQN_etc/DQN_Classes.py	
++++ b/Modern Implementations/DQN_etc/DQN_Classes.py	
+@@ -227,9 +227,9 @@ def plot(frame_idx, rewards, losses):
+ 
+ if __name__ == "__main__":
+     #possible_outputs = ["DQN_only","h-DQN_only","DQN_h-DQN_comparison"]
+-    DQN = False
+-    h_DQN = True
+-    num_frames = 5000
++    DQN = True
++    h_DQN = False
++    num_frames = 1000
+     batch_size = 32
+     buffer_size = int(num_frames/10)
+     n_avg = int(num_frames / 1000)
+@@ -237,11 +237,11 @@ if __name__ == "__main__":
+     config = {
+         #"policy_type": "MlpPolicy",
+         #"total_timesteps": 25000,
+-        "env_name": "CartPole-v0",
++        "env_name": "Pong-v0",
+     }
+ 
+     run = wandb.init(
+-        project="PyTorch",  #name of project on WandB
++        project="PyTorch_"+config["env_name"],  #name of project on WandB
+         config=config,
+         sync_tensorboard=True,  # auto-upload sb3's tensorboard metrics
+         monitor_gym=True,  # auto-upload the videos of agents playing the game

@@ -1,0 +1,83 @@
+diff --git a/Modern Implementations/DQN_etc/DQN_Classes.py b/Modern Implementations/DQN_etc/DQN_Classes.py
+index 05563b5..c63aa63 100644
+--- a/Modern Implementations/DQN_etc/DQN_Classes.py	
++++ b/Modern Implementations/DQN_etc/DQN_Classes.py	
+@@ -60,7 +60,7 @@ class DQNet(nn.Module):
+ 
+ 
+ def to_onehot(x):
+-    oh = np.zeros(4)
++    oh = np.zeros(6)
+     oh[x - 1] = 1.
+     return oh
+ 
+@@ -227,21 +227,21 @@ def plot(frame_idx, rewards, losses):
+ 
+ if __name__ == "__main__":
+     #possible_outputs = ["DQN_only","h-DQN_only","DQN_h-DQN_comparison"]
+-    DQN = False
+-    h_DQN = True
+-    num_frames = 5000
+-    batch_size = 32
++    DQN = True
++    h_DQN = False
++    num_frames = 10000
++    batch_size = 10 #MAKE SURE THAT THIS IS NOT BIGGER THAN THE LOG FREQ: NUM_FRAMES/100, normally is 32
+     buffer_size = int(num_frames/10)
+     n_avg = int(num_frames / 1000)
+ 
+     config = {
+         #"policy_type": "MlpPolicy",
+         #"total_timesteps": 25000,
+-        "env_name": "CartPole-v0",
++        "env_name": "ALE/Pong-v4",
+     }
+ 
+     run = wandb.init(
+-        project="PyTorch",  #name of project on WandB
++        project="PyTorch_"+config["env_name"][4:],  #name of project on WandB
+         config=config,
+         sync_tensorboard=True,  # auto-upload sb3's tensorboard metrics
+         monitor_gym=True,  # auto-upload the videos of agents playing the game
+@@ -250,9 +250,12 @@ if __name__ == "__main__":
+ 
+     #DQN
+     if DQN:
++        # env = SDP_env()
++        # num_states = env.num_states
++        # num_actions = env.num_actions
+         env = gym.make(config["env_name"])
+-        num_states = env.observation_space.shape[0]  #env.num_states
+-        num_actions = env.action_space.n  #env.num_actions
++        num_states = env.observation_space.shape[0]
++        num_actions = env.action_space.n
+         model = DQNet(num_states, num_actions)
+         optimizer = optim.Adam(model.parameters())
+         replay_buffer = ReplayBuffer(buffer_size)
+@@ -260,10 +263,13 @@ if __name__ == "__main__":
+ 
+     #h-DQN
+     if h_DQN:
++        # env = SDP_env()
++        # num_states = env.num_states
++        # num_actions = env.num_actions
+         goal_state_rep_f = 2
+-        env = gym.make(config["env_name"]) #SDP_env()
+-        num_goals = env.observation_space.shape[0]  # env.num_states
+-        num_actions = env.action_space.n  # env.num_actions
++        env = gym.make(config["env_name"])
++        num_goals = env.observation_space.shape[0]
++        num_actions = env.action_space.n
+         model = DQNet(goal_state_rep_f*num_goals, num_actions)
+         meta_model = DQNet(num_goals, num_goals)
+         optimizer = optim.Adam(model.parameters())
+@@ -274,7 +280,8 @@ if __name__ == "__main__":
+                     batch_size,meta_optimizer,optimizer,num_frames,n_avg)
+     run.finish()
+ #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-#h-DQN control sequence
++
++###~~~#h-DQN control sequence#~~~###
+ 
+ #imports
+ #instantiate environment-class object (init, reset, step(action))

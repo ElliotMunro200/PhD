@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 256, in <module>
+    env = gym.make(config["env_name"])
+  File "/home/elliot/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 184, in make
+    return registry.make(id, **kwargs)
+  File "/home/elliot/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 106, in make
+    env = spec.make(**kwargs)
+  File "/home/elliot/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 76, in make
+    env = cls(**_kwargs)
+  File "/home/elliot/.local/lib/python3.8/site-packages/gym/envs/atari/atari_env.py", line 53, in __init__
+    self.game_path = atari_py.get_game_path(game)
+  File "/home/elliot/.local/lib/python3.8/site-packages/atari_py/games.py", line 20, in get_game_path
+    raise Exception('ROM is missing for %s, see https://github.com/openai/atari-py#roms for instructions' % (game_name,))
+Exception: ROM is missing for pong, see https://github.com/openai/atari-py#roms for instructions
+Traceback (most recent call last):
+  File "/home/elliot/Documents/GitHub/PhD/Modern Implementations/DQN_etc/DQN_Classes.py", line 256, in <module>
+    env = gym.make(config["env_name"])
+  File "/home/elliot/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 184, in make
+    return registry.make(id, **kwargs)
+  File "/home/elliot/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 106, in make
+    env = spec.make(**kwargs)
+  File "/home/elliot/.local/lib/python3.8/site-packages/gym/envs/registration.py", line 76, in make
+    env = cls(**_kwargs)
+  File "/home/elliot/.local/lib/python3.8/site-packages/gym/envs/atari/atari_env.py", line 53, in __init__
+    self.game_path = atari_py.get_game_path(game)
+  File "/home/elliot/.local/lib/python3.8/site-packages/atari_py/games.py", line 20, in get_game_path
+    raise Exception('ROM is missing for %s, see https://github.com/openai/atari-py#roms for instructions' % (game_name,))
+Exception: ROM is missing for pong, see https://github.com/openai/atari-py#roms for instructions
