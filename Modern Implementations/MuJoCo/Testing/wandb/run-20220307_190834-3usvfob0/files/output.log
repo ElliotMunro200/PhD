@@ -1,0 +1,59 @@
+step: 0
+Logging loss of: 0.0003365863231010735, at frame index: 30, to WandB
+Logging reward of: 24.48309380081247, at frame index: 31, to WandB
+Logging loss of: -0.005281713325530291, at frame index: 40, to WandB
+Logging loss of: -0.004588081035763025, at frame index: 50, to WandB
+Logging loss of: -0.006696328520774841, at frame index: 60, to WandB
+Logging loss of: -0.005589223932474852, at frame index: 70, to WandB
+Logging loss of: -0.006578950677067041, at frame index: 80, to WandB
+Logging loss of: -0.0012392394710332155, at frame index: 90, to WandB
+Logging loss of: -0.0032094516791403294, at frame index: 100, to WandB
+Logging loss of: -0.0033441558480262756, at frame index: 110, to WandB
+Logging loss of: -8.096657984424382e-05, at frame index: 120, to WandB
+Logging loss of: -0.005528831388801336, at frame index: 130, to WandB
+Logging reward of: 80.84608764772489, at frame index: 135, to WandB
+Logging loss of: 0.011893738992512226, at frame index: 140, to WandB
+Logging loss of: 0.0003188868868164718, at frame index: 150, to WandB
+Logging loss of: -0.001102606998756528, at frame index: 160, to WandB
+Logging loss of: 9.45553165365709e-06, at frame index: 170, to WandB
+Logging loss of: 0.008298264816403389, at frame index: 180, to WandB
+Logging loss of: 0.0036660819314420223, at frame index: 190, to WandB
+step: 200
+Logging loss of: -0.0025340639986097813, at frame index: 200, to WandB
+Logging loss of: 0.0030712545849382877, at frame index: 210, to WandB
+Logging loss of: -0.0008076854282990098, at frame index: 220, to WandB
+Logging loss of: 0.005759556312114, at frame index: 230, to WandB
+Logging reward of: 76.98128272580179, at frame index: 238, to WandB
+Logging loss of: 0.004911444615572691, at frame index: 240, to WandB
+Logging loss of: 0.0049019246362149715, at frame index: 250, to WandB
+Logging loss of: 0.00281333876773715, at frame index: 260, to WandB
+Logging loss of: 0.011197424493730068, at frame index: 270, to WandB
+Logging loss of: 0.006345568690448999, at frame index: 280, to WandB
+Logging loss of: -0.0015982177574187517, at frame index: 290, to WandB
+Logging loss of: 0.021763239055871964, at frame index: 300, to WandB
+Logging loss of: -0.0017156671965494752, at frame index: 310, to WandB
+Logging loss of: -0.00021318122162483633, at frame index: 320, to WandB
+Logging loss of: 0.010766691528260708, at frame index: 330, to WandB
+Logging loss of: 0.016721678897738457, at frame index: 340, to WandB
+Logging loss of: 0.007437766529619694, at frame index: 350, to WandB
+Logging loss of: 0.00044328943477012217, at frame index: 360, to WandB
+Logging reward of: 95.95446198624818, at frame index: 369, to WandB
+Logging loss of: 0.019068049266934395, at frame index: 370, to WandB
+Logging loss of: -0.0017470258753746748, at frame index: 380, to WandB
+Logging loss of: 0.023987820371985435, at frame index: 390, to WandB
+step: 400
+Logging loss of: -0.006885056849569082, at frame index: 400, to WandB
+Logging loss of: 0.01848519779741764, at frame index: 410, to WandB
+Logging loss of: 0.007855508476495743, at frame index: 420, to WandB
+Logging loss of: 0.00244586868211627, at frame index: 430, to WandB
+Logging loss of: 0.004823128692805767, at frame index: 440, to WandB
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\S_L_CartPole_DDPG_main.py", line 223, in <module>
+    train(args.train_iter, agent, env, args.env, evaluate, args.validate_steps, args.output,
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\S_L_CartPole_DDPG_main.py", line 67, in train
+    policy_loss = agent.update_policy() # calculating the loss on a batch of data
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_ddpg.py", line 88, in update_policy
+    soft_update(self.critic_target, self.critic, self.tau)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_util.py", line 23, in soft_update
+    target_param.data * (1.0 - tau) + param.data * tau
+KeyboardInterrupt

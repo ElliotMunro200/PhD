@@ -1,0 +1,15 @@
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\IPython\core\interactiveshell.py", line 3457, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-9ba8eaf086cf>", line 1, in <module>
+    runfile('C:\\Users\\Jack-Server\\Documents\\GitHub\\PhD\\Modern Implementations\\MuJoCo\\Testing\\C_L_Learning.py', wdir='C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/MuJoCo/Testing')
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 112, in <module>
+    train_CartPole_DQNet(env, net, replay_buffer, batch_size, optimizer, num_frames)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 56, in train_CartPole_DQNet
+    episode_reward += reward
+TypeError: unsupported operand type(s) for +: 'float' and 'NoneType'

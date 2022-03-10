@@ -1,0 +1,24 @@
+
+0
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_main.py", line 217, in <module>
+    train(args.train_iter, agent, env, args.env, evaluate,
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_main.py", line 75, in train
+    validate_reward = evaluate(env, policy, debug=False, visualize=False)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_evaluator.py", line 40, in __call__
+    action = policy(state)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_main.py", line 74, in <lambda>
+    policy = lambda x: agent.select_action(x, decay_epsilon=False)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_ddpg.py", line 110, in select_action
+    self.actor(torch.Tensor(np.array([s_t])))
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py", line 1071, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_model.py", line 16, in forward
+    out = self.fc1(x)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py", line 96, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\functional.py", line 1847, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (1x16 and 17x400)

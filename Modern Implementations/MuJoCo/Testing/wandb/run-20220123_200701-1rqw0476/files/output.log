@@ -1,0 +1,277 @@
+frame index:1
+0
+frame index:2
+0
+frame index:3
+0
+frame index:4
+0
+frame index:5
+0
+frame index:6
+0
+frame index:7
+1
+frame index:8
+1
+frame index:9
+1
+frame index:10
+1
+frame index:11
+0
+frame index:12
+0
+frame index:13
+1
+frame index:14
+0
+frame index:15
+0
+frame index:16
+1
+frame index:17
+1
+frame index:18
+0
+frame index:19
+0
+frame index:20
+0
+frame index:21
+1
+frame index:22
+0
+frame index:23
+1
+frame index:24
+1
+frame index:25
+1
+Logging loss of: 0.057289425283670425, at frame index: 25, to WandB
+frame index:26
+1
+Logging loss of: 0.045101847499608994, at frame index: 26, to WandB
+frame index:27
+0
+Logging loss of: 0.03830936551094055, at frame index: 27, to WandB
+frame index:28
+0
+Logging loss of: 0.024286145344376564, at frame index: 28, to WandB
+frame index:29
+1
+Logging loss of: 0.020297670736908913, at frame index: 29, to WandB
+frame index:30
+1
+Logging loss of: 0.02432124875485897, at frame index: 30, to WandB
+frame index:31
+0
+Logging loss of: 0.0426471047103405, at frame index: 31, to WandB
+frame index:32
+1
+Logging loss of: 0.05627550184726715, at frame index: 32, to WandB
+frame index:33
+0
+Logging loss of: 0.041666898876428604, at frame index: 33, to WandB
+frame index:34
+0
+Logging loss of: 0.030327558517456055, at frame index: 34, to WandB
+frame index:35
+1
+Logging loss of: 0.028341934084892273, at frame index: 35, to WandB
+frame index:36
+1
+Logging loss of: 0.019786527380347252, at frame index: 36, to WandB
+frame index:37
+0
+Logging loss of: 0.05365459993481636, at frame index: 37, to WandB
+frame index:38
+0
+Logging loss of: 0.0332903154194355, at frame index: 38, to WandB
+frame index:39
+1
+Logging loss of: 0.0741545632481575, at frame index: 39, to WandB
+frame index:40
+0
+Logging loss of: 0.07157482951879501, at frame index: 40, to WandB
+frame index:41
+0
+Logging loss of: 0.11196186393499374, at frame index: 41, to WandB
+frame index:42
+0
+Logging loss of: 0.040696706622838974, at frame index: 42, to WandB
+frame index:43
+1
+Logging loss of: 0.10115834325551987, at frame index: 43, to WandB
+frame index:44
+1
+Logging loss of: 0.0330042690038681, at frame index: 44, to WandB
+frame index:45
+1
+Logging loss of: 0.08640727400779724, at frame index: 45, to WandB
+frame index:46
+1
+Logging loss of: 0.05695842206478119, at frame index: 46, to WandB
+frame index:47
+1
+Logging loss of: 0.09721048921346664, at frame index: 47, to WandB
+frame index:48
+1
+Logging loss of: 0.10866150259971619, at frame index: 48, to WandB
+frame index:49
+0
+Logging loss of: 0.10797581076622009, at frame index: 49, to WandB
+frame index:50
+1
+Logging loss of: 0.10871914774179459, at frame index: 50, to WandB
+frame index:51
+0
+Logging loss of: 0.09165481477975845, at frame index: 51, to WandB
+frame index:52
+1
+Logging loss of: 0.12866590917110443, at frame index: 52, to WandB
+frame index:53
+0
+Logging loss of: 0.22441333532333374, at frame index: 53, to WandB
+frame index:54
+1
+Logging loss of: 0.23862160742282867, at frame index: 54, to WandB
+frame index:55
+0
+Logging loss of: 0.3162079155445099, at frame index: 55, to WandB
+frame index:56
+0
+Logging loss of: 0.11113912612199783, at frame index: 56, to WandB
+frame index:57
+1
+Logging loss of: 0.16892291605472565, at frame index: 57, to WandB
+frame index:58
+0
+Logging loss of: 0.24925146996974945, at frame index: 58, to WandB
+frame index:59
+0
+Logging loss of: 0.21332693099975586, at frame index: 59, to WandB
+frame index:60
+1
+Logging loss of: 0.10726021975278854, at frame index: 60, to WandB
+frame index:61
+1
+Logging loss of: 0.17096318304538727, at frame index: 61, to WandB
+frame index:62
+1
+Logging loss of: 0.11719503253698349, at frame index: 62, to WandB
+frame index:63
+0
+Logging loss of: 0.16470074653625488, at frame index: 63, to WandB
+frame index:64
+1
+Logging loss of: 0.2617601454257965, at frame index: 64, to WandB
+frame index:65
+0
+Logging loss of: 0.6382962465286255, at frame index: 65, to WandB
+frame index:66
+0
+Logging loss of: 0.546254575252533, at frame index: 66, to WandB
+frame index:67
+0
+Logging loss of: 0.29830431938171387, at frame index: 67, to WandB
+frame index:68
+0
+Logging loss of: 0.3369159400463104, at frame index: 68, to WandB
+frame index:69
+1
+Logging loss of: 0.3100179135799408, at frame index: 69, to WandB
+frame index:70
+0
+Logging loss of: 0.5233340859413147, at frame index: 70, to WandB
+frame index:71
+0
+Logging loss of: 0.379096657037735, at frame index: 71, to WandB
+frame index:72
+1
+Logging loss of: 0.9641527533531189, at frame index: 72, to WandB
+frame index:73
+0
+Logging loss of: 0.5829095244407654, at frame index: 73, to WandB
+frame index:74
+1
+Logging loss of: 0.6677348017692566, at frame index: 74, to WandB
+frame index:75
+1
+Logging loss of: 0.9467700123786926, at frame index: 75, to WandB
+frame index:76
+1
+Logging loss of: 0.5514017939567566, at frame index: 76, to WandB
+frame index:77
+0
+Logging loss of: 1.2642490863800049, at frame index: 77, to WandB
+frame index:78
+0
+Logging loss of: 0.5068281888961792, at frame index: 78, to WandB
+frame index:79
+0
+Logging loss of: 0.5935873985290527, at frame index: 79, to WandB
+frame index:80
+0
+Logging loss of: 0.4013918936252594, at frame index: 80, to WandB
+frame index:81
+1
+Logging loss of: 0.6092763543128967, at frame index: 81, to WandB
+frame index:82
+1
+Logging loss of: 1.2350348234176636, at frame index: 82, to WandB
+frame index:83
+0
+Logging loss of: 1.1806697845458984, at frame index: 83, to WandB
+frame index:84
+0
+Logging loss of: 0.5022022724151611, at frame index: 84, to WandB
+frame index:85
+0
+Logging loss of: 0.22074906527996063, at frame index: 85, to WandB
+frame index:86
+1
+Logging loss of: 0.27464768290519714, at frame index: 86, to WandB
+frame index:87
+0
+Logging loss of: 0.497746080160141, at frame index: 87, to WandB
+frame index:88
+0
+Logging loss of: 0.815115749835968, at frame index: 88, to WandB
+frame index:89
+1
+Logging loss of: 0.5246440768241882, at frame index: 89, to WandB
+frame index:90
+1
+Logging loss of: 0.933170735836029, at frame index: 90, to WandB
+frame index:91
+1
+Logging loss of: 1.0676968097686768, at frame index: 91, to WandB
+frame index:92
+0
+Logging loss of: 0.8233281970024109, at frame index: 92, to WandB
+frame index:93
+1
+Logging loss of: 0.44368425011634827, at frame index: 93, to WandB
+frame index:94
+0
+Logging loss of: 0.45660364627838135, at frame index: 94, to WandB
+frame index:95
+0
+Logging loss of: 0.9504866003990173, at frame index: 95, to WandB
+frame index:96
+1
+Logging loss of: 0.33049899339675903, at frame index: 96, to WandB
+frame index:97
+1
+Logging loss of: 0.5336337685585022, at frame index: 97, to WandB
+frame index:98
+0
+Logging loss of: 0.5748492479324341, at frame index: 98, to WandB
+frame index:99
+0
+Logging loss of: 0.4590277373790741, at frame index: 99, to WandB
+frame index:100
+1
+Logging loss of: 0.5678526759147644, at frame index: 100, to WandB
+MyRoboLoco_animation_100_model_frames.mp4

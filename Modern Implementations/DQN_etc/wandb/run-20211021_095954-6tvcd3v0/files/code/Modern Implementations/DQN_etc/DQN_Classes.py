@@ -240,8 +240,8 @@ if __name__ == "__main__":
     if DQN:
         env = DummyVecEnv([make_env])
         env = VecVideoRecorder(env, f"videos/{run.id}", record_video_trigger=lambda x: x % 2000 == 0, video_length=200)
-        num_states = env.observation_space.shape[0]  #env.num_states
-        num_actions = env.action_space.n  #env.num_actions
+        num_states = env.observation_space.shape[0]  #env.dim_states
+        num_actions = env.action_space.n  #env.dim_actions
         model = DQNet(num_states, num_actions)
         optimizer = optim.Adam(model.parameters())
         replay_buffer = ReplayBuffer(buffer_size)
@@ -251,8 +251,8 @@ if __name__ == "__main__":
     if h_DQN:
         goal_state_rep_f = 2
         env = SDP_env()
-        num_goals = env.num_states
-        num_actions = env.num_actions
+        num_goals = env.dim_states
+        num_actions = env.dim_actions
         model = DQNet(goal_state_rep_f*num_goals, num_actions)
         meta_model = DQNet(num_goals, num_goals)
         optimizer = optim.Adam(model.parameters())

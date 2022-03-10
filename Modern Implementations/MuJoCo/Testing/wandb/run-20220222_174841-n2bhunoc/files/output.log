@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_main.py", line 216, in <module>
+    train(args.train_iter, agent, env, args.env, evaluate,
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_main.py", line 33, in train
+    if step % int(num_iterations/1000) == 0:
+ZeroDivisionError: integer division or modulo by zero

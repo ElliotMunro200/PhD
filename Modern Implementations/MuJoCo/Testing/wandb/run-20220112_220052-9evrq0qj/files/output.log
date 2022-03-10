@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\IPython\core\interactiveshell.py", line 3457, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-9ba8eaf086cf>", line 1, in <module>
+    runfile('C:\\Users\\Jack-Server\\Documents\\GitHub\\PhD\\Modern Implementations\\MuJoCo\\Testing\\C_L_Learning.py', wdir='C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/MuJoCo/Testing')
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 142, in <module>
+    train_CartPole_DQNet(env, net, replay_buffer, batch_size, optimizer, num_frames)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 74, in train_CartPole_DQNet
+    loss = CartPole_DQNet_update(model, optimizer, replay_buffer, batch_size) #calculating the loss on a batch
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_DQN.py", line 97, in CartPole_DQNet_update
+    print("action_unsq: "+str(action.unsqueeze(1)+", size: "+str(action.unsqueeze(1).size())))
+TypeError: unsupported operand type(s) for +: 'Tensor' and 'str'
+frame index:1
+frame index:2
+frame index:3
+frame index:4
+frame index:5
+frame index:6
+frame index:7
+frame index:8
+frame index:9
+frame index:10
+frame index:11
+frame index:12
+frame index:13
+frame index:14
+frame index:15
+frame index:16
+frame index:17
+frame index:18
+frame index:19
+frame index:20
+frame index:21
+frame index:22
+frame index:23
+frame index:24
+frame index:25
+q_value: tensor([[-0.0996, -0.2023],
+        [-0.0941, -0.1730],
+        [-0.1175, -0.2571],
+        [-0.1001, -0.1996],
+        [-0.0946, -0.1719],
+        [-0.1002, -0.1968],
+        [-0.0936, -0.1742],
+        [-0.1055, -0.2197],
+        [-0.1131, -0.2397],
+        [-0.0969, -0.1824],
+        [-0.0863, -0.1595],
+        [-0.0614, -0.1214],
+        [-0.0951, -0.1710],
+        [-0.1178, -0.2855],
+        [-0.0744, -0.1395],
+        [-0.0867, -0.1609],
+        [-0.0932, -0.1754],
+        [-0.0859, -0.1582],
+        [-0.1005, -0.1942],
+        [-0.0618, -0.1216],
+        [-0.1207, -0.2746],
+        [-0.1052, -0.2236],
+        [-0.1191, -0.2803],
+        [-0.0962, -0.1842]], grad_fn=<AddmmBackward>)
+tensor([-0.0996, -0.2023], grad_fn=<SelectBackward>)

@@ -1,0 +1,68 @@
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1024: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1026: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-constants.mjMAXVAL, dtype=np.float)
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1027: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=constants.mjMAXVAL, dtype=np.float)
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1031: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\IPython\core\interactiveshell.py", line 3457, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-9ba8eaf086cf>", line 1, in <module>
+    runfile('C:\\Users\\Jack-Server\\Documents\\GitHub\\PhD\\Modern Implementations\\MuJoCo\\Testing\\C_L_Learning.py', wdir='C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/MuJoCo/Testing')
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 103, in <module>
+    train_CartPole_DQNet(env, net, replay_buffer, batch_size, optimizer, num_frames)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 40, in train_CartPole_DQNet
+    action = model.act(state, epsilon)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_DQN.py", line 60, in act
+    state = torch.FloatTensor(state).unsqueeze(0)
+TypeError: must be real number, not NoneType
+2
+2
+1
+frame index:1
+StepType.MID
+Logging reward of: 0.999563924715862, at frame index: 1, to WandB
+frame index:2
+StepType.MID
+Logging reward of: 0.9985091807405394, at frame index: 2, to WandB
+frame index:3
+StepType.MID
+Logging reward of: 0.9970974884442371, at frame index: 3, to WandB
+frame index:4
+StepType.MID
+Logging reward of: 0.9986955763305595, at frame index: 4, to WandB
+frame index:5
+StepType.MID
+Logging reward of: 0.9998956104643901, at frame index: 5, to WandB
+frame index:6
+StepType.MID
+Logging reward of: 0.9994849646307344, at frame index: 6, to WandB
+frame index:7
+StepType.MID
+Logging reward of: 0.9989604665634818, at frame index: 7, to WandB
+frame index:8
+StepType.MID
+Logging reward of: 0.9997397395005165, at frame index: 8, to WandB
+frame index:9
+StepType.MID
+Logging reward of: 0.9995992589781455, at frame index: 9, to WandB
+frame index:10
+StepType.MID
+Logging reward of: 0.9973199367789419, at frame index: 10, to WandB
+frame index:11
+StepType.MID
+Logging reward of: 0.9995884207185493, at frame index: 11, to WandB
+frame index:12
+StepType.MID
+Logging reward of: 0.9973752372631166, at frame index: 12, to WandB

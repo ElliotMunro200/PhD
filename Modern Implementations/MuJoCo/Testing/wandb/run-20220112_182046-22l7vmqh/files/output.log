@@ -1,0 +1,226 @@
+frame index:1
+frame index:2
+frame index:3
+frame index:4
+frame index:5
+frame index:6
+frame index:7
+frame index:8
+frame index:9
+frame index:10
+frame index:11
+frame index:12
+frame index:13
+frame index:14
+frame index:15
+frame index:16
+frame index:17
+frame index:18
+frame index:19
+frame index:20
+frame index:21
+frame index:22
+frame index:23
+frame index:24
+frame index:25
+Logging loss of: 0.7973423004150391, at frame index: 25, to WandB
+frame index:26
+Logging loss of: 0.7816855311393738, at frame index: 26, to WandB
+frame index:27
+Logging loss of: 0.7914153933525085, at frame index: 27, to WandB
+frame index:28
+Logging loss of: 0.7888782024383545, at frame index: 28, to WandB
+frame index:29
+Logging loss of: 0.7910918593406677, at frame index: 29, to WandB
+frame index:30
+Logging loss of: 0.7059962153434753, at frame index: 30, to WandB
+frame index:31
+Logging loss of: 0.7662182450294495, at frame index: 31, to WandB
+frame index:32
+Logging loss of: 0.7555146217346191, at frame index: 32, to WandB
+frame index:33
+Logging loss of: 0.748091995716095, at frame index: 33, to WandB
+frame index:34
+Logging loss of: 0.7376078963279724, at frame index: 34, to WandB
+frame index:35
+Logging loss of: 0.7569057941436768, at frame index: 35, to WandB
+frame index:36
+Logging loss of: 0.7650620341300964, at frame index: 36, to WandB
+frame index:37
+Logging loss of: 0.727105438709259, at frame index: 37, to WandB
+frame index:38
+[0.391957415593232, -0.675191236762299, 2.216354048630144, -4.361740059217943]
+tensor([[ 0.3920, -0.6752,  2.2164, -4.3617]])
+tensor([0])
+tensor([0])
+Logging loss of: 0.6923778653144836, at frame index: 38, to WandB
+frame index:39
+Logging loss of: 0.6916435360908508, at frame index: 39, to WandB
+frame index:40
+Logging loss of: 0.6806135773658752, at frame index: 40, to WandB
+frame index:41
+Logging loss of: 0.6798697113990784, at frame index: 41, to WandB
+frame index:42
+Logging loss of: 0.6100133657455444, at frame index: 42, to WandB
+frame index:43
+[0.5046452124604793, -0.8272315288627898, 2.287940666387406, -4.971758773634541]
+tensor([[ 0.5046, -0.8272,  2.2879, -4.9718]])
+tensor([0])
+tensor([0])
+Logging loss of: 0.7114203572273254, at frame index: 43, to WandB
+frame index:44
+Logging loss of: 0.5946715474128723, at frame index: 44, to WandB
+frame index:45
+Logging loss of: 0.6728093028068542, at frame index: 45, to WandB
+frame index:46
+Logging loss of: 0.6510854363441467, at frame index: 46, to WandB
+frame index:47
+Logging loss of: 0.7062655091285706, at frame index: 47, to WandB
+frame index:48
+Logging loss of: 0.6778593063354492, at frame index: 48, to WandB
+frame index:49
+Logging loss of: 0.6446682810783386, at frame index: 49, to WandB
+frame index:50
+Logging loss of: 0.6561934947967529, at frame index: 50, to WandB
+frame index:51
+Logging loss of: 0.780747652053833, at frame index: 51, to WandB
+frame index:52
+Logging loss of: 0.6418083906173706, at frame index: 52, to WandB
+frame index:53
+Logging loss of: 0.8026301860809326, at frame index: 53, to WandB
+frame index:54
+Logging loss of: 0.7016925811767578, at frame index: 54, to WandB
+frame index:55
+[0.7920359238361487, -0.995044927118169, 2.5852175336776235, -6.674256811160428]
+tensor([[ 0.7920, -0.9950,  2.5852, -6.6743]])
+tensor([0])
+tensor([0])
+Logging loss of: 0.7108208537101746, at frame index: 55, to WandB
+frame index:56
+Logging loss of: 0.710016667842865, at frame index: 56, to WandB
+frame index:57
+Logging loss of: 0.6292427182197571, at frame index: 57, to WandB
+frame index:58
+Logging loss of: 0.7848079800605774, at frame index: 58, to WandB
+frame index:59
+[0.8950337462392266, -0.9294822997937758, 2.585071869191692, -7.226923157317653]
+tensor([[ 0.8950, -0.9295,  2.5851, -7.2269]])
+tensor([0])
+tensor([0])
+Logging loss of: 0.5833669304847717, at frame index: 59, to WandB
+frame index:60
+Logging loss of: 0.725502073764801, at frame index: 60, to WandB
+frame index:61
+Logging loss of: 0.659485399723053, at frame index: 61, to WandB
+frame index:62
+Logging loss of: 0.6720220446586609, at frame index: 62, to WandB
+frame index:63
+[0.996423159655752, -0.7785757358841948, 2.4838126117337582, -7.796121429740001]
+tensor([[ 0.9964, -0.7786,  2.4838, -7.7961]])
+tensor([0])
+tensor([0])
+Logging loss of: 0.787461519241333, at frame index: 63, to WandB
+frame index:64
+Logging loss of: 0.6072328090667725, at frame index: 64, to WandB
+frame index:65
+Logging loss of: 0.8288972973823547, at frame index: 65, to WandB
+frame index:66
+Logging loss of: 0.6678637862205505, at frame index: 66, to WandB
+frame index:67
+Logging loss of: 0.7403829097747803, at frame index: 67, to WandB
+frame index:68
+Logging loss of: 0.710303008556366, at frame index: 68, to WandB
+frame index:69
+Logging loss of: 0.8193061947822571, at frame index: 69, to WandB
+frame index:70
+Logging loss of: 0.6785826683044434, at frame index: 70, to WandB
+frame index:71
+[1.197612643130906, -0.24191636962849625, 2.7131662481981293, -8.084810934423817]
+tensor([[ 1.1976, -0.2419,  2.7132, -8.0848]])
+tensor([0])
+tensor([0])
+Logging loss of: 0.7159676551818848, at frame index: 71, to WandB
+frame index:72
+Logging loss of: 0.6395456790924072, at frame index: 72, to WandB
+frame index:73
+Logging loss of: 0.6339555382728577, at frame index: 73, to WandB
+frame index:74
+Logging loss of: 0.6368045806884766, at frame index: 74, to WandB
+frame index:75
+Logging loss of: 0.47593164443969727, at frame index: 75, to WandB
+frame index:76
+[1.3366349576194019, 0.15627491522839188, 2.899408625903346, -7.842299988962118]
+tensor([[ 1.3366,  0.1563,  2.8994, -7.8423]])
+tensor([0])
+tensor([0])
+Logging loss of: 0.8604786992073059, at frame index: 76, to WandB
+frame index:77
+Logging loss of: 0.5271299481391907, at frame index: 77, to WandB
+frame index:78
+Logging loss of: 0.802126407623291, at frame index: 78, to WandB
+frame index:79
+Logging loss of: 0.6139400005340576, at frame index: 79, to WandB
+frame index:80
+Logging loss of: 0.7722973823547363, at frame index: 80, to WandB
+frame index:81
+Logging loss of: 0.654274046421051, at frame index: 81, to WandB
+frame index:82
+Logging loss of: 0.5543007254600525, at frame index: 82, to WandB
+frame index:83
+Logging loss of: 0.586746335029602, at frame index: 83, to WandB
+frame index:84
+Logging loss of: 0.6926450729370117, at frame index: 84, to WandB
+frame index:85
+Logging loss of: 0.6761431694030762, at frame index: 85, to WandB
+frame index:86
+Logging loss of: 0.6676211357116699, at frame index: 86, to WandB
+frame index:87
+Logging loss of: 0.5118847489356995, at frame index: 87, to WandB
+frame index:88
+Logging loss of: 0.8522618412971497, at frame index: 88, to WandB
+frame index:89
+Logging loss of: 0.5859472155570984, at frame index: 89, to WandB
+frame index:90
+Logging loss of: 0.7937424778938293, at frame index: 90, to WandB
+frame index:91
+Logging loss of: 0.692821741104126, at frame index: 91, to WandB
+frame index:92
+Logging loss of: 0.5969576239585876, at frame index: 92, to WandB
+frame index:93
+[1.869081235167162, 0.9702183043969111, 1.980183835766196, -6.269952066034244]
+tensor([[ 1.8691,  0.9702,  1.9802, -6.2700]])
+tensor([1])
+tensor([1])
+Logging loss of: 0.6595019698143005, at frame index: 93, to WandB
+frame index:94
+Logging loss of: 0.637352466583252, at frame index: 94, to WandB
+frame index:95
+[1.8982011050913548, 0.9929337719466228, 0.9959566274733688, -6.253742093038289]
+tensor([[ 1.8982,  0.9929,  0.9960, -6.2537]])
+tensor([1])
+tensor([1])
+Logging loss of: 0.4781503677368164, at frame index: 95, to WandB
+frame index:96
+Logging loss of: 0.633532702922821, at frame index: 96, to WandB
+frame index:97
+Logging loss of: 0.5760360360145569, at frame index: 97, to WandB
+frame index:98
+[1.9134987010580664, 0.9979803945070065, 0.11780917664353036, -5.870449960446096]
+tensor([[ 1.9135,  0.9980,  0.1178, -5.8705]])
+tensor([1])
+tensor([1])
+Logging loss of: 0.536421537399292, at frame index: 98, to WandB
+frame index:99
+[1.9137511402317235, 0.9926348438955376, -0.059995547387831916, -5.703684793743758]
+tensor([[ 1.9138,  0.9926, -0.0600, -5.7037]])
+tensor([1])
+tensor([1])
+Logging loss of: 0.7614617347717285, at frame index: 99, to WandB
+frame index:100
+[1.9124316309127685, 0.9842665593518675, -0.19783512099908687, -5.531836043577381]
+tensor([[ 1.9124,  0.9843, -0.1978, -5.5318]])
+tensor([1])
+tensor([1])
+Logging reward of: 34.569136796200674, at frame index: 100, to WandB
+Logging loss of: 15.155200004577637, at frame index: 100, to WandB
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'

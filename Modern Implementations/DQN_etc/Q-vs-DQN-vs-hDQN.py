@@ -19,7 +19,7 @@ def Q_learning_run(env, num_episodes, steps_per_episode):
     alpha = 0.25
     discount = 0.99
     #initialize Q-values, rewards, epsilons for training
-    Qs = np.zeros((env.num_states, env.num_actions))
+    Qs = np.zeros((env.dim_states, env.dim_actions))
     rewards_by_episode = []
     epsilons = []
     for episode in range(num_episodes):
@@ -34,7 +34,7 @@ def Q_learning_run(env, num_episodes, steps_per_episode):
             rand_num = random.random()
             #explore
             if rand_num < epsilon:
-                action = random.sample(range(env.num_actions),1)
+                action = random.sample(range(env.dim_actions), 1)
             #exploit
             else:
                 action = np.argmax(Qs[state-1,:])

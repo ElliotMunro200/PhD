@@ -1,0 +1,105 @@
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\IPython\core\interactiveshell.py", line 3457, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-9ba8eaf086cf>", line 1, in <module>
+    runfile('C:\\Users\\Jack-Server\\Documents\\GitHub\\PhD\\Modern Implementations\\MuJoCo\\Testing\\C_L_Learning.py', wdir='C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/MuJoCo/Testing')
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 109, in <module>
+    train_CartPole_DQNet(env, net, replay_buffer, batch_size, optimizer, num_frames)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 62, in train_CartPole_DQNet
+    loss = CartPole_DQNet_update(model, optimizer, replay_buffer, batch_size)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_DQN.py", line 85, in CartPole_DQNet_update
+    q_value = model(state)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py", line 1071, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_DQN.py", line 54, in forward
+    return self.layers(x)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\linear.py", line 96, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\functional.py", line 1847, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (24x4 and 1x256)
+frame index:1
+frame index:2
+frame index:3
+frame index:4
+frame index:5
+frame index:6
+frame index:7
+frame index:8
+frame index:9
+frame index:10
+frame index:11
+frame index:12
+frame index:13
+frame index:14
+frame index:15
+frame index:16
+frame index:17
+frame index:18
+frame index:19
+frame index:20
+frame index:21
+frame index:22
+frame index:23
+frame index:24
+frame index:25
+[[-0.02490737  0.03131383  0.00582793  0.02951279]
+ [-0.02479522  0.03200075  0.00538557  0.03924913]
+ [-0.02459802  0.03397077  0.00446529  0.05950756]
+ [-0.0242267   0.04945777  0.00021847  0.15308707]
+ [-0.02432093  0.04049149  0.00240156  0.10495873]
+ [-0.02455456  0.03459177  0.00422577  0.06478111]
+ [-0.02440539  0.0376183   0.00321885  0.0869545 ]
+ [-0.02424831  0.04520209  0.00120773  0.13127037]
+ [-0.02464385  0.033402    0.00470068  0.05432549]
+ [-0.02496674  0.03104285  0.00604586  0.0247164 ]
+ [-0.02443888  0.03677806  0.00347866  0.08123243]
+ [-0.02451352  0.03526595  0.00398174  0.07015424]
+ [-0.02509198  0.03064377  0.00647689  0.0152303 ]
+ [-0.02429834  0.04157159  0.00211512  0.11127019]
+ [-0.02423782  0.04654848  0.00088771  0.13832645]
+ [-0.02447494  0.03599434  0.00373283  0.0756352 ]
+ [-0.02502828  0.03081961  0.00626207  0.01995801]
+ [-0.02485019  0.03163296  0.00560795  0.03435455]
+ [-0.02474249  0.03241775  0.00516047  0.04420405]
+ [-0.02423059  0.04796632  0.00055812  0.14559497]
+ [-0.02469202  0.03288459  0.00493229  0.04922693]
+ [-0.02437452  0.03851636  0.002953    0.09281021]
+ [-0.02426195  0.04392509  0.00151866  0.12441592]
+ [-0.02434635  0.0394736   0.00268071  0.09880855]]
+(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+(0.9995177867572164, 0.999471140753787, 0.9993341771442483, 0.9979913374545255, 0.9988284321746269, 0.9992896207882437, 0.9990617718511354, 0.9984092872911523, 0.9993743690181032, 0.999536225090817, 0.9991268497947939, 0.9992404227381969, 0.999563924715862, 0.998736354392106, 0.9982810946513353, 0.9991862775684179, 0.9995515712456432, 0.9994961379299147, 0.999442636995783, 0.9981420609297091, 0.9994104470840242, 0.9989906418750027, 0.9985274222893769, 0.9989130212905203)
+[[-2.48501878e-02  3.16329643e-02  5.60794764e-03  3.43545511e-02]
+ [-2.47424854e-02  3.24177452e-02  5.16046860e-03  4.42040535e-02]
+ [-2.45545590e-02  3.45917705e-02  4.22576860e-03  6.47811107e-02]
+ [-2.42262526e-02  5.10250910e-02 -1.31762773e-04  1.60814229e-01]
+ [-2.42983405e-02  4.15715901e-02  2.11512239e-03  1.11270185e-01]
+ [-2.45135175e-02  3.52659492e-02  3.98173810e-03  7.01542400e-02]
+ [-2.43745215e-02  3.85163606e-02  2.95300496e-03  9.28102087e-02]
+ [-2.42378240e-02  4.65484815e-02  8.87708112e-04  1.38326446e-01]
+ [-2.45980179e-02  3.39707720e-02  4.46529405e-03  5.95075619e-02]
+ [-2.49073690e-02  3.13138267e-02  5.82793017e-03  2.95127874e-02]
+ [-2.44053860e-02  3.76183036e-02  3.21885496e-03  8.69544973e-02]
+ [-2.44749405e-02  3.59943403e-02  3.73283005e-03  7.56352049e-02]
+ [-2.50282805e-02  3.08196107e-02  6.26206645e-03  1.99580063e-02]
+ [-2.42786534e-02  4.27155402e-02  1.82097111e-03  1.17752602e-01]
+ [-2.42305867e-02  4.79663210e-02  5.58119498e-04  1.45594968e-01]
+ [-2.44388785e-02  3.67780587e-02  3.47866479e-03  8.12324251e-02]
+ [-2.49667395e-02  3.10428473e-02  6.04585849e-03  2.47163972e-02]
+ [-2.47952180e-02  3.20007492e-02  5.38557394e-03  3.92491317e-02]
+ [-2.46920189e-02  3.28845913e-02  4.93228709e-03  4.92269330e-02]
+ [-2.42266952e-02  4.94577673e-02  2.18465714e-04  1.53087071e-01]
+ [-2.46438511e-02  3.34020027e-02  4.70068029e-03  5.43254905e-02]
+ [-2.43463474e-02  3.94736031e-02  2.68071036e-03  9.88085501e-02]
+ [-2.42483090e-02  4.52020891e-02  1.20772704e-03  1.31270369e-01]
+ [-2.43209302e-02  4.04914944e-02  2.40155741e-03  1.04958729e-01]]

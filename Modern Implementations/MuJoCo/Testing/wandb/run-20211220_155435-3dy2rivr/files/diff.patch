@@ -1,0 +1,575 @@
+diff --git a/Modern Implementations/MuJoCo/MuJoCo_testing.py b/Modern Implementations/MuJoCo/MuJoCo_testing.py
+deleted file mode 100644
+index 2f9a2d5..0000000
+--- a/Modern Implementations/MuJoCo/MuJoCo_testing.py	
++++ /dev/null
+@@ -1,153 +0,0 @@
+-import distutils.util
+-import subprocess
+-from dm_control import suite
+-
+-#@title Other imports and helper functions
+-
+-# # General
+-# import copy
+-import os
+-# import itertools
+-# from IPython.display import clear_output
+-import numpy as np
+-
+-# # Graphics-related
+-import matplotlib
+-import matplotlib.animation as animation
+-import matplotlib.pyplot as plt
+-from IPython.display import HTML
+-import PIL.Image
+-# Internal loading of video libraries.
+-
+-#@title All `dm_control` imports required for this tutorial
+-
+-# The basic mujoco wrapper.
+-from dm_control import mujoco
+-
+-# Access to enums and MuJoCo library functions.
+-from dm_control.mujoco.wrapper.mjbindings import enums
+-# from dm_control.mujoco.wrapper.mjbindings import mjlib
+-
+-# # PyMJCF
+-# from dm_control import mjcf
+-#
+-# # Composer high level imports
+-# from dm_control import composer
+-# from dm_control.composer.observation import observable
+-# from dm_control.composer import variation
+-#
+-# # Imports for Composer tutorial example
+-# from dm_control.composer.variation import distributions
+-# from dm_control.composer.variation import noises
+-# from dm_control.locomotion.arenas import floors
+-#
+-# # Control Suite
+-# from dm_control import suite
+-#
+-# # Run through corridor example
+-# from dm_control.locomotion.walkers import cmu_humanoid
+-# from dm_control.locomotion.arenas import corridors as corridor_arenas
+-# from dm_control.locomotion.tasks import corridors as corridor_tasks
+-#
+-# # Soccer
+-# from dm_control.locomotion import soccer
+-#
+-# # Manipulation
+-# from dm_control import manipulation
+-
+-#@title A static model {vertical-output: true}
+-
+-# Font sizes
+-SMALL_SIZE = 8
+-MEDIUM_SIZE = 10
+-BIGGER_SIZE = 12
+-plt.rc('font', size=SMALL_SIZE)          # controls default text sizes
+-plt.rc('axes', titlesize=SMALL_SIZE)     # fontsize of the axes title
+-plt.rc('axes', labelsize=MEDIUM_SIZE)    # fontsize of the x and y labels
+-plt.rc('xtick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+-plt.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
+-plt.rc('legend', fontsize=SMALL_SIZE)    # legend fontsize
+-plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
+-
+-# Inline video helper function
+-if os.environ.get('COLAB_NOTEBOOK_TEST', False):
+-  # We skip video generation during tests, as it is quite expensive.
+-  display_video = lambda *args, **kwargs: None
+-else:
+-  def display_video(frames, framerate=30):
+-    height, width, _ = frames[0].shape
+-    dpi = 70
+-    orig_backend = matplotlib.get_backend()
+-    matplotlib.use('Agg')  # Switch to headless 'Agg' to inhibit figure rendering.
+-    fig, ax = plt.subplots(1, 1, figsize=(width / dpi, height / dpi), dpi=dpi)
+-    matplotlib.use(orig_backend)  # Switch back to the original backend.
+-    ax.set_axis_off()
+-    ax.set_aspect('equal')
+-    ax.set_position([0, 0, 1, 1])
+-    im = ax.imshow(frames[0])
+-    def update(frame):
+-      im.set_data(frame)
+-      return [im]
+-    interval = 1000/framerate
+-    anim = animation.FuncAnimation(fig=fig, func=update, frames=frames,
+-                                   interval=interval, blit=True, repeat=False)
+-    return HTML(anim.to_html5_video())
+-
+-# Seed numpy's global RNG so that cell outputs are deterministic. We also try to
+-# use RandomState instances that are local to a single cell wherever possible.
+-np.random.seed(42)
+-
+-static_model = """
+-<mujoco>
+-  <worldbody>
+-    <light name="top" pos="0 0 1"/>
+-    <geom name="red_box" type="box" size=".2 .2 .2" rgba="1 0 0 1"/>
+-    <geom name="green_sphere" pos=".2 .2 .2" size=".1" rgba="0 1 0 1"/>
+-  </worldbody>
+-</mujoco>
+-"""
+-physics = mujoco.Physics.from_xml_string(static_model)
+-pixels = physics.render()
+-img = PIL.Image.fromarray(pixels)
+-plt.imshow(img)
+-plt.show()
+-
+-#@title A child body with a joint { vertical-output: true }
+-
+-swinging_body = """
+-<mujoco>
+-  <worldbody>
+-    <light name="top" pos="0 0 1"/>
+-    <body name="box_and_sphere" euler="0 0 -30">  
+-      <joint name="swing" type="hinge" axis="1 -1 0" pos="-.2 -.2 -.2"/>
+-      <geom name="red_box" type="box" size=".2 .2 .2" rgba="1 0 0 1"/>
+-      <geom name="green_sphere" pos=".2 .2 .2" size=".1" rgba="0 1 0 1"/>
+-    </body>
+-  </worldbody>
+-</mujoco>
+-"""
+-physics = mujoco.Physics.from_xml_string(swinging_body)
+-# Visualize the joint axis.
+-scene_option = mujoco.wrapper.core.MjvOption()
+-scene_option.flags[enums.mjtVisFlag.mjVIS_JOINT] = True
+-pixels = physics.render(scene_option=scene_option)
+-PIL.Image.fromarray(pixels)
+-
+-#@title Making a video {vertical-output: true}
+-
+-duration = 2    # (seconds)
+-framerate = 30  # (Hz)
+-
+-# Visualize the joint axis
+-scene_option = mujoco.wrapper.core.MjvOption()
+-scene_option.flags[enums.mjtVisFlag.mjVIS_JOINT] = True
+-
+-# Simulate and display video.
+-frames = []
+-physics.reset()  # Reset state and time
+-while physics.data.time < duration:
+-  physics.step()
+-  if len(frames) < physics.data.time * framerate:
+-    pixels = physics.render(scene_option=scene_option)
+-    frames.append(pixels)
+-display_video(frames, framerate)
+\ No newline at end of file
+diff --git a/Modern Implementations/MuJoCo/Testing/C_L_CartPole_Agent.py b/Modern Implementations/MuJoCo/Testing/C_L_CartPole_Agent.py
+new file mode 100644
+index 0000000..82d0fda
+--- /dev/null
++++ b/Modern Implementations/MuJoCo/Testing/C_L_CartPole_Agent.py	
+@@ -0,0 +1,6 @@
++#Defining the CartPole agent
++from dm_control import composer
++
++class CartPole(composer.Entity):
++    def __init__(self):
++        self.r = 5
+\ No newline at end of file
+diff --git a/Modern Implementations/MuJoCo/Testing/C_L_CartPole_Task_Env.py b/Modern Implementations/MuJoCo/Testing/C_L_CartPole_Task_Env.py
+new file mode 100644
+index 0000000..9c7822b
+--- /dev/null
++++ b/Modern Implementations/MuJoCo/Testing/C_L_CartPole_Task_Env.py	
+@@ -0,0 +1,6 @@
++#Defining the CartPole task based on the environment model
++from dm_control import composer
++
++class CartPoleTask(composer.Task):
++    def __init__(self):
++        self.r = 5
+\ No newline at end of file
+diff --git a/Modern Implementations/MuJoCo/Testing/C_L_DQN.py b/Modern Implementations/MuJoCo/Testing/C_L_DQN.py
+new file mode 100644
+index 0000000..35dc739
+--- /dev/null
++++ b/Modern Implementations/MuJoCo/Testing/C_L_DQN.py	
+@@ -0,0 +1,96 @@
++#Defining the DQN architecture and update function
++###########################
++import random
++import numpy as np
++from collections import deque
++###########################
++import torch
++import torch.nn as nn
++from torch.autograd import Variable
++###########################
++import wandb
++###########################
++class CartPole_ReplayBuffer(object):
++    def __init__(self, capacity):
++        self.capacity = capacity
++        self.buffer = deque(maxlen=capacity)
++
++    def push(self, state, action, reward, next_state, done):
++        state = np.expand_dims(state, 0)
++        next_state = np.expand_dims(next_state, 0)
++        self.buffer.append((state, action, reward, next_state, done))
++
++    def sample(self, batch_size):
++        state, action, reward, next_state, done = zip(*random.sample(self.buffer, batch_size))
++        return np.concatenate(state), action, reward, np.concatenate(next_state), done
++
++    def __len__(self):
++        return len(self.buffer)
++
++def epsilon_by_frame(frame_idx):
++    epsilon_start = 1.0
++    epsilon_final = 0.01
++    epsilon_decay = 500
++    epsilon_by_frame = epsilon_final + (epsilon_start - epsilon_final) * np.exp(
++        -1. * frame_idx / epsilon_decay)
++    return epsilon_by_frame
++
++def train_log(metric_name, metric_val, frame_idx):
++    metric_val = float(metric_val)
++    wandb.log({metric_name: metric_val}, step=frame_idx)
++    print("Logging "+str(metric_name)+" of: "+str(metric_val)+", at frame index: "+str(frame_idx)+", to WandB")
++
++class CartPole_DQNet(nn.Module):
++    def __init__(self, num_inputs, num_outputs):
++        super(CartPole_DQNet, self).__init__()
++        self.num_outputs = num_outputs
++        self.layers = nn.Sequential(
++            nn.Linear(num_inputs, 256),
++            nn.ReLU(),
++            nn.Linear(256, num_outputs)
++        )
++
++    def forward(self, x):
++        return self.layers(x)
++
++    def act(self, state, epsilon):
++        #state = onehot concatenation of state and goal
++        #tensor output, exploiting
++        if random.random() > epsilon:
++            state = torch.FloatTensor(state).unsqueeze(0)
++            action = self.forward(Variable(state)).max(1)[1]
++            return int(action.data[0])
++        #scalar output, exploring
++        else:
++            return random.randrange(self.num_outputs)
++
++def CartPole_DQNet_update(model, optimizer, replay_buffer, batch_size):
++    if batch_size > len(replay_buffer):
++        return
++    state, action, reward, next_state, done = replay_buffer.sample(batch_size)
++    #state = batch of states, action = batch of actions, etc.
++    #state is'numpy.ndarray', action is 'tuple', reward is 'tuple', next_state is 'list' of ones, done is 'tuple'.
++    #print(state)
++    #print(action)
++    #print(reward)
++    #print(next_state)
++    #print(done)
++
++    state = Variable(torch.FloatTensor(state))
++    next_state = Variable(torch.FloatTensor(next_state))
++    action = Variable(torch.LongTensor(action))
++    reward = Variable(torch.FloatTensor(reward))
++    done = Variable(torch.FloatTensor(done))
++
++    q_value = model(state)
++    q_value = q_value.gather(1, action.unsqueeze(1)).squeeze(1)
++
++    next_q_value = model(next_state).max(1)[0]
++    expected_q_value = reward + 0.99 * next_q_value * (1 - done)
++
++    loss = (q_value - Variable(expected_q_value.data)).pow(2).mean()
++
++    optimizer.zero_grad() #"Sets the gradients of all optimized 'torch.Tensor' s to zero."
++    loss.backward() #"Computes the sum of gradients of given tensors with respect to [model] graph leaves."
++    optimizer.step() #"Performs a single optimization step (parameter update)."
++    return loss
+\ No newline at end of file
+diff --git a/Modern Implementations/MuJoCo/Testing/C_L_Learning.py b/Modern Implementations/MuJoCo/Testing/C_L_Learning.py
+new file mode 100644
+index 0000000..10274a6
+--- /dev/null
++++ b/Modern Implementations/MuJoCo/Testing/C_L_Learning.py	
+@@ -0,0 +1,115 @@
++#The main workflow of the CartPole example: instantiate env(task(environment+agent models))
++#Composer
++#1.Define agent
++#2.Define environment
++#3.Define task
++#Learning
++#1.Define learning network
++#2.Define net update
++#3.Define learning flow
++###########################
++import inspect
++
++from dm_control import mujoco
++from dm_control import mjcf
++from dm_control import composer
++from dm_control import suite
++###########################
++import numpy as np
++import matplotlib.pyplot as plt
++import PIL.Image
++import wandb
++###########################
++import torch.optim as optim
++###########################
++from C_L_CartPole_Agent import CartPole
++from C_L_CartPole_Task_Env import CartPoleTask
++from C_L_DQN import CartPole_ReplayBuffer
++from C_L_DQN import CartPole_DQNet
++from C_L_DQN import CartPole_DQNet_update
++from C_L_DQN import epsilon_by_frame
++from C_L_DQN import train_log
++###########################
++def train_CartPole_DQNet(env, model, replay_buffer, batch_size, optimizer, num_frames):
++    wandb.watch(model, log="all", log_freq=10)
++    losses = []
++    all_rewards = []
++    episode_reward = 0
++    time_step = env.reset()
++    state = time_step.observation
++    state = ([state['position'][0], state['position'][2], state['velocity'][0], state['velocity'][1]])
++    for frame_idx in range(1, num_frames + 1):
++        #print("frame index:"+str(frame_idx))
++        epsilon = epsilon_by_frame(frame_idx)
++        action = model.act(state, epsilon)
++        _, reward, done, obs = env.step(action)
++        next_state = ([obs['position'][0], obs['position'][2],
++                       obs['velocity'][0], obs['velocity'][1]])
++        done = bool(time_step.discount)
++        replay_buffer.push(state, action, reward, next_state, done)
++        #print(state,action,reward)
++
++        state = next_state
++        #print(episode_reward)
++        #print(reward)
++        episode_reward += reward
++
++        if done:
++            metric_name = "reward"
++            train_log(metric_name, episode_reward, frame_idx)
++            state = env.reset()
++            all_rewards.append(episode_reward)
++            episode_reward = 0
++
++        if len(replay_buffer) > batch_size:
++            loss = CartPole_DQNet_update(model, optimizer, replay_buffer, batch_size)
++            losses.append(loss.data)
++            if frame_idx % (num_frames/100) == 0:
++                metric_name = "loss"
++                train_log(metric_name,loss,frame_idx)
++
++if __name__ == "__main__":
++    config = {
++        "env_name": "MyCartPole",
++        "buffer_size": 1000,
++        "batch_size": 24,
++        "max_frames_per_episode": 10000,
++    }
++
++    run = wandb.init(
++        project="C_L"+config["env_name"],  #name of project on WandB
++        config=config,
++        job_type="learning",
++        sync_tensorboard=True,  # auto-upload sb3's tensorboard metrics
++        save_code=True,  # optional
++    )
++    ###########################
++    #Composer
++    #1.Define agent
++    #agent = CartPole()
++    #2.Define environment & 3.Define task
++    #task = CartPoleTask(agent)
++    #env = composer.Environment(task, random_state=np.random.RandomState(42))
++    random_state = np.random.RandomState(2)
++    env = suite.load('cartpole', 'balance', task_kwargs={'random': random_state}) #suite.load is in suite.__init__.py
++    #print(inspect.getmembers(env, inspect.ismethod)) #prints methods of env object in list of tuples
++
++    ###########################
++    #Learning
++    #1.Define learning network
++    num_inputs = 4  # number of CartPole state variables
++    num_outputs = 1  # number of CartPole action variables
++    #print(len(env.physics.data.qpos)) #2
++    #print(len(env.physics.data.qvel)) #2
++    #print(env.action_spec().shape[0]) #1
++    net = CartPole_DQNet(num_inputs, num_outputs)
++    #2.Define net update & 3.Define learning flow
++    optimizer = optim.Adam(net.parameters())
++    buffer_size = config["buffer_size"]
++    replay_buffer = CartPole_ReplayBuffer(buffer_size)
++    batch_size = config["batch_size"]
++    num_frames = config["max_frames_per_episode"]
++    train_CartPole_DQNet(env, net, replay_buffer, batch_size, optimizer, num_frames)
++    ###########################
++    run.finish()
++    ###########################
+\ No newline at end of file
+diff --git a/Modern Implementations/MuJoCo/Testing/MuJoCo_testing.py b/Modern Implementations/MuJoCo/Testing/MuJoCo_testing.py
+new file mode 100644
+index 0000000..bb53a89
+--- /dev/null
++++ b/Modern Implementations/MuJoCo/Testing/MuJoCo_testing.py	
+@@ -0,0 +1,158 @@
++import distutils.util
++import subprocess
++from dm_control import suite
++
++# @title Other imports and helper functions
++
++# # General
++# import copy
++import os
++# import itertools
++# from IPython.display import clear_output
++import numpy as np
++
++# # Graphics-related
++import matplotlib
++import matplotlib.animation as animation
++import matplotlib.pyplot as plt
++from IPython.display import HTML
++import PIL.Image
++# Internal loading of video libraries.
++
++# @title All `dm_control` imports required for this tutorial
++
++# The basic mujoco wrapper.
++from dm_control import mujoco
++
++# Access to enums and MuJoCo library functions.
++from dm_control.mujoco.wrapper.mjbindings import enums
++
++# from dm_control.mujoco.wrapper.mjbindings import mjlib
++
++# # PyMJCF
++# from dm_control import mjcf
++#
++# # Composer high level imports
++# from dm_control import composer
++# from dm_control.composer.observation import observable
++# from dm_control.composer import variation
++#
++# # Imports for Composer tutorial example
++# from dm_control.composer.variation import distributions
++# from dm_control.composer.variation import noises
++# from dm_control.locomotion.arenas import floors
++#
++# # Control Suite
++# from dm_control import suite
++#
++# # Run through corridor example
++# from dm_control.locomotion.walkers import cmu_humanoid
++# from dm_control.locomotion.arenas import corridors as corridor_arenas
++# from dm_control.locomotion.tasks import corridors as corridor_tasks
++#
++# # Soccer
++# from dm_control.locomotion import soccer
++#
++# # Manipulation
++# from dm_control import manipulation
++
++# @title A static model {vertical-output: true}
++
++# Font sizes
++SMALL_SIZE = 8
++MEDIUM_SIZE = 10
++BIGGER_SIZE = 12
++plt.rc('font', size=SMALL_SIZE)  # controls default text sizes
++plt.rc('axes', titlesize=SMALL_SIZE)  # fontsize of the axes title
++plt.rc('axes', labelsize=MEDIUM_SIZE)  # fontsize of the x and y labels
++plt.rc('xtick', labelsize=SMALL_SIZE)  # fontsize of the tick labels
++plt.rc('ytick', labelsize=SMALL_SIZE)  # fontsize of the tick labels
++plt.rc('legend', fontsize=SMALL_SIZE)  # legend fontsize
++plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
++
++# Inline video helper function
++if os.environ.get('COLAB_NOTEBOOK_TEST', False):
++    # We skip video generation during tests, as it is quite expensive.
++    display_video = lambda *args, **kwargs: None
++else:
++    def display_video(frames, framerate=30):
++        height, width, _ = frames[0].shape
++        dpi = 70
++        orig_backend = matplotlib.get_backend()
++        matplotlib.use('Agg')  # Switch to headless 'Agg' to inhibit figure rendering.
++        fig, ax = plt.subplots(1, 1, figsize=(width / dpi, height / dpi), dpi=dpi)
++        matplotlib.use(orig_backend)  # Switch back to the original backend.
++        ax.set_axis_off()
++        ax.set_aspect('equal')
++        ax.set_position([0, 0, 1, 1])
++        im = ax.imshow(frames[0])
++
++        def update(frame):
++            im.set_data(frame)
++            return [im]
++
++        interval = 1000 / framerate
++        anim = animation.FuncAnimation(fig=fig, func=update, frames=frames,
++                                       interval=interval, blit=True, repeat=False)
++        anim.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
++        return HTML(anim.to_html5_video())
++
++# Seed numpy's global RNG so that cell outputs are deterministic. We also try to
++# use RandomState instances that are local to a single cell wherever possible.
++# np.random.seed(42)
++#
++# static_model = """
++# <mujoco>
++#   <worldbody>
++#     <light name="top" pos="0 0 1"/>
++#     <geom name="red_box" type="box" size=".2 .2 .2" rgba="1 0 0 1"/>
++#     <geom name="green_sphere" pos=".2 .2 .2" size=".1" rgba="0 1 0 1"/>
++#   </worldbody>
++# </mujoco>
++# """
++# physics = mujoco.Physics.from_xml_string(static_model)
++# pixels = physics.render()
++# img = PIL.Image.fromarray(pixels)
++# plt.imshow(img)
++# plt.show()
++#
++# # @title A child body with a joint { vertical-output: true }
++#
++# swinging_body = """
++# <mujoco>
++#   <worldbody>
++#     <light name="top" pos="0 0 1"/>
++#     <body name="box_and_sphere" euler="0 0 -30">
++#       <joint name="swing" type="hinge" axis="1 -1 0" pos="-.2 -.2 -.2"/>
++#       <geom name="red_box" type="box" size=".2 .2 .2" rgba="1 0 0 1"/>
++#       <geom name="green_sphere" pos=".2 .2 .2" size=".1" rgba="0 1 0 1"/>
++#     </body>
++#   </worldbody>
++# </mujoco>
++# """
++# physics = mujoco.Physics.from_xml_string(swinging_body)
++# # Visualize the joint axis.
++# scene_option = mujoco.wrapper.core.MjvOption()
++# scene_option.flags[enums.mjtVisFlag.mjVIS_JOINT] = True
++# pixels = physics.render(scene_option=scene_option)
++# PIL.Image.fromarray(pixels)
++#
++# # @title Making a video {vertical-output: true}
++#
++# duration = 2  # (seconds)
++# framerate = 30  # (Hz)
++#
++# # Visualize the joint axis
++# scene_option = mujoco.wrapper.core.MjvOption()
++# scene_option.flags[enums.mjtVisFlag.mjVIS_JOINT] = True
++#
++# # Simulate and display video.
++# frames = []
++# physics.reset()  # Reset state and time
++# while physics.data.time < duration:
++#     physics.step()
++#     if len(frames) < physics.data.time * framerate:
++#         pixels = physics.render(scene_option=scene_option)
++#         frames.append(pixels)
++# display_video(frames, framerate)
++

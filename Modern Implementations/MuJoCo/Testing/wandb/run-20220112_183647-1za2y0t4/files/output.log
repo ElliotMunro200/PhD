@@ -1,0 +1,218 @@
+frame index:1
+frame index:2
+frame index:3
+frame index:4
+frame index:5
+frame index:6
+frame index:7
+frame index:8
+frame index:9
+frame index:10
+frame index:11
+frame index:12
+frame index:13
+frame index:14
+frame index:15
+frame index:16
+frame index:17
+frame index:18
+frame index:19
+frame index:20
+frame index:21
+frame index:22
+frame index:23
+frame index:24
+frame index:25
+Logging loss of: 0.776726245880127, at frame index: 25, to WandB
+frame index:26
+Logging loss of: 0.7841789722442627, at frame index: 26, to WandB
+frame index:27
+Logging loss of: 0.8199076056480408, at frame index: 27, to WandB
+frame index:28
+Logging loss of: 0.8089816570281982, at frame index: 28, to WandB
+frame index:29
+Logging loss of: 0.7780497670173645, at frame index: 29, to WandB
+frame index:30
+Logging loss of: 0.7798916697502136, at frame index: 30, to WandB
+frame index:31
+Logging loss of: 0.8425309658050537, at frame index: 31, to WandB
+frame index:32
+Logging loss of: 0.8718667030334473, at frame index: 32, to WandB
+frame index:33
+Logging loss of: 0.9287219643592834, at frame index: 33, to WandB
+frame index:34
+Logging loss of: 0.8528306484222412, at frame index: 34, to WandB
+frame index:35
+Logging loss of: 0.8991732597351074, at frame index: 35, to WandB
+frame index:36
+Logging loss of: 0.8945018649101257, at frame index: 36, to WandB
+frame index:37
+torch.return_types.max(
+values=tensor([2.8319], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+tensor([0])
+Logging loss of: 1.030430555343628, at frame index: 37, to WandB
+frame index:38
+Logging loss of: 0.959760844707489, at frame index: 38, to WandB
+frame index:39
+Logging loss of: 0.964289665222168, at frame index: 39, to WandB
+frame index:40
+Logging loss of: 0.9552953839302063, at frame index: 40, to WandB
+frame index:41
+Logging loss of: 0.8167940974235535, at frame index: 41, to WandB
+frame index:42
+Logging loss of: 0.8452627062797546, at frame index: 42, to WandB
+frame index:43
+Logging loss of: 0.9946309924125671, at frame index: 43, to WandB
+frame index:44
+Logging loss of: 1.0382879972457886, at frame index: 44, to WandB
+frame index:45
+Logging loss of: 1.1093868017196655, at frame index: 45, to WandB
+frame index:46
+Logging loss of: 1.0697664022445679, at frame index: 46, to WandB
+frame index:47
+Logging loss of: 0.9801505208015442, at frame index: 47, to WandB
+frame index:48
+Logging loss of: 1.1460849046707153, at frame index: 48, to WandB
+frame index:49
+torch.return_types.max(
+values=tensor([7.0969], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+tensor([0])
+Logging loss of: 1.0163276195526123, at frame index: 49, to WandB
+frame index:50
+Logging loss of: 1.0648155212402344, at frame index: 50, to WandB
+frame index:51
+Logging loss of: 1.0556941032409668, at frame index: 51, to WandB
+frame index:52
+Logging loss of: 1.0596153736114502, at frame index: 52, to WandB
+frame index:53
+Logging loss of: 0.7429173588752747, at frame index: 53, to WandB
+frame index:54
+torch.return_types.max(
+values=tensor([9.4864], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+tensor([0])
+Logging loss of: 0.7573174834251404, at frame index: 54, to WandB
+frame index:55
+Logging loss of: 0.7193410992622375, at frame index: 55, to WandB
+frame index:56
+Logging loss of: 0.8618146777153015, at frame index: 56, to WandB
+frame index:57
+Logging loss of: 0.9830395579338074, at frame index: 57, to WandB
+frame index:58
+Logging loss of: 0.9503073692321777, at frame index: 58, to WandB
+frame index:59
+Logging loss of: 0.8702878952026367, at frame index: 59, to WandB
+frame index:60
+Logging loss of: 1.1070066690444946, at frame index: 60, to WandB
+frame index:61
+Logging loss of: 1.5126627683639526, at frame index: 61, to WandB
+frame index:62
+Logging loss of: 1.297481656074524, at frame index: 62, to WandB
+frame index:63
+Logging loss of: 1.1491118669509888, at frame index: 63, to WandB
+frame index:64
+Logging loss of: 1.4949759244918823, at frame index: 64, to WandB
+frame index:65
+torch.return_types.max(
+values=tensor([15.9044], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+tensor([0])
+Logging loss of: 0.9800969958305359, at frame index: 65, to WandB
+frame index:66
+Logging loss of: 1.1039541959762573, at frame index: 66, to WandB
+frame index:67
+Logging loss of: 1.1111313104629517, at frame index: 67, to WandB
+frame index:68
+Logging loss of: 1.236411690711975, at frame index: 68, to WandB
+frame index:69
+torch.return_types.max(
+values=tensor([18.3599], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+tensor([0])
+Logging loss of: 1.0487788915634155, at frame index: 69, to WandB
+frame index:70
+torch.return_types.max(
+values=tensor([18.9727], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+tensor([0])
+Logging loss of: 1.2315893173217773, at frame index: 70, to WandB
+frame index:71
+Logging loss of: 1.0940124988555908, at frame index: 71, to WandB
+frame index:72
+Logging loss of: 0.9360875487327576, at frame index: 72, to WandB
+frame index:73
+Logging loss of: 0.7430384159088135, at frame index: 73, to WandB
+frame index:74
+torch.return_types.max(
+values=tensor([20.5536], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+tensor([0])
+Logging loss of: 0.8340651392936707, at frame index: 74, to WandB
+frame index:75
+Logging loss of: 0.9055219292640686, at frame index: 75, to WandB
+frame index:76
+Logging loss of: 0.7541733384132385, at frame index: 76, to WandB
+frame index:77
+Logging loss of: 0.707564115524292, at frame index: 77, to WandB
+frame index:78
+Logging loss of: 0.6909129619598389, at frame index: 78, to WandB
+frame index:79
+Logging loss of: 0.7603127360343933, at frame index: 79, to WandB
+frame index:80
+Logging loss of: 0.6933010220527649, at frame index: 80, to WandB
+frame index:81
+Logging loss of: 0.7909541130065918, at frame index: 81, to WandB
+frame index:82
+Logging loss of: 0.7510936260223389, at frame index: 82, to WandB
+frame index:83
+Logging loss of: 0.7013718485832214, at frame index: 83, to WandB
+frame index:84
+Logging loss of: 0.701823890209198, at frame index: 84, to WandB
+frame index:85
+torch.return_types.max(
+values=tensor([22.6929], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+tensor([0])
+Logging loss of: 0.7386350035667419, at frame index: 85, to WandB
+frame index:86
+Logging loss of: 0.5894890427589417, at frame index: 86, to WandB
+frame index:87
+Logging loss of: 0.5320616364479065, at frame index: 87, to WandB
+frame index:88
+Logging loss of: 0.47634005546569824, at frame index: 88, to WandB
+frame index:89
+Logging loss of: 0.6995130181312561, at frame index: 89, to WandB
+frame index:90
+torch.return_types.max(
+values=tensor([22.7781], grad_fn=<MaxBackward0>),
+indices=tensor([1]))
+tensor([1])
+Logging loss of: 0.5665102601051331, at frame index: 90, to WandB
+frame index:91
+Logging loss of: 0.7024680972099304, at frame index: 91, to WandB
+frame index:92
+torch.return_types.max(
+values=tensor([22.6024], grad_fn=<MaxBackward0>),
+indices=tensor([0]))
+tensor([0])
+Logging loss of: 0.6509074568748474, at frame index: 92, to WandB
+frame index:93
+Logging loss of: 0.670304536819458, at frame index: 93, to WandB
+frame index:94
+Logging loss of: 0.5895638465881348, at frame index: 94, to WandB
+frame index:95
+Logging loss of: 0.8577878475189209, at frame index: 95, to WandB
+frame index:96
+Logging loss of: 1.0295125246047974, at frame index: 96, to WandB
+frame index:97
+Logging loss of: 0.9637615084648132, at frame index: 97, to WandB
+frame index:98
+Logging loss of: 0.6861874461174011, at frame index: 98, to WandB
+frame index:99
+Logging loss of: 0.533269464969635, at frame index: 99, to WandB
+frame index:100
+Logging reward of: 35.48743285197907, at frame index: 100, to WandB
+Logging loss of: 0.839373767375946, at frame index: 100, to WandB
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'

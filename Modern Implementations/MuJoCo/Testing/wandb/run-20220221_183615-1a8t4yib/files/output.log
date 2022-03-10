@@ -1,0 +1,1325 @@
+0
+Logging validate_reward of: 0.0, at frame index: 0, to WandB
+[93m [Evaluate] Step_0000000: mean_reward:0.0
+[93m0.5000000000000003
+[93m0
+[93m1
+[93m0.5500000000000004
+[93m0
+[93m2
+[93m0.6000000000000004
+[93m0
+[93m3
+[93m0.6500000000000005
+[93m0
+[93m4
+[93m0.7000000000000005
+[93m0
+[93m5
+[93m0.7500000000000006
+[93m0
+[93m6
+[93m0.8000000000000006
+[93m0
+[93m7
+[93m0.8500000000000006
+[93m0
+[93m8
+[93m0.9000000000000007
+[93m0
+[93m9
+[93m0.9500000000000007
+[93m0
+[92m #0: episode_reward:0.0 steps:10
+[92mLogging reward of: 0.0, at frame index: 10, to WandB
+[92m10
+[92m11
+[92m12
+[92m13
+[92m14
+[92m15
+[92m16
+[92m17
+[92m18
+[92m19
+[92m #1: episode_reward:0.0 steps:20
+[92mLogging reward of: 0.0, at frame index: 20, to WandB
+[92m20
+[92m21
+[92m22
+[92m23
+[92m24
+[92m25
+[92m26
+[92m27
+[92m28
+[92m29
+[92m #2: episode_reward:0.0 steps:30
+[92mLogging reward of: 0.0, at frame index: 30, to WandB
+[92m30
+[92m31
+[92m32
+[92m33
+[92m34
+[92m35
+[92m36
+[92m37
+[92m38
+[92m39
+[92m #3: episode_reward:0.0 steps:40
+[92mLogging reward of: 0.0, at frame index: 40, to WandB
+[92m40
+[92m41
+[92m42
+[92m43
+[92m44
+[92m45
+[92m46
+[92m47
+[92m48
+[92m49
+[92m #4: episode_reward:0.0 steps:50
+[92mLogging reward of: 0.0, at frame index: 50, to WandB
+[92m50
+[92m51
+[92m52
+[92m53
+[92m54
+[92m55
+[92m56
+[92m57
+[92m58
+[92m59
+[92m #5: episode_reward:0.0 steps:60
+[92mLogging reward of: 0.0, at frame index: 60, to WandB
+[92m60
+[92m61
+[92m62
+[92m63
+[92m64
+[92m65
+[92m66
+[92m67
+[92m68
+[92m69
+[92m #6: episode_reward:0.0 steps:70
+[92mLogging reward of: 0.0, at frame index: 70, to WandB
+[92m70
+[92m71
+[92m72
+[92m73
+[92m74
+[92m75
+[92m76
+[92m77
+[92m78
+[92m79
+[92m #7: episode_reward:0.0 steps:80
+[92mLogging reward of: 0.0, at frame index: 80, to WandB
+[92m80
+[92m81
+[92m82
+[92m83
+[92m84
+[92m85
+[92m86
+[92m87
+[92m88
+[92m89
+[92m #8: episode_reward:0.0 steps:90
+[92mLogging reward of: 0.0, at frame index: 90, to WandB
+[92m90
+[92m91
+[92m92
+[92m93
+[92m94
+[92m95
+[92m96
+[92m97
+[92m98
+[92m99
+[92m #9: episode_reward:0.0 steps:100
+[92mLogging reward of: 0.0, at frame index: 100, to WandB
+[92m100
+[92m101
+[92m102
+[92m103
+[92m104
+[92m105
+[92m106
+[92m0.35000000000000026
+[92m1
+[92m107
+[92m0.4000000000000003
+[92m1
+[92m108
+[92m0.45000000000000034
+[92m1
+[92m109
+[92m0.5000000000000003
+[92m1
+[92m #10: episode_reward:0.0 steps:110
+[92mLogging reward of: 0.0, at frame index: 110, to WandB
+[92m110
+[92mLogging loss of: 0.026521146297454834, at frame index: 110, to WandB
+[92m111
+[92m112
+[92m113
+[92m114
+[92m115
+[92m116
+[92m117
+[92m118
+[92m119
+[92m #11: episode_reward:0.0 steps:120
+[92mLogging reward of: 0.0, at frame index: 120, to WandB
+[92m120
+[92mLogging loss of: 0.02518666349351406, at frame index: 120, to WandB
+[92m121
+[92m122
+[92m123
+[92m124
+[92m125
+[92m126
+[92m127
+[92m128
+[92m129
+[92m #12: episode_reward:0.0 steps:130
+[92mLogging reward of: 0.0, at frame index: 130, to WandB
+[92m130
+[92mLogging loss of: 0.028750447556376457, at frame index: 130, to WandB
+[92m131
+[92m132
+[92m133
+[92m134
+[92m135
+[92m136
+[92m137
+[92m138
+[92m139
+[92m #13: episode_reward:0.0 steps:140
+[92mLogging reward of: 0.0, at frame index: 140, to WandB
+[92m140
+[92mLogging loss of: 0.035488955676555634, at frame index: 140, to WandB
+[92m141
+[92m142
+[92m143
+[92m144
+[92m145
+[92m146
+[92m147
+[92m148
+[92m149
+[92m #14: episode_reward:0.0 steps:150
+[92mLogging reward of: 0.0, at frame index: 150, to WandB
+[92m150
+[92mLogging loss of: 0.06902360916137695, at frame index: 150, to WandB
+[92m151
+[92m152
+[92m153
+[92m154
+[92m155
+[92m156
+[92m157
+[92m158
+[92m159
+[92m #15: episode_reward:0.0 steps:160
+[92mLogging reward of: 0.0, at frame index: 160, to WandB
+[92m160
+[92mLogging loss of: 0.0782824382185936, at frame index: 160, to WandB
+[92m161
+[92m162
+[92m163
+[92m164
+[92m165
+[92m166
+[92m167
+[92m168
+[92m169
+[92m #16: episode_reward:0.0 steps:170
+[92mLogging reward of: 0.0, at frame index: 170, to WandB
+[92m170
+[92mLogging loss of: 0.07071025669574738, at frame index: 170, to WandB
+[92m171
+[92m172
+[92m173
+[92m174
+[92m175
+[92m176
+[92m177
+[92m178
+[92m179
+[92m #17: episode_reward:0.0 steps:180
+[92mLogging reward of: 0.0, at frame index: 180, to WandB
+[92m180
+[92mLogging loss of: 0.05829717218875885, at frame index: 180, to WandB
+[92m181
+[92m182
+[92m183
+[92m184
+[92m185
+[92m186
+[92m187
+[92m188
+[92m189
+[92m #18: episode_reward:0.0 steps:190
+[92mLogging reward of: 0.0, at frame index: 190, to WandB
+[92m190
+[92mLogging loss of: 0.07029454410076141, at frame index: 190, to WandB
+[92m191
+[92m192
+[92m193
+[92m194
+[92m195
+[92m196
+[92m197
+[92m198
+[92m199
+[92m #19: episode_reward:0.0 steps:200
+[92mLogging reward of: 0.0, at frame index: 200, to WandB
+[92m200
+[92mLogging loss of: 0.06330094486474991, at frame index: 200, to WandB
+[92m201
+[92m202
+[92m203
+[92m204
+[92m205
+[92m206
+[92m207
+[92m208
+[92m209
+[92m0.5000000000000003
+[92m2
+[92m #20: episode_reward:0.0 steps:210
+[92mLogging reward of: 0.0, at frame index: 210, to WandB
+[92m210
+[92mLogging loss of: 0.08391587436199188, at frame index: 210, to WandB
+[92m211
+[92m212
+[92m213
+[92m214
+[92m215
+[92m216
+[92m217
+[92m218
+[92m219
+[92m #21: episode_reward:0.0 steps:220
+[92mLogging reward of: 0.0, at frame index: 220, to WandB
+[92m220
+[92mLogging loss of: 0.07296900451183319, at frame index: 220, to WandB
+[92m221
+[92m222
+[92m223
+[92m224
+[92m225
+[92m226
+[92m227
+[92m228
+[92m229
+[92m #22: episode_reward:0.0 steps:230
+[92mLogging reward of: 0.0, at frame index: 230, to WandB
+[92m230
+[92mLogging loss of: 0.06744273006916046, at frame index: 230, to WandB
+[92m231
+[92m232
+[92m233
+[92m234
+[92m235
+[92m236
+[92m237
+[92m238
+[92m239
+[92m #23: episode_reward:0.0 steps:240
+[92mLogging reward of: 0.0, at frame index: 240, to WandB
+[92m240
+[92mLogging loss of: 0.07095745950937271, at frame index: 240, to WandB
+[92m241
+[92m242
+[92m243
+[92m244
+[92m245
+[92m246
+[92m247
+[92m248
+[92m249
+[92m #24: episode_reward:0.0 steps:250
+[92mLogging reward of: 0.0, at frame index: 250, to WandB
+[92m250
+[92mLogging loss of: 0.09504634886980057, at frame index: 250, to WandB
+[92m251
+[92m252
+[92m253
+[92m254
+[92m255
+[92m256
+[92m257
+[92m258
+[92m259
+[92m #25: episode_reward:0.0 steps:260
+[92mLogging reward of: 0.0, at frame index: 260, to WandB
+[92m260
+[92mLogging loss of: 0.09286095947027206, at frame index: 260, to WandB
+[92m261
+[92m262
+[92m263
+[92m264
+[92m265
+[92m266
+[92m267
+[92m268
+[92m269
+[92m #26: episode_reward:0.0 steps:270
+[92mLogging reward of: 0.0, at frame index: 270, to WandB
+[92m270
+[92mLogging loss of: 0.10559052228927612, at frame index: 270, to WandB
+[92m271
+[92m272
+[92m273
+[92m274
+[92m275
+[92m276
+[92m277
+[92m278
+[92m279
+[92m #27: episode_reward:0.0 steps:280
+[92mLogging reward of: 0.0, at frame index: 280, to WandB
+[92m280
+[92mLogging loss of: 0.09021946787834167, at frame index: 280, to WandB
+[92m281
+[92m282
+[92m283
+[92m284
+[92m285
+[92m286
+[92m287
+[92m288
+[92m289
+[92m #28: episode_reward:0.0 steps:290
+[92mLogging reward of: 0.0, at frame index: 290, to WandB
+[92m290
+[92mLogging loss of: 0.08686921000480652, at frame index: 290, to WandB
+[92m291
+[92m292
+[92m293
+[92m294
+[92m295
+[92m296
+[92m297
+[92m298
+[92m299
+[92m #29: episode_reward:0.0 steps:300
+[92mLogging reward of: 0.0, at frame index: 300, to WandB
+[92m300
+[92mLogging loss of: 0.09200194478034973, at frame index: 300, to WandB
+[92m301
+[92m302
+[92m303
+[92m304
+[92m305
+[92m306
+[92m307
+[92m308
+[92m309
+[92m0.5000000000000003
+[92m3
+[92m #30: episode_reward:0.0 steps:310
+[92mLogging reward of: 0.0, at frame index: 310, to WandB
+[92m310
+[92mLogging loss of: 0.09091664105653763, at frame index: 310, to WandB
+[92m311
+[92m312
+[92m313
+[92m314
+[92m315
+[92m316
+[92m317
+[92m318
+[92m319
+[92m #31: episode_reward:0.0 steps:320
+[92mLogging reward of: 0.0, at frame index: 320, to WandB
+[92m320
+[92mLogging loss of: 0.13018867373466492, at frame index: 320, to WandB
+[92m321
+[92m322
+[92m323
+[92m324
+[92m325
+[92m326
+[92m327
+[92m328
+[92m329
+[92m #32: episode_reward:0.0 steps:330
+[92mLogging reward of: 0.0, at frame index: 330, to WandB
+[92m330
+[92mLogging loss of: 0.08272305130958557, at frame index: 330, to WandB
+[92m331
+[92m332
+[92m333
+[92m334
+[92m335
+[92m336
+[92m337
+[92m338
+[92m339
+[92m #33: episode_reward:0.0 steps:340
+[92mLogging reward of: 0.0, at frame index: 340, to WandB
+[92m340
+[92mLogging loss of: 0.10163753479719162, at frame index: 340, to WandB
+[92m341
+[92m342
+[92m343
+[92m344
+[92m345
+[92m346
+[92m347
+[92m348
+[92m349
+[92m #34: episode_reward:0.0 steps:350
+[92mLogging reward of: 0.0, at frame index: 350, to WandB
+[92m350
+[92mLogging loss of: 0.07892422378063202, at frame index: 350, to WandB
+[92m351
+[92m352
+[92m353
+[92m354
+[92m355
+[92m356
+[92m357
+[92m358
+[92m359
+[92m #35: episode_reward:0.0 steps:360
+[92mLogging reward of: 0.0, at frame index: 360, to WandB
+[92m360
+[92mLogging loss of: 0.12669126689434052, at frame index: 360, to WandB
+[92m361
+[92m362
+[92m363
+[92m364
+[92m365
+[92m366
+[92m367
+[92m368
+[92m369
+[92m #36: episode_reward:0.0 steps:370
+[92mLogging reward of: 0.0, at frame index: 370, to WandB
+[92m370
+[92mLogging loss of: 0.12337537109851837, at frame index: 370, to WandB
+[92m371
+[92m372
+[92m373
+[92m374
+[92m375
+[92m376
+[92m377
+[92m378
+[92m379
+[92m #37: episode_reward:0.0 steps:380
+[92mLogging reward of: 0.0, at frame index: 380, to WandB
+[92m380
+[92mLogging loss of: 0.08138877153396606, at frame index: 380, to WandB
+[92m381
+[92m382
+[92m383
+[92m384
+[92m385
+[92m386
+[92m387
+[92m388
+[92m389
+[92m #38: episode_reward:0.0 steps:390
+[92mLogging reward of: 0.0, at frame index: 390, to WandB
+[92m390
+[92mLogging loss of: 0.09080137312412262, at frame index: 390, to WandB
+[92m391
+[92m392
+[92m393
+[92m394
+[92m395
+[92m396
+[92m397
+[92m398
+[92m399
+[92m #39: episode_reward:0.0 steps:400
+[92mLogging reward of: 0.0, at frame index: 400, to WandB
+[92m400
+[92mLogging loss of: 0.13542330265045166, at frame index: 400, to WandB
+[92m401
+[92m402
+[92m403
+[92m404
+[92m405
+[92m406
+[92m407
+[92m408
+[92m409
+[92m #40: episode_reward:0.0 steps:410
+[92mLogging reward of: 0.0, at frame index: 410, to WandB
+[92m410
+[92mLogging loss of: 0.11695924401283264, at frame index: 410, to WandB
+[92m411
+[92m412
+[92m413
+[92m414
+[92m415
+[92m416
+[92m417
+[92m418
+[92m419
+[92m #41: episode_reward:0.0 steps:420
+[92mLogging reward of: 0.0, at frame index: 420, to WandB
+[92m420
+[92mLogging loss of: 0.11018064618110657, at frame index: 420, to WandB
+[92m421
+[92m422
+[92m423
+[92m424
+[92m425
+[92m426
+[92m427
+[92m428
+[92m429
+[92m #42: episode_reward:0.0 steps:430
+[92mLogging reward of: 0.0, at frame index: 430, to WandB
+[92m430
+[92mLogging loss of: 0.1260942816734314, at frame index: 430, to WandB
+[92m431
+[92m432
+[92m433
+[92m434
+[92m435
+[92m436
+[92m437
+[92m438
+[92m439
+[92m #43: episode_reward:0.0 steps:440
+[92mLogging reward of: 0.0, at frame index: 440, to WandB
+[92m440
+[92mLogging loss of: 0.11400650441646576, at frame index: 440, to WandB
+[92m441
+[92m442
+[92m443
+[92m444
+[92m445
+[92m446
+[92m447
+[92m448
+[92m449
+[92m #44: episode_reward:0.0 steps:450
+[92mLogging reward of: 0.0, at frame index: 450, to WandB
+[92m450
+[92mLogging loss of: 0.1060868427157402, at frame index: 450, to WandB
+[92m451
+[92m452
+[92m453
+[92m454
+[92m455
+[92m456
+[92m457
+[92m458
+[92m459
+[92m #45: episode_reward:0.0 steps:460
+[92mLogging reward of: 0.0, at frame index: 460, to WandB
+[92m460
+[92mLogging loss of: 0.10429175198078156, at frame index: 460, to WandB
+[92m461
+[92m462
+[92m463
+[92m464
+[92m465
+[92m466
+[92m467
+[92m468
+[92m469
+[92m #46: episode_reward:0.0 steps:470
+[92mLogging reward of: 0.0, at frame index: 470, to WandB
+[92m470
+[92mLogging loss of: 0.12776164710521698, at frame index: 470, to WandB
+[92m471
+[92m472
+[92m473
+[92m474
+[92m475
+[92m476
+[92m477
+[92m478
+[92m479
+[92m #47: episode_reward:0.0 steps:480
+[92mLogging reward of: 0.0, at frame index: 480, to WandB
+[92m480
+[92mLogging loss of: 0.13667716085910797, at frame index: 480, to WandB
+[92m481
+[92m482
+[92m483
+[92m484
+[92m485
+[92m486
+[92m487
+[92m488
+[92m489
+[92m #48: episode_reward:0.0 steps:490
+[92mLogging reward of: 0.0, at frame index: 490, to WandB
+[92m490
+[92mLogging loss of: 0.11090002954006195, at frame index: 490, to WandB
+[92m491
+[92m492
+[92m493
+[92m494
+[92m495
+[92m496
+[92m497
+[92m498
+[92m499
+[92m #49: episode_reward:0.0 steps:500
+[92mLogging reward of: 0.0, at frame index: 500, to WandB
+[92m500
+[92mLogging loss of: 0.137861430644989, at frame index: 500, to WandB
+[92m501
+[92m502
+[92m503
+[92m504
+[92m505
+[92m506
+[92m507
+[92m508
+[92m509
+[92m #50: episode_reward:0.0 steps:510
+[92mLogging reward of: 0.0, at frame index: 510, to WandB
+[92m510
+[92mLogging loss of: 0.11031171679496765, at frame index: 510, to WandB
+[92m511
+[92m512
+[92m513
+[92m514
+[92m515
+[92m516
+[92m517
+[92m518
+[92m519
+[92m #51: episode_reward:0.0 steps:520
+[92mLogging reward of: 0.0, at frame index: 520, to WandB
+[92m520
+[92mLogging loss of: 0.0965631902217865, at frame index: 520, to WandB
+[92m521
+[92m522
+[92m523
+[92m524
+[92m525
+[92m526
+[92m527
+[92m528
+[92m529
+[92m #52: episode_reward:0.0 steps:530
+[92mLogging reward of: 0.0, at frame index: 530, to WandB
+[92m530
+[92mLogging loss of: 0.13409635424613953, at frame index: 530, to WandB
+[92m531
+[92m532
+[92m533
+[92m534
+[92m535
+[92m536
+[92m537
+[92m538
+[92m539
+[92m #53: episode_reward:0.0 steps:540
+[92mLogging reward of: 0.0, at frame index: 540, to WandB
+[92m540
+[92mLogging loss of: 0.11421944200992584, at frame index: 540, to WandB
+[92m541
+[92m542
+[92m543
+[92m544
+[92m545
+[92m546
+[92m547
+[92m548
+[92m549
+[92m #54: episode_reward:0.0 steps:550
+[92mLogging reward of: 0.0, at frame index: 550, to WandB
+[92m550
+[92mLogging loss of: 0.116366907954216, at frame index: 550, to WandB
+[92m551
+[92m552
+[92m553
+[92m554
+[92m555
+[92m556
+[92m557
+[92m558
+[92m559
+[92m #55: episode_reward:0.0 steps:560
+[92mLogging reward of: 0.0, at frame index: 560, to WandB
+[92m560
+[92mLogging loss of: 0.09814366698265076, at frame index: 560, to WandB
+[92m561
+[92m562
+[92m563
+[92m564
+[92m565
+[92m566
+[92m567
+[92m568
+[92m569
+[92m #56: episode_reward:0.0 steps:570
+[92mLogging reward of: 0.0, at frame index: 570, to WandB
+[92m570
+[92mLogging loss of: 0.12711623311042786, at frame index: 570, to WandB
+[92m571
+[92m572
+[92m573
+[92m574
+[92m575
+[92m576
+[92m577
+[92m578
+[92m579
+[92m #57: episode_reward:0.0 steps:580
+[92mLogging reward of: 0.0, at frame index: 580, to WandB
+[92m580
+[92mLogging loss of: 0.12284407019615173, at frame index: 580, to WandB
+[92m581
+[92m582
+[92m583
+[92m584
+[92m585
+[92m586
+[92m587
+[92m588
+[92m589
+[92m #58: episode_reward:0.0 steps:590
+[92mLogging reward of: 0.0, at frame index: 590, to WandB
+[92m590
+[92mLogging loss of: 0.1521441638469696, at frame index: 590, to WandB
+[92m591
+[92m592
+[92m593
+[92m594
+[92m595
+[92m596
+[92m597
+[92m598
+[92m599
+[92m #59: episode_reward:0.0 steps:600
+[92mLogging reward of: 0.0, at frame index: 600, to WandB
+[92m600
+[92mLogging loss of: 0.12731757760047913, at frame index: 600, to WandB
+[92m601
+[92m602
+[92m603
+[92m604
+[92m605
+[92m606
+[92m607
+[92m608
+[92m609
+[92m #60: episode_reward:0.0 steps:610
+[92mLogging reward of: 0.0, at frame index: 610, to WandB
+[92m610
+[92mLogging loss of: 0.13676437735557556, at frame index: 610, to WandB
+[92m611
+[92m612
+[92m613
+[92m614
+[92m615
+[92m616
+[92m617
+[92m618
+[92m619
+[92m #61: episode_reward:0.0 steps:620
+[92mLogging reward of: 0.0, at frame index: 620, to WandB
+[92m620
+[92mLogging loss of: 0.1265265792608261, at frame index: 620, to WandB
+[92m621
+[92m622
+[92m623
+[92m624
+[92m625
+[92m626
+[92m627
+[92m628
+[92m629
+[92m #62: episode_reward:0.0 steps:630
+[92mLogging reward of: 0.0, at frame index: 630, to WandB
+[92m630
+[92mLogging loss of: 0.1016034334897995, at frame index: 630, to WandB
+[92m631
+[92m632
+[92m633
+[92m634
+[92m635
+[92m636
+[92m637
+[92m638
+[92m639
+[92m #63: episode_reward:0.0 steps:640
+[92mLogging reward of: 0.0, at frame index: 640, to WandB
+[92m640
+[92mLogging loss of: 0.1252031773328781, at frame index: 640, to WandB
+[92m641
+[92m642
+[92m643
+[92m644
+[92m645
+[92m646
+[92m647
+[92m648
+[92m649
+[92m #64: episode_reward:0.0 steps:650
+[92mLogging reward of: 0.0, at frame index: 650, to WandB
+[92m650
+[92mLogging loss of: 0.13145650923252106, at frame index: 650, to WandB
+[92m651
+[92m652
+[92m653
+[92m654
+[92m655
+[92m656
+[92m657
+[92m658
+[92m659
+[92m #65: episode_reward:0.0 steps:660
+[92mLogging reward of: 0.0, at frame index: 660, to WandB
+[92m660
+[92mLogging loss of: 0.11910314112901688, at frame index: 660, to WandB
+[92m661
+[92m662
+[92m663
+[92m664
+[92m665
+[92m666
+[92m667
+[92m668
+[92m669
+[92m #66: episode_reward:0.0 steps:670
+[92mLogging reward of: 0.0, at frame index: 670, to WandB
+[92m670
+[92mLogging loss of: 0.12052153795957565, at frame index: 670, to WandB
+[92m671
+[92m672
+[92m673
+[92m674
+[92m675
+[92m676
+[92m677
+[92m678
+[92m679
+[92m #67: episode_reward:0.0 steps:680
+[92mLogging reward of: 0.0, at frame index: 680, to WandB
+[92m680
+[92mLogging loss of: 0.15834349393844604, at frame index: 680, to WandB
+[92m681
+[92m682
+[92m683
+[92m684
+[92m685
+[92m686
+[92m687
+[92m688
+[92m689
+[92m #68: episode_reward:0.0 steps:690
+[92mLogging reward of: 0.0, at frame index: 690, to WandB
+[92m690
+[92mLogging loss of: 0.11204318702220917, at frame index: 690, to WandB
+[92m691
+[92m692
+[92m693
+[92m694
+[92m695
+[92m696
+[92m697
+[92m698
+[92m699
+[92m #69: episode_reward:0.0 steps:700
+[92mLogging reward of: 0.0, at frame index: 700, to WandB
+[92m700
+[92mLogging loss of: 0.142971932888031, at frame index: 700, to WandB
+[92m701
+[92m702
+[92m703
+[92m704
+[92m705
+[92m706
+[92m707
+[92m708
+[92m709
+[92m #70: episode_reward:0.0 steps:710
+[92mLogging reward of: 0.0, at frame index: 710, to WandB
+[92m710
+[92mLogging loss of: 0.12971971929073334, at frame index: 710, to WandB
+[92m711
+[92m712
+[92m713
+[92m714
+[92m715
+[92m716
+[92m717
+[92m718
+[92m719
+[92m #71: episode_reward:0.0 steps:720
+[92mLogging reward of: 0.0, at frame index: 720, to WandB
+[92m720
+[92mLogging loss of: 0.11874307692050934, at frame index: 720, to WandB
+[92m721
+[92m722
+[92m723
+[92m724
+[92m725
+[92m726
+[92m727
+[92m728
+[92m729
+[92m #72: episode_reward:0.0 steps:730
+[92mLogging reward of: 0.0, at frame index: 730, to WandB
+[92m730
+[92mLogging loss of: 0.12362079322338104, at frame index: 730, to WandB
+[92m731
+[92m732
+[92m733
+[92m734
+[92m735
+[92m736
+[92m737
+[92m738
+[92m739
+[92m #73: episode_reward:0.0 steps:740
+[92mLogging reward of: 0.0, at frame index: 740, to WandB
+[92m740
+[92mLogging loss of: 0.11262604594230652, at frame index: 740, to WandB
+[92m741
+[92m742
+[92m743
+[92m744
+[92m745
+[92m746
+[92m747
+[92m748
+[92m749
+[92m #74: episode_reward:0.0 steps:750
+[92mLogging reward of: 0.0, at frame index: 750, to WandB
+[92m750
+[92mLogging loss of: 0.13219928741455078, at frame index: 750, to WandB
+[92m751
+[92m752
+[92m753
+[92m754
+[92m755
+[92m756
+[92m757
+[92m758
+[92m759
+[92m #75: episode_reward:0.0 steps:760
+[92mLogging reward of: 0.0, at frame index: 760, to WandB
+[92m760
+[92mLogging loss of: 0.1146855428814888, at frame index: 760, to WandB
+[92m761
+[92m762
+[92m763
+[92m764
+[92m765
+[92m766
+[92m767
+[92m768
+[92m769
+[92m #76: episode_reward:0.0 steps:770
+[92mLogging reward of: 0.0, at frame index: 770, to WandB
+[92m770
+[92mLogging loss of: 0.13271108269691467, at frame index: 770, to WandB
+[92m771
+[92m772
+[92m773
+[92m774
+[92m775
+[92m776
+[92m777
+[92m778
+[92m779
+[92m #77: episode_reward:0.0 steps:780
+[92mLogging reward of: 0.0, at frame index: 780, to WandB
+[92m780
+[92mLogging loss of: 0.14713731408119202, at frame index: 780, to WandB
+[92m781
+[92m782
+[92m783
+[92m784
+[92m785
+[92m786
+[92m787
+[92m788
+[92m789
+[92m #78: episode_reward:0.0 steps:790
+[92mLogging reward of: 0.0, at frame index: 790, to WandB
+[92m790
+[92mLogging loss of: 0.11056765913963318, at frame index: 790, to WandB
+[92m791
+[92m792
+[92m793
+[92m794
+[92m795
+[92m796
+[92m797
+[92m798
+[92m799
+[92m #79: episode_reward:0.0 steps:800
+[92mLogging reward of: 0.0, at frame index: 800, to WandB
+[92m800
+[92mLogging loss of: 0.14598755538463593, at frame index: 800, to WandB
+[92m801
+[92m802
+[92m803
+[92m804
+[92m805
+[92m806
+[92m807
+[92m808
+[92m809
+[92m #80: episode_reward:0.0 steps:810
+[92mLogging reward of: 0.0, at frame index: 810, to WandB
+[92m810
+[92mLogging loss of: 0.11462889611721039, at frame index: 810, to WandB
+[92m811
+[92m812
+[92m813
+[92m814
+[92m815
+[92m816
+[92m817
+[92m818
+[92m819
+[92m #81: episode_reward:0.0 steps:820
+[92mLogging reward of: 0.0, at frame index: 820, to WandB
+[92m820
+[92mLogging loss of: 0.13187533617019653, at frame index: 820, to WandB
+[92m821
+[92m822
+[92m823
+[92m824
+[92m825
+[92m826
+[92m827
+[92m828
+[92m829
+[92m #82: episode_reward:0.0 steps:830
+[92mLogging reward of: 0.0, at frame index: 830, to WandB
+[92m830
+[92mLogging loss of: 0.10965459793806076, at frame index: 830, to WandB
+[92m831
+[92m832
+[92m833
+[92m834
+[92m835
+[92m836
+[92m837
+[92m838
+[92m839
+[92m #83: episode_reward:0.0 steps:840
+[92mLogging reward of: 0.0, at frame index: 840, to WandB
+[92m840
+[92mLogging loss of: 0.1408996433019638, at frame index: 840, to WandB
+[92m841
+[92m842
+[92m843
+[92m844
+[92m845
+[92m846
+[92m847
+[92m848
+[92m849
+[92m #84: episode_reward:0.0 steps:850
+[92mLogging reward of: 0.0, at frame index: 850, to WandB
+[92m850
+[92mLogging loss of: 0.14396557211875916, at frame index: 850, to WandB
+[92m851
+[92m852
+[92m853
+[92m854
+[92m855
+[92m856
+[92m857
+[92m858
+[92m859
+[92m #85: episode_reward:0.0 steps:860
+[92mLogging reward of: 0.0, at frame index: 860, to WandB
+[92m860
+[92mLogging loss of: 0.12540525197982788, at frame index: 860, to WandB
+[92m861
+[92m862
+[92m863
+[92m864
+[92m865
+[92m866
+[92m867
+[92m868
+[92m869
+[92m #86: episode_reward:0.0 steps:870
+[92mLogging reward of: 0.0, at frame index: 870, to WandB
+[92m870
+[92mLogging loss of: 0.14170518517494202, at frame index: 870, to WandB
+[92m871
+[92m872
+[92m873
+[92m874
+[92m875
+[92m876
+[92m877
+[92m878
+[92m879
+[92m #87: episode_reward:0.0 steps:880
+[92mLogging reward of: 0.0, at frame index: 880, to WandB
+[92m880
+[92mLogging loss of: 0.10447876900434494, at frame index: 880, to WandB
+[92m881
+[92m882
+[92m883
+[92m884
+[92m885
+[92m886
+[92m887
+[92m888
+[92m889
+[92m #88: episode_reward:0.0 steps:890
+[92mLogging reward of: 0.0, at frame index: 890, to WandB
+[92m890
+[92mLogging loss of: 0.12733975052833557, at frame index: 890, to WandB
+[92m891
+[92m892
+[92m893
+[92m894
+[92m895
+[92m896
+[92m897
+[92m898
+[92m899
+[92m #89: episode_reward:0.0 steps:900
+[92mLogging reward of: 0.0, at frame index: 900, to WandB
+[92m900
+[92mLogging loss of: 0.12860679626464844, at frame index: 900, to WandB
+[92m901
+[92m902
+[92m903
+[92m904
+[92m905
+[92m906
+[92m907
+[92m908
+[92m909
+[92m #90: episode_reward:0.0 steps:910
+[92mLogging reward of: 0.0, at frame index: 910, to WandB
+[92m910
+[92mLogging loss of: 0.13384807109832764, at frame index: 910, to WandB
+[92m911
+[92m912
+[92m913
+[92m914
+[92m915
+[92m916
+[92m917
+[92m918
+[92m919
+[92m #91: episode_reward:0.0 steps:920
+[92mLogging reward of: 0.0, at frame index: 920, to WandB
+[92m920
+[92mLogging loss of: 0.13449101150035858, at frame index: 920, to WandB
+[92m921
+[92m922
+[92m923
+[92m924
+[92m925
+[92m926
+[92m927
+[92m928
+[92m929
+[92m #92: episode_reward:0.0 steps:930
+[92mLogging reward of: 0.0, at frame index: 930, to WandB
+[92m930
+[92mLogging loss of: 0.12513212859630585, at frame index: 930, to WandB
+[92m931
+[92m932
+[92m933
+[92m934
+[92m935
+[92m936
+[92m937
+[92m938
+[92m939
+[92m #93: episode_reward:0.0 steps:940
+[92mLogging reward of: 0.0, at frame index: 940, to WandB
+[92m940
+[92mLogging loss of: 0.1292320340871811, at frame index: 940, to WandB
+[92m941
+[92m942
+[92m943
+[92m944
+[92m945
+[92m946
+[92m947
+[92m948
+[92m949
+[92m #94: episode_reward:0.0 steps:950
+[92mLogging reward of: 0.0, at frame index: 950, to WandB
+[92m950
+[92mLogging loss of: 0.1353299915790558, at frame index: 950, to WandB
+[92m951
+[92m952
+[92m953
+[92m954
+[92m955
+[92m956
+[92m957
+[92m958
+[92m959
+[92m #95: episode_reward:0.0 steps:960
+[92mLogging reward of: 0.0, at frame index: 960, to WandB
+[92m960
+[92mLogging loss of: 0.1272769272327423, at frame index: 960, to WandB
+[92m961
+[92m962
+[92m963
+[92m964
+[92m965
+[92m966
+[92m967
+[92m968
+[92m969
+[92m #96: episode_reward:0.0 steps:970
+[92mLogging reward of: 0.0, at frame index: 970, to WandB
+[92m970
+[92mLogging loss of: 0.1233367994427681, at frame index: 970, to WandB
+[92m971
+[92m972
+[92m973
+[92m974
+[92m975
+[92m976
+[92m977
+[92m978
+[92m979
+[92m #97: episode_reward:0.0 steps:980
+[92mLogging reward of: 0.0, at frame index: 980, to WandB
+[92m980
+[92mLogging loss of: 0.10157322883605957, at frame index: 980, to WandB
+[92m981
+[92m982
+[92m983
+[92m984
+[92m985
+[92m986
+[92m987
+[92m988
+[92m989
+[92m #98: episode_reward:0.0 steps:990
+[92mLogging reward of: 0.0, at frame index: 990, to WandB
+[92m990
+[92mLogging loss of: 0.11281061172485352, at frame index: 990, to WandB
+[92m991
+[92m992
+[92m993
+[92m994
+[92m995
+[92m996
+[92m997
+[92m998
+[92m999
+[92m #99: episode_reward:0.0 steps:1000
+[92mLogging reward of: 0.0, at frame index: 1000, to WandB
+[92mRoboLoco-v0-1000_training_steps.mp4
+[92m0.002

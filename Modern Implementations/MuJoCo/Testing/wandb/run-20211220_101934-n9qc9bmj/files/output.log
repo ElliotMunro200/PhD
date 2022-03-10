@@ -1,0 +1,81 @@
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1024: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1026: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-constants.mjMAXVAL, dtype=np.float)
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1027: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=constants.mjMAXVAL, dtype=np.float)
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1031: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\IPython\core\interactiveshell.py", line 3457, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-9ba8eaf086cf>", line 1, in <module>
+    runfile('C:\\Users\\Jack-Server\\Documents\\GitHub\\PhD\\Modern Implementations\\MuJoCo\\Testing\\C_L_Learning.py', wdir='C:/Users/Jack-Server/Documents/GitHub/PhD/Modern Implementations/MuJoCo/Testing')
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Users\Jack-Server\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 102, in <module>
+    train_CartPole_DQNet(env, net, replay_buffer, batch_size, optimizer, num_frames)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_Learning.py", line 56, in train_CartPole_DQNet
+    loss = CartPole_DQNet_update(model, optimizer, replay_buffer, batch_size)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_DQN.py", line 75, in CartPole_DQNet_update
+    state = Variable(torch.FloatTensor(state))
+TypeError: can't convert np.ndarray of type numpy.object_. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint8, and bool.
+2
+2
+1
+frame index:1
+Logging reward of: 0.999563924715862, at frame index: 1, to WandB
+frame index:2
+Logging reward of: 0.9985091807405394, at frame index: 2, to WandB
+frame index:3
+Logging reward of: 0.9970974884442371, at frame index: 3, to WandB
+frame index:4
+Logging reward of: 0.9986955763305595, at frame index: 4, to WandB
+frame index:5
+Logging reward of: 0.9998956104643901, at frame index: 5, to WandB
+frame index:6
+Logging reward of: 0.9994849646307344, at frame index: 6, to WandB
+frame index:7
+Logging reward of: 0.9989604665634818, at frame index: 7, to WandB
+frame index:8
+Logging reward of: 0.9997397395005165, at frame index: 8, to WandB
+frame index:9
+Logging reward of: 0.9995992589781455, at frame index: 9, to WandB
+frame index:10
+Logging reward of: 0.9973199367789419, at frame index: 10, to WandB
+frame index:11
+Logging reward of: 0.9995884207185493, at frame index: 11, to WandB
+frame index:12
+Logging reward of: 0.9973752372631166, at frame index: 12, to WandB
+frame index:13
+Logging reward of: 0.9979448315414511, at frame index: 13, to WandB
+frame index:14
+Logging reward of: 0.999793973501634, at frame index: 14, to WandB
+frame index:15
+Logging reward of: 0.9994460289597664, at frame index: 15, to WandB
+frame index:16
+Logging reward of: 0.9976363985674961, at frame index: 16, to WandB
+frame index:17
+Logging reward of: 0.9970754898179329, at frame index: 17, to WandB
+frame index:18
+Logging reward of: 0.9989431471853167, at frame index: 18, to WandB
+frame index:19
+Logging reward of: 0.9984688876282122, at frame index: 19, to WandB
+frame index:20
+Logging reward of: 0.9995496989676377, at frame index: 20, to WandB
+frame index:21
+Logging reward of: 0.9982721438018939, at frame index: 21, to WandB
+frame index:22
+Logging reward of: 0.9992008423700185, at frame index: 22, to WandB
+frame index:23
+Logging reward of: 0.9999872266704939, at frame index: 23, to WandB
+frame index:24
+Logging reward of: 0.9996021960586503, at frame index: 24, to WandB
+frame index:25

@@ -1,0 +1,1092 @@
+2021-12-21 18:37:11,957 INFO    MainThread:5532 [internal.py:wandb_internal():87] W&B internal server running at pid: 5532, started at: 2021-12-21 18:37:11.950576
+2021-12-21 18:37:11,959 INFO    WriterThread:5532 [datastore.py:open_for_write():77] open: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\run-17arjav5.wandb
+2021-12-21 18:37:11,960 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: check_version
+2021-12-21 18:37:11,964 DEBUG   SenderThread:5532 [sender.py:send():238] send: header
+2021-12-21 18:37:11,967 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: check_version
+2021-12-21 18:37:12,137 DEBUG   SenderThread:5532 [sender.py:send():238] send: run
+2021-12-21 18:37:12,553 INFO    SenderThread:5532 [dir_watcher.py:__init__():169] watching files in: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files
+2021-12-21 18:37:12,561 INFO    SenderThread:5532 [sender.py:_start_run_threads():825] run started: 17arjav5 with start time 1640065030
+2021-12-21 18:37:12,561 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:12,561 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: run_start
+2021-12-21 18:37:12,571 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:12,580 DEBUG   HandlerThread:5532 [meta.py:__init__():40] meta init
+2021-12-21 18:37:12,583 DEBUG   HandlerThread:5532 [meta.py:__init__():54] meta init done
+2021-12-21 18:37:12,584 DEBUG   HandlerThread:5532 [meta.py:probe():214] probe
+2021-12-21 18:37:12,618 DEBUG   HandlerThread:5532 [meta.py:_setup_git():204] setup git
+2021-12-21 18:37:12,763 DEBUG   HandlerThread:5532 [meta.py:_setup_git():211] setup git done
+2021-12-21 18:37:12,770 DEBUG   HandlerThread:5532 [meta.py:_save_code():92] save code
+2021-12-21 18:37:12,848 DEBUG   HandlerThread:5532 [meta.py:_save_code():113] save code done
+2021-12-21 18:37:12,848 DEBUG   HandlerThread:5532 [meta.py:_save_patches():130] save patches
+2021-12-21 18:37:13,278 DEBUG   HandlerThread:5532 [meta.py:_save_patches():172] save patches done
+2021-12-21 18:37:13,278 DEBUG   HandlerThread:5532 [meta.py:_save_pip():58] save pip
+2021-12-21 18:37:13,280 DEBUG   HandlerThread:5532 [meta.py:_save_pip():72] save pip done
+2021-12-21 18:37:13,280 DEBUG   HandlerThread:5532 [meta.py:probe():252] probe done
+2021-12-21 18:37:13,352 DEBUG   SenderThread:5532 [sender.py:send():238] send: files
+2021-12-21 18:37:13,352 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2021-12-21 18:37:13,353 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file code\Modern Implementations\MuJoCo\Testing\C_L_Learning.py with policy now
+2021-12-21 18:37:13,354 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file diff.patch with policy now
+2021-12-21 18:37:13,360 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:37:13,362 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:37:13,573 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\requirements.txt
+2021-12-21 18:37:13,581 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-metadata.json
+2021-12-21 18:37:13,581 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:13,582 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:13,583 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\diff.patch
+2021-12-21 18:37:13,583 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\code\Modern Implementations\MuJoCo\Testing\C_L_Learning.py
+2021-12-21 18:37:13,584 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\code
+2021-12-21 18:37:13,584 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\code\Modern Implementations
+2021-12-21 18:37:13,585 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\code\Modern Implementations\MuJoCo
+2021-12-21 18:37:13,585 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\code\Modern Implementations\MuJoCo\Testing
+2021-12-21 18:37:13,754 INFO    Thread-28 :5532 [upload_job.py:push():117] Skipped uploading C:\Users\JACK-S~1\AppData\Local\Temp\tmpabeg0c83wandb\30z4etm5-code/Modern Implementations/MuJoCo/Testing/C_L_Learning.py
+2021-12-21 18:37:14,316 INFO    Thread-27 :5532 [upload_job.py:push():137] Uploaded file C:\Users\JACK-S~1\AppData\Local\Temp\tmpabeg0c83wandb\m3v501nr-wandb-metadata.json
+2021-12-21 18:37:14,444 INFO    Thread-29 :5532 [upload_job.py:push():137] Uploaded file C:\Users\JACK-S~1\AppData\Local\Temp\tmpabeg0c83wandb\3kaah060-diff.patch
+2021-12-21 18:37:15,593 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:16,190 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:16,192 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:16,195 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:16,597 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:17,604 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:18,963 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:18,971 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:18,973 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:18,974 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:18,974 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:18,976 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:19,631 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:19,632 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:21,909 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:21,917 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:21,920 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:21,921 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:21,921 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:21,924 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:22,663 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:22,670 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:24,676 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:24,718 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:24,721 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:24,726 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:24,727 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:24,727 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:24,729 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:25,686 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:26,704 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:27,460 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:27,468 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:27,471 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:27,471 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:27,471 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:27,473 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:27,711 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:28,715 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:28,751 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:37:28,752 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:37:30,426 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:30,435 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:30,442 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:30,442 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:30,444 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:30,446 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:30,737 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:30,744 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:32,749 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:33,275 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:33,283 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:33,286 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:33,291 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:33,294 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:33,297 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:33,763 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:34,769 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:36,081 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:36,089 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:36,092 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:36,097 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:36,100 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:36,103 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:36,794 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:36,802 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:38,826 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:38,909 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:38,911 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:38,913 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:38,928 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:38,930 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:38,934 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:39,834 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:40,852 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:41,718 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:41,726 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:41,729 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:41,737 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:41,739 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:41,742 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:41,865 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:42,870 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:43,536 DEBUG   SenderThread:5532 [sender.py:send():238] send: stats
+2021-12-21 18:37:44,149 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:37:44,156 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:37:44,675 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:44,684 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:44,686 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:44,699 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:44,702 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:44,704 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:44,899 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:44,907 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:46,920 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:47,494 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:47,503 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:47,506 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:47,551 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:47,554 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:47,557 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:47,939 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:48,947 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:50,272 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:50,275 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:50,278 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:50,300 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:50,302 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:50,304 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:50,966 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:50,973 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:52,981 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:53,110 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:53,118 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:53,122 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:53,152 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:53,153 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:53,156 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:53,985 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:54,990 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:55,982 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:55,984 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:55,988 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:56,002 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:56,018 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:56,020 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:56,022 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:57,015 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:57,016 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:37:58,669 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:58,677 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:58,681 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:58,710 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:37:58,711 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:37:58,713 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:37:59,035 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:37:59,555 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:37:59,567 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:38:00,042 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:01,534 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:01,543 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:01,545 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:01,574 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:01,576 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:01,579 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:02,052 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:02,060 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:04,061 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:04,500 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:04,503 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:04,506 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:04,544 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:04,546 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:04,549 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:05,078 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:06,091 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:07,281 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:07,290 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:07,293 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:07,426 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:07,428 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:07,430 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:08,102 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:08,110 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:10,101 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:10,110 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:10,113 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:10,119 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:10,120 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:10,142 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:10,145 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:10,148 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:11,125 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:12,137 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:12,795 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:12,803 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:12,806 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:12,852 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:12,855 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:12,857 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:13,147 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:14,163 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:14,948 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:38:14,955 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:38:15,835 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:15,847 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:15,851 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:15,886 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:15,888 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:15,890 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:16,177 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:16,184 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:16,772 DEBUG   SenderThread:5532 [sender.py:send():238] send: stats
+2021-12-21 18:38:18,209 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:18,680 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:18,689 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:18,693 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:18,735 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:18,737 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:18,739 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:19,212 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:20,222 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:21,491 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:21,499 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:21,502 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:21,548 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:21,549 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:21,552 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:22,239 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:22,246 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:24,255 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:24,290 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:24,293 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:24,296 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:24,348 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:24,351 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:24,353 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:25,268 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:26,273 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:27,103 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:27,112 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:27,116 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:27,159 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:27,161 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:27,164 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:27,277 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:28,286 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:29,942 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:29,951 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:29,976 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:30,012 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:30,014 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:30,017 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:30,308 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:30,309 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:30,321 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:38:30,321 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:38:32,805 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:32,813 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:32,817 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:32,871 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:32,872 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:32,875 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:33,343 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:33,351 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:35,360 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:35,565 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:35,573 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:35,576 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:35,627 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:35,629 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:35,632 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:36,369 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:37,375 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:38,367 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:38,376 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:38,379 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:38,383 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:38,453 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:38,456 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:38,459 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:39,384 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:39,391 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:41,257 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:41,265 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:41,268 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:41,343 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:41,345 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:41,348 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:41,413 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:41,414 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:43,444 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:43,998 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:44,000 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:44,004 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:44,089 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:44,090 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:44,092 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:44,446 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:45,449 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:45,709 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:38:45,716 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:38:46,697 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:46,705 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:46,707 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:46,783 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:46,785 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:46,788 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:47,466 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:47,468 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:49,495 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:49,679 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:49,688 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:49,692 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:49,856 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:49,865 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:49,867 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:50,019 DEBUG   SenderThread:5532 [sender.py:send():238] send: stats
+2021-12-21 18:38:50,498 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:51,505 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:52,513 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:52,522 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:52,524 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:52,593 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:52,596 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:52,599 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:53,526 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:53,533 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:55,283 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:55,285 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:55,289 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:55,378 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:55,381 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:55,384 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:55,553 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:55,560 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:57,582 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:38:58,056 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:58,065 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:58,067 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:58,159 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:38:58,161 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:38:58,165 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:38:58,586 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:38:59,591 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:01,093 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:39:01,099 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:39:01,461 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:01,463 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:01,481 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:01,482 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:01,484 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:01,488 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:01,605 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:01,614 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:03,623 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:03,968 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:03,977 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:03,980 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:04,053 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:04,056 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:04,059 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:04,631 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:05,645 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:06,699 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:06,707 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:06,709 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:06,784 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:06,787 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:06,789 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:07,676 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:08,686 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:09,469 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:09,472 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:09,475 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:09,586 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:09,605 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:09,609 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:09,701 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:10,707 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:12,404 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:12,412 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:12,415 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:12,516 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:12,518 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:12,521 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:12,737 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:12,744 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:14,758 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:15,155 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:15,157 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:15,159 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:15,262 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:15,263 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:15,265 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:15,771 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:16,473 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:39:16,474 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:39:16,787 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:17,881 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:17,889 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:17,891 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:17,989 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:17,991 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:17,993 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:18,810 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:18,817 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:20,706 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:20,714 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:20,718 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:20,822 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:20,824 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:20,827 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:20,828 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:20,828 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:22,842 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:23,319 DEBUG   SenderThread:5532 [sender.py:send():238] send: stats
+2021-12-21 18:39:23,659 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:23,666 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:23,669 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:23,780 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:23,798 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:23,801 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:23,859 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:24,875 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:26,477 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:26,479 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:26,481 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:26,587 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:26,589 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:26,592 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:26,884 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:26,891 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:28,891 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:29,178 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:29,186 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:29,189 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:29,298 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:29,300 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:29,302 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:29,905 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:30,917 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:31,853 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:39:31,861 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:39:32,225 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:32,233 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:32,235 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:32,236 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:32,237 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:32,240 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:32,947 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:32,954 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:34,845 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:34,847 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:34,851 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:34,973 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:34,981 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:34,998 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:35,000 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:35,002 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:35,984 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:36,989 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:37,661 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:37,670 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:37,672 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:37,788 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:37,802 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:37,805 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:38,001 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:39,003 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:40,412 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:40,420 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:40,423 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:40,552 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:40,560 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:40,563 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:41,029 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:41,029 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:43,230 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:43,233 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:43,235 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:43,400 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:43,408 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:43,411 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:44,060 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:44,066 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:46,068 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:46,257 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:46,265 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:46,268 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:46,384 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:46,395 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:46,397 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:47,084 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:47,282 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:39:47,287 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:39:48,099 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:49,161 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:49,169 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:49,173 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:49,286 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:49,288 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:49,290 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:50,110 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:50,117 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:51,921 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:51,929 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:51,932 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:52,091 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:52,102 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:52,109 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:52,123 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:52,123 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:54,138 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:54,862 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:54,870 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:54,874 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:55,000 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:55,009 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:55,013 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:55,142 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:56,147 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:39:56,550 DEBUG   SenderThread:5532 [sender.py:send():238] send: stats
+2021-12-21 18:39:57,885 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:57,893 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:57,895 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:58,048 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:39:58,057 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:39:58,061 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:39:58,170 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:39:58,171 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:00,186 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:00,621 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:00,629 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:00,631 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:00,803 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:00,812 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:00,816 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:01,201 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:02,215 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:02,680 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:40:02,686 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:40:03,452 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:03,460 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:03,464 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:03,597 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:03,607 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:03,628 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:04,240 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:04,247 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:06,245 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:06,254 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:06,257 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:06,263 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:06,264 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:06,391 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:06,399 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:06,401 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:07,277 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:08,290 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:09,070 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:09,079 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:09,082 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:09,232 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:09,241 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:09,243 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:09,295 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:10,308 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:11,869 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:11,877 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:11,879 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:12,066 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:12,075 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:12,078 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:12,338 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:12,339 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:14,358 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:14,758 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:14,766 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:14,769 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:14,923 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:14,932 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:14,935 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:15,372 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:17,405 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:17,537 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:17,546 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:17,550 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:17,693 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:17,702 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:17,706 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:18,082 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:40:18,089 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:40:18,414 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:19,420 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:20,596 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:20,598 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:20,602 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:20,799 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:20,829 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:20,832 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:21,437 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:21,445 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:23,440 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:23,448 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:23,450 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:23,463 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:23,464 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:23,622 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:23,630 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:23,632 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:24,477 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:25,487 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:26,243 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:26,251 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:26,253 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:26,412 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:26,420 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:26,424 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:26,498 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:27,507 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:29,072 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:29,073 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:29,077 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:29,283 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:29,292 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:29,294 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:29,522 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:29,523 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:29,810 DEBUG   SenderThread:5532 [sender.py:send():238] send: stats
+2021-12-21 18:40:31,535 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:32,022 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:32,030 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:32,032 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:32,188 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:32,197 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:32,200 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:32,547 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:33,510 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:40:33,517 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:40:33,560 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:34,789 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:34,792 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:34,813 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:34,994 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:35,002 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:35,006 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:35,565 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:35,572 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:37,581 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:37,700 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:37,716 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:37,718 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:37,893 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:37,902 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:37,905 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:38,595 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:39,597 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:40,532 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:40,541 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:40,545 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:40,607 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:40,709 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:40,710 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:40,712 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:41,621 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:41,628 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:43,473 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:43,481 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:43,484 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:43,648 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:43,649 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:43,717 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:43,720 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:43,723 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:44,657 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:45,677 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:46,359 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:46,367 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:46,371 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:46,546 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:46,554 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:46,558 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:46,693 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:48,705 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:48,906 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:40:48,913 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:40:49,282 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:49,284 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:49,288 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:49,385 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:49,386 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:49,388 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:49,715 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:50,727 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:52,057 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:52,065 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:52,068 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:52,266 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:52,274 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:52,277 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:52,742 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:52,749 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:54,761 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:54,899 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:54,908 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:54,910 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:55,101 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:55,110 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:55,112 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:55,764 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:56,778 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:40:57,757 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:57,765 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:57,768 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:57,783 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:57,955 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:40:57,963 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:40:57,966 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:40:58,794 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:40:58,801 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:00,555 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:00,564 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:00,567 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:00,787 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:00,795 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:00,798 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:00,807 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:00,808 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:02,828 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:02,980 DEBUG   SenderThread:5532 [sender.py:send():238] send: stats
+2021-12-21 18:41:03,298 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:03,307 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:03,310 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:03,541 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:03,550 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:03,553 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:03,833 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:04,344 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:41:04,350 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:41:04,843 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:06,536 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:06,538 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:06,541 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:06,754 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:06,770 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:06,773 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:06,863 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:06,864 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:08,876 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:09,483 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:09,484 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:09,489 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:09,710 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:09,718 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:09,720 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:09,881 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:10,887 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:12,287 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:12,296 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:12,375 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:12,531 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:12,540 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:12,543 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:12,902 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:12,908 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:14,927 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:15,137 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:15,145 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:15,150 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:15,360 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:15,368 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:15,370 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:15,945 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:16,961 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:18,260 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:18,267 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:18,270 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:18,474 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:18,490 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:18,498 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:18,991 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:19,734 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:41:19,741 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:41:20,001 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:21,256 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:21,258 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:21,260 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:21,516 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:21,525 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:21,529 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:22,019 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:22,026 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:24,047 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:24,111 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:24,113 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:24,117 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:24,347 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:24,355 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:24,357 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:25,060 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:26,077 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:27,017 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:27,026 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:27,041 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:27,078 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:27,259 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:27,261 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:27,264 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:28,090 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:28,097 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:29,932 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:29,941 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:29,945 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:30,121 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:30,128 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:30,188 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:30,190 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:30,193 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:31,139 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:32,154 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:32,913 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:32,922 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:32,927 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:33,162 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:33,180 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:33,182 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:33,184 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:34,176 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:34,183 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:35,119 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:41:35,126 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:41:36,178 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:36,187 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:36,190 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:36,200 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:36,201 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:36,243 DEBUG   SenderThread:5532 [sender.py:send():238] send: stats
+2021-12-21 18:41:36,461 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:36,470 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:36,473 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:37,213 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:38,222 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:39,181 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:39,189 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:39,193 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:39,240 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:39,437 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:39,446 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:39,449 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:40,253 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:40,261 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:42,276 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:42,418 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:42,426 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:42,430 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:42,691 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:42,692 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:42,695 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:43,292 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:44,295 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:45,627 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:45,636 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:45,640 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:45,915 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:45,924 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:45,928 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:46,333 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:46,334 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:48,360 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:48,739 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:48,748 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:48,751 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:48,995 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:49,002 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:49,005 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:49,375 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:50,391 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:50,514 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: stop_status
+2021-12-21 18:41:50,521 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: stop_status
+2021-12-21 18:41:51,549 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:51,558 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:51,562 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:51,892 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:51,894 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:51,897 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:52,414 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:52,422 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:54,438 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:54,826 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:54,835 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:54,838 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:55,090 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:55,098 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:55,101 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:55,445 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:56,450 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:41:57,665 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:57,668 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:57,672 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:57,958 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:41:57,966 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:41:57,969 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:41:58,479 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:41:59,483 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:42:00,736 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:42:00,744 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:42:00,748 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:42:00,846 DEBUG   SenderThread:5532 [sender.py:send():238] send: history
+2021-12-21 18:42:00,846 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:42:00,848 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:42:01,496 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:42:01,503 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:42:01,719 DEBUG   SenderThread:5532 [sender.py:send():238] send: telemetry
+2021-12-21 18:42:01,720 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:01,720 DEBUG   SenderThread:5532 [sender.py:send():238] send: exit
+2021-12-21 18:42:01,720 INFO    SenderThread:5532 [sender.py:send_exit():370] handling exit code: 0
+2021-12-21 18:42:01,721 INFO    SenderThread:5532 [sender.py:send_exit():372] handling runtime: 289
+2021-12-21 18:42:01,722 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:42:01,723 INFO    SenderThread:5532 [sender.py:send_exit():382] send defer
+2021-12-21 18:42:01,723 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:01,723 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:01,724 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 0
+2021-12-21 18:42:01,724 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:01,724 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 0
+2021-12-21 18:42:01,725 INFO    SenderThread:5532 [sender.py:transition_state():395] send defer: 1
+2021-12-21 18:42:01,725 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:01,725 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 1
+2021-12-21 18:42:01,830 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:01,831 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 1
+2021-12-21 18:42:01,831 INFO    SenderThread:5532 [sender.py:transition_state():395] send defer: 2
+2021-12-21 18:42:01,831 DEBUG   SenderThread:5532 [sender.py:send():238] send: stats
+2021-12-21 18:42:01,831 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:01,832 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 2
+2021-12-21 18:42:01,832 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:01,833 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 2
+2021-12-21 18:42:01,833 INFO    SenderThread:5532 [sender.py:transition_state():395] send defer: 3
+2021-12-21 18:42:01,834 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:01,834 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 3
+2021-12-21 18:42:01,835 DEBUG   SenderThread:5532 [sender.py:send():238] send: summary
+2021-12-21 18:42:01,836 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:01,837 INFO    SenderThread:5532 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-12-21 18:42:01,838 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:01,838 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 3
+2021-12-21 18:42:01,838 INFO    SenderThread:5532 [sender.py:transition_state():395] send defer: 4
+2021-12-21 18:42:01,838 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:01,839 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:01,839 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 4
+2021-12-21 18:42:01,840 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:01,840 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 4
+2021-12-21 18:42:01,945 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:02,287 INFO    SenderThread:5532 [sender.py:transition_state():395] send defer: 5
+2021-12-21 18:42:02,287 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:02,288 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:02,288 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 5
+2021-12-21 18:42:02,288 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:02,289 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 5
+2021-12-21 18:42:02,289 INFO    SenderThread:5532 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-12-21 18:42:02,393 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:02,504 INFO    Thread-12 :5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\config.yaml
+2021-12-21 18:42:02,506 INFO    SenderThread:5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:42:02,507 INFO    SenderThread:5532 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:42:02,507 INFO    SenderThread:5532 [dir_watcher.py:finish():313] scan: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files
+2021-12-21 18:42:02,508 INFO    SenderThread:5532 [dir_watcher.py:finish():327] scan save: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\config.yaml config.yaml
+2021-12-21 18:42:02,509 INFO    SenderThread:5532 [dir_watcher.py:finish():327] scan save: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\diff.patch diff.patch
+2021-12-21 18:42:02,509 INFO    SenderThread:5532 [dir_watcher.py:finish():327] scan save: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log output.log
+2021-12-21 18:42:02,512 INFO    SenderThread:5532 [dir_watcher.py:finish():327] scan save: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\requirements.txt requirements.txt
+2021-12-21 18:42:02,514 INFO    SenderThread:5532 [dir_watcher.py:finish():327] scan save: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-metadata.json wandb-metadata.json
+2021-12-21 18:42:02,516 INFO    SenderThread:5532 [dir_watcher.py:finish():327] scan save: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json wandb-summary.json
+2021-12-21 18:42:02,527 INFO    SenderThread:5532 [dir_watcher.py:finish():327] scan save: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\code\Modern Implementations\MuJoCo\Testing\C_L_Learning.py code\Modern Implementations\MuJoCo\Testing\C_L_Learning.py
+2021-12-21 18:42:02,527 INFO    SenderThread:5532 [sender.py:transition_state():395] send defer: 6
+2021-12-21 18:42:02,528 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:02,528 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:02,528 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 6
+2021-12-21 18:42:02,529 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:02,529 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 6
+2021-12-21 18:42:02,530 INFO    SenderThread:5532 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-21 18:42:02,644 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:02,656 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:02,767 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:02,768 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:02,877 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:02,878 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:02,985 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:02,986 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:03,095 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:03,095 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:03,206 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:03,207 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:03,317 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:03,317 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:03,427 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:03,428 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:03,537 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:03,538 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:03,548 INFO    Thread-30 :5532 [upload_job.py:push():137] Uploaded file C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\config.yaml
+2021-12-21 18:42:03,648 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:03,649 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:03,703 INFO    Thread-32 :5532 [upload_job.py:push():137] Uploaded file C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\requirements.txt
+2021-12-21 18:42:03,755 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:03,756 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:03,848 INFO    Thread-33 :5532 [upload_job.py:push():137] Uploaded file C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\wandb-summary.json
+2021-12-21 18:42:03,866 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:03,866 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:03,976 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:03,976 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:04,084 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:04,085 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:04,192 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:04,193 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:04,303 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:04,319 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:04,429 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:04,446 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:04,556 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:04,557 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:04,666 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:04,667 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:04,774 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:04,775 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:04,883 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:04,884 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:04,992 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:04,993 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:05,099 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:05,100 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:05,207 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:05,208 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:05,315 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:05,316 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:05,425 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:05,426 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:05,533 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:05,534 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:05,541 INFO    Thread-31 :5532 [upload_job.py:push():137] Uploaded file C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\files\output.log
+2021-12-21 18:42:05,642 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:05,643 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:05,749 INFO    Thread-11 :5532 [sender.py:transition_state():395] send defer: 7
+2021-12-21 18:42:05,750 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:05,751 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:05,751 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:05,751 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 7
+2021-12-21 18:42:05,752 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:05,752 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 7
+2021-12-21 18:42:05,857 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:06,694 INFO    SenderThread:5532 [sender.py:transition_state():395] send defer: 8
+2021-12-21 18:42:06,697 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:06,697 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:06,698 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 8
+2021-12-21 18:42:06,698 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:06,698 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 8
+2021-12-21 18:42:06,698 INFO    SenderThread:5532 [sender.py:transition_state():395] send defer: 9
+2021-12-21 18:42:06,699 DEBUG   SenderThread:5532 [sender.py:send():238] send: final
+2021-12-21 18:42:06,699 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: defer
+2021-12-21 18:42:06,700 DEBUG   SenderThread:5532 [sender.py:send():238] send: footer
+2021-12-21 18:42:06,700 INFO    HandlerThread:5532 [handler.py:handle_request_defer():147] handle defer: 9
+2021-12-21 18:42:06,700 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: defer
+2021-12-21 18:42:06,701 INFO    SenderThread:5532 [sender.py:send_request_defer():391] handle sender defer: 9
+2021-12-21 18:42:06,803 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: poll_exit
+2021-12-21 18:42:06,804 DEBUG   SenderThread:5532 [sender.py:send_request():252] send_request: poll_exit
+2021-12-21 18:42:06,805 INFO    SenderThread:5532 [file_pusher.py:join():182] waiting for file pusher
+2021-12-21 18:42:07,603 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: get_summary
+2021-12-21 18:42:07,606 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: sampled_history
+2021-12-21 18:42:07,608 DEBUG   HandlerThread:5532 [handler.py:handle_request():130] handle_request: shutdown
+2021-12-21 18:42:07,608 INFO    HandlerThread:5532 [handler.py:finish():731] shutting down handler
+2021-12-21 18:42:07,712 INFO    WriterThread:5532 [datastore.py:close():281] close: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20211221_183709-17arjav5\run-17arjav5.wandb
+2021-12-21 18:42:08,597 INFO    SenderThread:5532 [sender.py:finish():1091] shutting down sender
+2021-12-21 18:42:08,603 INFO    SenderThread:5532 [file_pusher.py:finish():177] shutting down file pusher
+2021-12-21 18:42:08,604 INFO    SenderThread:5532 [file_pusher.py:join():182] waiting for file pusher
+2021-12-21 18:42:08,609 INFO    MainThread:5532 [internal.py:handle_exit():77] Internal process exited

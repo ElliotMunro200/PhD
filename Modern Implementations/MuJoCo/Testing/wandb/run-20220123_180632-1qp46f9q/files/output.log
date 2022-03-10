@@ -1,0 +1,377 @@
+frame index:1
+discount: 1.0
+step-type: StepType.MID
+frame index:2
+discount: 1.0
+step-type: StepType.MID
+frame index:3
+discount: 1.0
+step-type: StepType.MID
+frame index:4
+discount: 1.0
+step-type: StepType.MID
+frame index:5
+discount: 1.0
+step-type: StepType.MID
+frame index:6
+discount: 1.0
+step-type: StepType.MID
+frame index:7
+discount: 1.0
+step-type: StepType.MID
+frame index:8
+discount: 1.0
+step-type: StepType.MID
+frame index:9
+discount: 1.0
+step-type: StepType.MID
+frame index:10
+discount: 1.0
+step-type: StepType.MID
+frame index:11
+discount: 1.0
+step-type: StepType.MID
+frame index:12
+discount: 1.0
+step-type: StepType.MID
+frame index:13
+discount: 1.0
+step-type: StepType.MID
+frame index:14
+discount: 1.0
+step-type: StepType.MID
+frame index:15
+discount: 1.0
+step-type: StepType.MID
+frame index:16
+discount: 1.0
+step-type: StepType.MID
+frame index:17
+discount: 1.0
+step-type: StepType.MID
+frame index:18
+discount: 1.0
+step-type: StepType.MID
+frame index:19
+discount: 1.0
+step-type: StepType.MID
+frame index:20
+discount: 1.0
+step-type: StepType.MID
+frame index:21
+discount: 1.0
+step-type: StepType.MID
+frame index:22
+discount: 1.0
+step-type: StepType.MID
+frame index:23
+discount: 1.0
+step-type: StepType.MID
+frame index:24
+discount: 1.0
+step-type: StepType.MID
+frame index:25
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.04132045432925224, at frame index: 25, to WandB
+frame index:26
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.014722404070198536, at frame index: 26, to WandB
+frame index:27
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.021920165047049522, at frame index: 27, to WandB
+frame index:28
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.016531603410840034, at frame index: 28, to WandB
+frame index:29
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.038945190608501434, at frame index: 29, to WandB
+frame index:30
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.031121790409088135, at frame index: 30, to WandB
+frame index:31
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.04344967380166054, at frame index: 31, to WandB
+frame index:32
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.057224173098802567, at frame index: 32, to WandB
+frame index:33
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03379807993769646, at frame index: 33, to WandB
+frame index:34
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03173857927322388, at frame index: 34, to WandB
+frame index:35
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.07580745965242386, at frame index: 35, to WandB
+frame index:36
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1123175323009491, at frame index: 36, to WandB
+frame index:37
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.12041500210762024, at frame index: 37, to WandB
+frame index:38
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.08635354042053223, at frame index: 38, to WandB
+frame index:39
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.11632958799600601, at frame index: 39, to WandB
+frame index:40
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.23443490266799927, at frame index: 40, to WandB
+frame index:41
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1398896425962448, at frame index: 41, to WandB
+frame index:42
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10817994922399521, at frame index: 42, to WandB
+frame index:43
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.18184445798397064, at frame index: 43, to WandB
+frame index:44
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.07131348550319672, at frame index: 44, to WandB
+frame index:45
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.14878784120082855, at frame index: 45, to WandB
+frame index:46
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.12374330312013626, at frame index: 46, to WandB
+frame index:47
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.18741802871227264, at frame index: 47, to WandB
+frame index:48
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.16797149181365967, at frame index: 48, to WandB
+frame index:49
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.13283899426460266, at frame index: 49, to WandB
+frame index:50
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.0997496247291565, at frame index: 50, to WandB
+frame index:51
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.049569547176361084, at frame index: 51, to WandB
+frame index:52
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.04907450079917908, at frame index: 52, to WandB
+frame index:53
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.08002384752035141, at frame index: 53, to WandB
+frame index:54
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.0342845618724823, at frame index: 54, to WandB
+frame index:55
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.08258488774299622, at frame index: 55, to WandB
+frame index:56
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.053568944334983826, at frame index: 56, to WandB
+frame index:57
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.06923896819353104, at frame index: 57, to WandB
+frame index:58
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.0697394534945488, at frame index: 58, to WandB
+frame index:59
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03508497402071953, at frame index: 59, to WandB
+frame index:60
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.06779000163078308, at frame index: 60, to WandB
+frame index:61
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.09612724930047989, at frame index: 61, to WandB
+frame index:62
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1364627629518509, at frame index: 62, to WandB
+frame index:63
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.08157827705144882, at frame index: 63, to WandB
+frame index:64
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.181931734085083, at frame index: 64, to WandB
+frame index:65
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.11633460968732834, at frame index: 65, to WandB
+frame index:66
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.12422154098749161, at frame index: 66, to WandB
+frame index:67
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.16210755705833435, at frame index: 67, to WandB
+frame index:68
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.11290434747934341, at frame index: 68, to WandB
+frame index:69
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.06828125566244125, at frame index: 69, to WandB
+frame index:70
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1389664262533188, at frame index: 70, to WandB
+frame index:71
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.11282894760370255, at frame index: 71, to WandB
+frame index:72
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.08049286156892776, at frame index: 72, to WandB
+frame index:73
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10753026604652405, at frame index: 73, to WandB
+frame index:74
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.07494772970676422, at frame index: 74, to WandB
+frame index:75
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.18674103915691376, at frame index: 75, to WandB
+frame index:76
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.20793946087360382, at frame index: 76, to WandB
+frame index:77
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1128990426659584, at frame index: 77, to WandB
+frame index:78
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.14823345839977264, at frame index: 78, to WandB
+frame index:79
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10746415704488754, at frame index: 79, to WandB
+frame index:80
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.14041417837142944, at frame index: 80, to WandB
+frame index:81
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.20715560019016266, at frame index: 81, to WandB
+frame index:82
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.07720307260751724, at frame index: 82, to WandB
+frame index:83
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.15356867015361786, at frame index: 83, to WandB
+frame index:84
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.22363156080245972, at frame index: 84, to WandB
+frame index:85
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.20217889547348022, at frame index: 85, to WandB
+frame index:86
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1480143517255783, at frame index: 86, to WandB
+frame index:87
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.22625847160816193, at frame index: 87, to WandB
+frame index:88
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.19892078638076782, at frame index: 88, to WandB
+frame index:89
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.15321506559848785, at frame index: 89, to WandB
+frame index:90
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.047714393585920334, at frame index: 90, to WandB
+frame index:91
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.13777446746826172, at frame index: 91, to WandB
+frame index:92
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1921292394399643, at frame index: 92, to WandB
+frame index:93
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.14574533700942993, at frame index: 93, to WandB
+frame index:94
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.09449543803930283, at frame index: 94, to WandB
+frame index:95
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.269133597612381, at frame index: 95, to WandB
+frame index:96
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.2457818239927292, at frame index: 96, to WandB
+frame index:97
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.02699136547744274, at frame index: 97, to WandB
+frame index:98
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.31820330023765564, at frame index: 98, to WandB
+frame index:99
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.34486207365989685, at frame index: 99, to WandB
+frame index:100
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.2273215502500534, at frame index: 100, to WandB
+MyRoboLoco_animation_100_model_frames.mp4

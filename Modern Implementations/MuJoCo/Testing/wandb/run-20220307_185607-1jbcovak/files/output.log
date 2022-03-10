@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\S_L_CartPole_DDPG_main.py", line 225, in <module>
+    train(args.train_iter, agent, env, args.env, evaluate, args.validate_steps, args.output,
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\S_L_CartPole_DDPG_main.py", line 58, in train
+    print(state2[2])
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\lib\redirect.py", line 585, in write
+    self._queue.put(data)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\queue.py", line 152, in put
+    self.not_empty.notify()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2800.0_x64__qbz5n2kfra8p0\lib\threading.py", line 260, in __exit__
+    return self._lock.__exit__(*args)
+KeyboardInterrupt

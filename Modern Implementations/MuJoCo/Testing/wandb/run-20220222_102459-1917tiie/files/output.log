@@ -1,0 +1,1704 @@
+
+0
+Logging validate_reward of: 0.0, at frame index: 0, to WandB
+[93m [Evaluate] Step_0000000: mean_reward:0.0
+[93m100
+[93m200
+[93m300
+[93m400
+[92m #0: episode_reward:276.7599999999969 steps:500
+[92mLogging reward of: 276.7599999999969, at frame index: 500, to WandB
+[92m500
+[92m600
+[92m700
+[92m800
+[92m900
+[92m #1: episode_reward:0.0 steps:1000
+[92mLogging reward of: 0.0, at frame index: 1000, to WandB
+[92m1000
+[92mLogging loss of: -0.00029914878541603684, at frame index: 1000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 1000, to WandB
+[93m [Evaluate] Step_0001000: mean_reward:0.0
+[93m1100
+[93m1200
+[93m1300
+[93m1400
+[92m #2: episode_reward:0.0 steps:1500
+[92mLogging reward of: 0.0, at frame index: 1500, to WandB
+[92m1500
+[92m1600
+[92m1700
+[92m1800
+[92m1900
+[92m #3: episode_reward:0.0 steps:2000
+[92mLogging reward of: 0.0, at frame index: 2000, to WandB
+[92m2000
+[92mLogging loss of: -0.0063418238423764706, at frame index: 2000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 2000, to WandB
+[93m [Evaluate] Step_0002000: mean_reward:0.0
+[93m2100
+[93m2200
+[93m2300
+[93m2400
+[92m #4: episode_reward:0.0 steps:2500
+[92mLogging reward of: 0.0, at frame index: 2500, to WandB
+[92m2500
+[92m2600
+[92m2700
+[92m2800
+[92m2900
+[92m #5: episode_reward:0.0 steps:3000
+[92mLogging reward of: 0.0, at frame index: 3000, to WandB
+[92m3000
+[92mLogging loss of: 0.0008859662339091301, at frame index: 3000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 3000, to WandB
+[93m [Evaluate] Step_0003000: mean_reward:0.0
+[93m3100
+[93m3200
+[93m3300
+[93m3400
+[92m #6: episode_reward:0.0 steps:3500
+[92mLogging reward of: 0.0, at frame index: 3500, to WandB
+[92m3500
+[92m3600
+[92m3700
+[92m3800
+[92m3900
+[92m #7: episode_reward:0.0 steps:4000
+[92mLogging reward of: 0.0, at frame index: 4000, to WandB
+[92m4000
+[92mLogging loss of: -0.003530627116560936, at frame index: 4000, to WandB
+[92mLogging validate_reward of: 13.146666666666505, at frame index: 4000, to WandB
+[93m [Evaluate] Step_0004000: mean_reward:13.146666666666505
+[93m4100
+[93m4200
+[93m4300
+[93m4400
+[92m #8: episode_reward:0.0 steps:4500
+[92mLogging reward of: 0.0, at frame index: 4500, to WandB
+[92m4500
+[92m4600
+[92m4700
+[92m4800
+[92m4900
+[92m #9: episode_reward:0.0 steps:5000
+[92mLogging reward of: 0.0, at frame index: 5000, to WandB
+[92m5000
+[92mLogging loss of: -0.004165143705904484, at frame index: 5000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 5000, to WandB
+[93m [Evaluate] Step_0005000: mean_reward:0.0
+[93m5100
+[93m5200
+[93m5300
+[93m5400
+[92m #10: episode_reward:0.0 steps:5500
+[92mLogging reward of: 0.0, at frame index: 5500, to WandB
+[92m5500
+[92m5600
+[92m5700
+[92m5800
+[92m5900
+[92m #11: episode_reward:0.0 steps:6000
+[92mLogging reward of: 0.0, at frame index: 6000, to WandB
+[92m6000
+[92mLogging loss of: 0.004531620070338249, at frame index: 6000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 6000, to WandB
+[93m [Evaluate] Step_0006000: mean_reward:0.0
+[93m6100
+[93m6200
+[93m6300
+[93m6400
+[92m #12: episode_reward:0.0 steps:6500
+[92mLogging reward of: 0.0, at frame index: 6500, to WandB
+[92m6500
+[92m6600
+[92m6700
+[92m6800
+[92m6900
+[92m #13: episode_reward:0.0 steps:7000
+[92mLogging reward of: 0.0, at frame index: 7000, to WandB
+[92m7000
+[92mLogging loss of: -0.0037659509107470512, at frame index: 7000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 7000, to WandB
+[93m [Evaluate] Step_0007000: mean_reward:0.0
+[93m7100
+[93m7200
+[93m7300
+[93m7400
+[92m #14: episode_reward:0.0 steps:7500
+[92mLogging reward of: 0.0, at frame index: 7500, to WandB
+[92m7500
+[92m7600
+[92m7700
+[92m7800
+[92m7900
+[92m #15: episode_reward:0.0 steps:8000
+[92mLogging reward of: 0.0, at frame index: 8000, to WandB
+[92m8000
+[92mLogging loss of: 0.004897992592304945, at frame index: 8000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 8000, to WandB
+[93m [Evaluate] Step_0008000: mean_reward:0.0
+[93m8100
+[93m8200
+[93m8300
+[93m8400
+[92m #16: episode_reward:0.0 steps:8500
+[92mLogging reward of: 0.0, at frame index: 8500, to WandB
+[92m8500
+[92m8600
+[92m8700
+[92m8800
+[92m8900
+[92m #17: episode_reward:0.0 steps:9000
+[92mLogging reward of: 0.0, at frame index: 9000, to WandB
+[92m9000
+[92mLogging loss of: -0.000408360967412591, at frame index: 9000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 9000, to WandB
+[93m [Evaluate] Step_0009000: mean_reward:0.0
+[93m9100
+[93m9200
+[93m9300
+[93m9400
+[92m #18: episode_reward:0.0 steps:9500
+[92mLogging reward of: 0.0, at frame index: 9500, to WandB
+[92m9500
+[92m9600
+[92m9700
+[92m9800
+[92m9900
+[92m #19: episode_reward:0.0 steps:10000
+[92mLogging reward of: 0.0, at frame index: 10000, to WandB
+[92m10000
+[92mLogging loss of: -0.005574950948357582, at frame index: 10000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 10000, to WandB
+[93m [Evaluate] Step_0010000: mean_reward:0.0
+[93m10100
+[93m10200
+[93m10300
+[93m10400
+[92m #20: episode_reward:0.0 steps:10500
+[92mLogging reward of: 0.0, at frame index: 10500, to WandB
+[92m10500
+[92m10600
+[92m10700
+[92m10800
+[92m10900
+[92m #21: episode_reward:0.0 steps:11000
+[92mLogging reward of: 0.0, at frame index: 11000, to WandB
+[92m11000
+[92mLogging loss of: 0.00010282080620527267, at frame index: 11000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 11000, to WandB
+[93m [Evaluate] Step_0011000: mean_reward:0.0
+[93m11100
+[93m11200
+[93m11300
+[93m11400
+[92m #22: episode_reward:0.0 steps:11500
+[92mLogging reward of: 0.0, at frame index: 11500, to WandB
+[92m11500
+[92m11600
+[92m11700
+[92m11800
+[92m11900
+[92m #23: episode_reward:0.0 steps:12000
+[92mLogging reward of: 0.0, at frame index: 12000, to WandB
+[92m12000
+[92mLogging loss of: -0.0017016131896525621, at frame index: 12000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 12000, to WandB
+[93m [Evaluate] Step_0012000: mean_reward:0.0
+[93m12100
+[93m12200
+[93m12300
+[93m12400
+[92m #24: episode_reward:0.0 steps:12500
+[92mLogging reward of: 0.0, at frame index: 12500, to WandB
+[92m12500
+[92m12600
+[92m12700
+[92m12800
+[92m12900
+[92m #25: episode_reward:0.0 steps:13000
+[92mLogging reward of: 0.0, at frame index: 13000, to WandB
+[92m13000
+[92mLogging loss of: -0.0024420744739472866, at frame index: 13000, to WandB
+[92mLogging validate_reward of: 6.573333333333252, at frame index: 13000, to WandB
+[93m [Evaluate] Step_0013000: mean_reward:6.573333333333252
+[93m13100
+[93m13200
+[93m13300
+[93m13400
+[92m #26: episode_reward:0.0 steps:13500
+[92mLogging reward of: 0.0, at frame index: 13500, to WandB
+[92m13500
+[92m13600
+[92m13700
+[92m13800
+[92m13900
+[92m #27: episode_reward:0.0 steps:14000
+[92mLogging reward of: 0.0, at frame index: 14000, to WandB
+[92m14000
+[92mLogging loss of: 0.0031509376130998135, at frame index: 14000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 14000, to WandB
+[93m [Evaluate] Step_0014000: mean_reward:0.0
+[93m14100
+[93m14200
+[93m14300
+[93m14400
+[92m #28: episode_reward:0.0 steps:14500
+[92mLogging reward of: 0.0, at frame index: 14500, to WandB
+[92m14500
+[92m14600
+[92m14700
+[92m14800
+[92m14900
+[92m #29: episode_reward:0.0 steps:15000
+[92mLogging reward of: 0.0, at frame index: 15000, to WandB
+[92m15000
+[92mLogging loss of: -0.0022678147070109844, at frame index: 15000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 15000, to WandB
+[93m [Evaluate] Step_0015000: mean_reward:0.0
+[93m15100
+[93m15200
+[93m15300
+[93m15400
+[92m #30: episode_reward:0.0 steps:15500
+[92mLogging reward of: 0.0, at frame index: 15500, to WandB
+[92m15500
+[92m15600
+[92m15700
+[92m15800
+[92m15900
+[92m #31: episode_reward:0.0 steps:16000
+[92mLogging reward of: 0.0, at frame index: 16000, to WandB
+[92m16000
+[92mLogging loss of: -6.783311255276203e-05, at frame index: 16000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 16000, to WandB
+[93m [Evaluate] Step_0016000: mean_reward:0.0
+[93m16100
+[93m16200
+[93m16300
+[93m16400
+[92m #32: episode_reward:0.0 steps:16500
+[92mLogging reward of: 0.0, at frame index: 16500, to WandB
+[92m16500
+[92m16600
+[92m16700
+[92m16800
+[92m16900
+[92m #33: episode_reward:0.0 steps:17000
+[92mLogging reward of: 0.0, at frame index: 17000, to WandB
+[92m17000
+[92mLogging loss of: -0.0017872692551463842, at frame index: 17000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 17000, to WandB
+[93m [Evaluate] Step_0017000: mean_reward:0.0
+[93m17100
+[93m17200
+[93m17300
+[93m17400
+[92m #34: episode_reward:0.0 steps:17500
+[92mLogging reward of: 0.0, at frame index: 17500, to WandB
+[92m17500
+[92m17600
+[92m17700
+[92m17800
+[92m17900
+[92m #35: episode_reward:0.0 steps:18000
+[92mLogging reward of: 0.0, at frame index: 18000, to WandB
+[92m18000
+[92mLogging loss of: -0.005573518108576536, at frame index: 18000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 18000, to WandB
+[93m [Evaluate] Step_0018000: mean_reward:0.0
+[93m18100
+[93m18200
+[93m18300
+[93m18400
+[92m #36: episode_reward:0.0 steps:18500
+[92mLogging reward of: 0.0, at frame index: 18500, to WandB
+[92m18500
+[92m18600
+[92m18700
+[92m18800
+[92m18900
+[92m #37: episode_reward:0.0 steps:19000
+[92mLogging reward of: 0.0, at frame index: 19000, to WandB
+[92m19000
+[92mLogging loss of: 0.004898980725556612, at frame index: 19000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 19000, to WandB
+[93m [Evaluate] Step_0019000: mean_reward:0.0
+[93m19100
+[93m19200
+[93m19300
+[93m19400
+[92m #38: episode_reward:0.0 steps:19500
+[92mLogging reward of: 0.0, at frame index: 19500, to WandB
+[92m19500
+[92m19600
+[92m19700
+[92m19800
+[92m19900
+[92m #39: episode_reward:0.0 steps:20000
+[92mLogging reward of: 0.0, at frame index: 20000, to WandB
+[92m20000
+[92mLogging loss of: 0.004556574858725071, at frame index: 20000, to WandB
+C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_evaluator.py:71: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, ax = plt.subplots(1, 1, figsize=(6, 5))
+[92mLogging validate_reward of: 0.0, at frame index: 20000, to WandB
+[93m [Evaluate] Step_0020000: mean_reward:0.0
+[93m20100
+[93m20200
+[93m20300
+[93m20400
+[92m #40: episode_reward:0.0 steps:20500
+[92mLogging reward of: 0.0, at frame index: 20500, to WandB
+[92m20500
+[92m20600
+[92m20700
+[92m20800
+[92m20900
+[92m #41: episode_reward:0.0 steps:21000
+[92mLogging reward of: 0.0, at frame index: 21000, to WandB
+[92m21000
+[92mLogging loss of: -0.004725983366370201, at frame index: 21000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 21000, to WandB
+[93m [Evaluate] Step_0021000: mean_reward:0.0
+[93m21100
+[93m21200
+[93m21300
+[93m21400
+[92m #42: episode_reward:0.0 steps:21500
+[92mLogging reward of: 0.0, at frame index: 21500, to WandB
+[92m21500
+[92m21600
+[92m21700
+[92m21800
+[92m21900
+[92m #43: episode_reward:0.0 steps:22000
+[92mLogging reward of: 0.0, at frame index: 22000, to WandB
+[92m22000
+[92mLogging loss of: -0.0005843716207891703, at frame index: 22000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 22000, to WandB
+[93m [Evaluate] Step_0022000: mean_reward:0.0
+[93m22100
+[93m22200
+[93m22300
+[93m22400
+[92m #44: episode_reward:0.0 steps:22500
+[92mLogging reward of: 0.0, at frame index: 22500, to WandB
+[92m22500
+[92m22600
+[92m22700
+[92m22800
+[92m22900
+[92m #45: episode_reward:0.0 steps:23000
+[92mLogging reward of: 0.0, at frame index: 23000, to WandB
+[92m23000
+[92mLogging loss of: -0.0044584982097148895, at frame index: 23000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 23000, to WandB
+[93m [Evaluate] Step_0023000: mean_reward:0.0
+[93m23100
+[93m23200
+[93m23300
+[93m23400
+[92m #46: episode_reward:0.0 steps:23500
+[92mLogging reward of: 0.0, at frame index: 23500, to WandB
+[92m23500
+[92m23600
+[92m23700
+[92m23800
+[92m23900
+[92m #47: episode_reward:0.0 steps:24000
+[92mLogging reward of: 0.0, at frame index: 24000, to WandB
+[92m24000
+[92mLogging loss of: -0.007868227548897266, at frame index: 24000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 24000, to WandB
+[93m [Evaluate] Step_0024000: mean_reward:0.0
+[93m24100
+[93m24200
+[93m24300
+[93m24400
+[92m #48: episode_reward:0.0 steps:24500
+[92mLogging reward of: 0.0, at frame index: 24500, to WandB
+[92m24500
+[92m24600
+[92m24700
+[92m24800
+[92m24900
+[92m #49: episode_reward:0.0 steps:25000
+[92mLogging reward of: 0.0, at frame index: 25000, to WandB
+[92m25000
+[92mLogging loss of: -0.009100894443690777, at frame index: 25000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 25000, to WandB
+[93m [Evaluate] Step_0025000: mean_reward:0.0
+[93m25100
+[93m25200
+[93m25300
+[93m25400
+[92m #50: episode_reward:0.0 steps:25500
+[92mLogging reward of: 0.0, at frame index: 25500, to WandB
+[92m25500
+[92m25600
+[92m25700
+[92m25800
+[92m25900
+[92m #51: episode_reward:0.0 steps:26000
+[92mLogging reward of: 0.0, at frame index: 26000, to WandB
+[92m26000
+[92mLogging loss of: -0.0025586416013538837, at frame index: 26000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 26000, to WandB
+[93m [Evaluate] Step_0026000: mean_reward:0.0
+[93m26100
+[93m26200
+[93m26300
+[93m26400
+[92m #52: episode_reward:0.0 steps:26500
+[92mLogging reward of: 0.0, at frame index: 26500, to WandB
+[92m26500
+[92m26600
+[92m26700
+[92m26800
+[92m26900
+[92m #53: episode_reward:0.0 steps:27000
+[92mLogging reward of: 0.0, at frame index: 27000, to WandB
+[92m27000
+[92mLogging loss of: -0.004180655349045992, at frame index: 27000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 27000, to WandB
+[93m [Evaluate] Step_0027000: mean_reward:0.0
+[93m27100
+[93m27200
+[93m27300
+[93m27400
+[92m #54: episode_reward:0.0 steps:27500
+[92mLogging reward of: 0.0, at frame index: 27500, to WandB
+[92m27500
+[92m27600
+[92m27700
+[92m27800
+[92m27900
+[92m #55: episode_reward:0.0 steps:28000
+[92mLogging reward of: 0.0, at frame index: 28000, to WandB
+[92m28000
+[92mLogging loss of: -0.006128721870481968, at frame index: 28000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 28000, to WandB
+[93m [Evaluate] Step_0028000: mean_reward:0.0
+[93m28100
+[93m28200
+[93m28300
+[93m28400
+[92m #56: episode_reward:0.0 steps:28500
+[92mLogging reward of: 0.0, at frame index: 28500, to WandB
+[92m28500
+[92m28600
+[92m28700
+[92m28800
+[92m28900
+[92m #57: episode_reward:0.0 steps:29000
+[92mLogging reward of: 0.0, at frame index: 29000, to WandB
+[92m29000
+[92mLogging loss of: -0.010322794318199158, at frame index: 29000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 29000, to WandB
+[93m [Evaluate] Step_0029000: mean_reward:0.0
+[93m29100
+[93m29200
+[93m29300
+[93m29400
+[92m #58: episode_reward:0.0 steps:29500
+[92mLogging reward of: 0.0, at frame index: 29500, to WandB
+[92m29500
+[92m29600
+[92m29700
+[92m29800
+[92m29900
+[92m #59: episode_reward:0.0 steps:30000
+[92mLogging reward of: 0.0, at frame index: 30000, to WandB
+[92m30000
+[92mLogging loss of: -0.005831267684698105, at frame index: 30000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 30000, to WandB
+[93m [Evaluate] Step_0030000: mean_reward:0.0
+[93m30100
+[93m30200
+[93m30300
+[93m30400
+[92m #60: episode_reward:0.0 steps:30500
+[92mLogging reward of: 0.0, at frame index: 30500, to WandB
+[92m30500
+[92m30600
+[92m30700
+[92m30800
+[92m30900
+[92m #61: episode_reward:0.0 steps:31000
+[92mLogging reward of: 0.0, at frame index: 31000, to WandB
+[92m31000
+[92mLogging loss of: -0.0029698144644498825, at frame index: 31000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 31000, to WandB
+[93m [Evaluate] Step_0031000: mean_reward:0.0
+[93m31100
+[93m31200
+[93m31300
+[93m31400
+[92m #62: episode_reward:0.0 steps:31500
+[92mLogging reward of: 0.0, at frame index: 31500, to WandB
+[92m31500
+[92m31600
+[92m31700
+[92m31800
+[92m31900
+[92m #63: episode_reward:0.0 steps:32000
+[92mLogging reward of: 0.0, at frame index: 32000, to WandB
+[92m32000
+[92mLogging loss of: -0.004400436766445637, at frame index: 32000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 32000, to WandB
+[93m [Evaluate] Step_0032000: mean_reward:0.0
+[93m32100
+[93m32200
+[93m32300
+[93m32400
+[92m #64: episode_reward:0.0 steps:32500
+[92mLogging reward of: 0.0, at frame index: 32500, to WandB
+[92m32500
+[92m32600
+[92m32700
+[92m32800
+[92m32900
+[92m #65: episode_reward:0.0 steps:33000
+[92mLogging reward of: 0.0, at frame index: 33000, to WandB
+[92m33000
+[92mLogging loss of: -0.008919941261410713, at frame index: 33000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 33000, to WandB
+[93m [Evaluate] Step_0033000: mean_reward:0.0
+[93m33100
+[93m33200
+[93m33300
+[93m33400
+[92m #66: episode_reward:0.0 steps:33500
+[92mLogging reward of: 0.0, at frame index: 33500, to WandB
+[92m33500
+[92m33600
+[92m33700
+[92m33800
+[92m33900
+[92m #67: episode_reward:0.0 steps:34000
+[92mLogging reward of: 0.0, at frame index: 34000, to WandB
+[92m34000
+[92mLogging loss of: -0.011191886849701405, at frame index: 34000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 34000, to WandB
+[93m [Evaluate] Step_0034000: mean_reward:0.0
+[93m34100
+[93m34200
+[93m34300
+[93m34400
+[92m #68: episode_reward:0.0 steps:34500
+[92mLogging reward of: 0.0, at frame index: 34500, to WandB
+[92m34500
+[92m34600
+[92m34700
+[92m34800
+[92m34900
+[92m #69: episode_reward:0.0 steps:35000
+[92mLogging reward of: 0.0, at frame index: 35000, to WandB
+[92m35000
+[92mLogging loss of: -0.007077569141983986, at frame index: 35000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 35000, to WandB
+[93m [Evaluate] Step_0035000: mean_reward:0.0
+[93m35100
+[93m35200
+[93m35300
+[93m35400
+[92m #70: episode_reward:0.0 steps:35500
+[92mLogging reward of: 0.0, at frame index: 35500, to WandB
+[92m35500
+[92m35600
+[92m35700
+[92m35800
+[92m35900
+[92m #71: episode_reward:0.0 steps:36000
+[92mLogging reward of: 0.0, at frame index: 36000, to WandB
+[92m36000
+[92mLogging loss of: -0.009009186178445816, at frame index: 36000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 36000, to WandB
+[93m [Evaluate] Step_0036000: mean_reward:0.0
+[93m36100
+[93m36200
+[93m36300
+[93m36400
+[92m #72: episode_reward:0.0 steps:36500
+[92mLogging reward of: 0.0, at frame index: 36500, to WandB
+[92m36500
+[92m36600
+[92m36700
+[92m36800
+[92m36900
+[92m #73: episode_reward:0.0 steps:37000
+[92mLogging reward of: 0.0, at frame index: 37000, to WandB
+[92m37000
+[92mLogging loss of: -0.011528867296874523, at frame index: 37000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 37000, to WandB
+[93m [Evaluate] Step_0037000: mean_reward:0.0
+[93m37100
+[93m37200
+[93m37300
+[93m37400
+[92m #74: episode_reward:0.0 steps:37500
+[92mLogging reward of: 0.0, at frame index: 37500, to WandB
+[92m37500
+[92m37600
+[92m37700
+[92m37800
+[92m37900
+[92m #75: episode_reward:0.0 steps:38000
+[92mLogging reward of: 0.0, at frame index: 38000, to WandB
+[92m38000
+[92mLogging loss of: -0.01075038406997919, at frame index: 38000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 38000, to WandB
+[93m [Evaluate] Step_0038000: mean_reward:0.0
+[93m38100
+[93m38200
+[93m38300
+[93m38400
+[92m #76: episode_reward:0.0 steps:38500
+[92mLogging reward of: 0.0, at frame index: 38500, to WandB
+[92m38500
+[92m38600
+[92m38700
+[92m38800
+[92m38900
+[92m #77: episode_reward:0.0 steps:39000
+[92mLogging reward of: 0.0, at frame index: 39000, to WandB
+[92m39000
+[92mLogging loss of: -0.001411736709997058, at frame index: 39000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 39000, to WandB
+[93m [Evaluate] Step_0039000: mean_reward:0.0
+[93m39100
+[93m39200
+[93m39300
+[93m39400
+[92m #78: episode_reward:0.0 steps:39500
+[92mLogging reward of: 0.0, at frame index: 39500, to WandB
+[92m39500
+[92m39600
+[92m39700
+[92m39800
+[92m39900
+[92m #79: episode_reward:0.0 steps:40000
+[92mLogging reward of: 0.0, at frame index: 40000, to WandB
+[92m40000
+[92mLogging loss of: -0.0060114674270153046, at frame index: 40000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 40000, to WandB
+[93m [Evaluate] Step_0040000: mean_reward:0.0
+[93m40100
+[93m40200
+[93m40300
+[93m40400
+[92m #80: episode_reward:0.0 steps:40500
+[92mLogging reward of: 0.0, at frame index: 40500, to WandB
+[92m40500
+[92m40600
+[92m40700
+[92m40800
+[92m40900
+[92m #81: episode_reward:0.0 steps:41000
+[92mLogging reward of: 0.0, at frame index: 41000, to WandB
+[92m41000
+[92mLogging loss of: -0.008145713247358799, at frame index: 41000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 41000, to WandB
+[93m [Evaluate] Step_0041000: mean_reward:0.0
+[93m41100
+[93m41200
+[93m41300
+[93m41400
+[92m #82: episode_reward:0.0 steps:41500
+[92mLogging reward of: 0.0, at frame index: 41500, to WandB
+[92m41500
+[92m41600
+[92m41700
+[92m41800
+[92m41900
+[92m #83: episode_reward:0.0 steps:42000
+[92mLogging reward of: 0.0, at frame index: 42000, to WandB
+[92m42000
+[92mLogging loss of: -0.010438244789838791, at frame index: 42000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 42000, to WandB
+[93m [Evaluate] Step_0042000: mean_reward:0.0
+[93m42100
+[93m42200
+[93m42300
+[93m42400
+[92m #84: episode_reward:0.0 steps:42500
+[92mLogging reward of: 0.0, at frame index: 42500, to WandB
+[92m42500
+[92m42600
+[92m42700
+[92m42800
+[92m42900
+[92m #85: episode_reward:0.0 steps:43000
+[92mLogging reward of: 0.0, at frame index: 43000, to WandB
+[92m43000
+[92mLogging loss of: -0.007825343869626522, at frame index: 43000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 43000, to WandB
+[93m [Evaluate] Step_0043000: mean_reward:0.0
+[93m43100
+[93m43200
+[93m43300
+[93m43400
+[92m #86: episode_reward:0.0 steps:43500
+[92mLogging reward of: 0.0, at frame index: 43500, to WandB
+[92m43500
+[92m43600
+[92m43700
+[92m43800
+[92m43900
+[92m #87: episode_reward:0.0 steps:44000
+[92mLogging reward of: 0.0, at frame index: 44000, to WandB
+[92m44000
+[92mLogging loss of: -0.0039908671751618385, at frame index: 44000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 44000, to WandB
+[93m [Evaluate] Step_0044000: mean_reward:0.0
+[93m44100
+[93m44200
+[93m44300
+[93m44400
+[92m #88: episode_reward:0.0 steps:44500
+[92mLogging reward of: 0.0, at frame index: 44500, to WandB
+[92m44500
+[92m44600
+[92m44700
+[92m44800
+[92m44900
+[92m #89: episode_reward:0.0 steps:45000
+[92mLogging reward of: 0.0, at frame index: 45000, to WandB
+[92m45000
+[92mLogging loss of: -0.008706150576472282, at frame index: 45000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 45000, to WandB
+[93m [Evaluate] Step_0045000: mean_reward:0.0
+[93m45100
+[93m45200
+[93m45300
+[93m45400
+[92m #90: episode_reward:0.0 steps:45500
+[92mLogging reward of: 0.0, at frame index: 45500, to WandB
+[92m45500
+[92m45600
+[92m45700
+[92m45800
+[92m45900
+[92m #91: episode_reward:0.0 steps:46000
+[92mLogging reward of: 0.0, at frame index: 46000, to WandB
+[92m46000
+[92mLogging loss of: -0.008920322172343731, at frame index: 46000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 46000, to WandB
+[93m [Evaluate] Step_0046000: mean_reward:0.0
+[93m46100
+[93m46200
+[93m46300
+[93m46400
+[92m #92: episode_reward:0.0 steps:46500
+[92mLogging reward of: 0.0, at frame index: 46500, to WandB
+[92m46500
+[92m46600
+[92m46700
+[92m46800
+[92m46900
+[92m #93: episode_reward:0.0 steps:47000
+[92mLogging reward of: 0.0, at frame index: 47000, to WandB
+[92m47000
+[92mLogging loss of: -0.00827157124876976, at frame index: 47000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 47000, to WandB
+[93m [Evaluate] Step_0047000: mean_reward:0.0
+[93m47100
+[93m47200
+[93m47300
+[93m47400
+[92m #94: episode_reward:0.0 steps:47500
+[92mLogging reward of: 0.0, at frame index: 47500, to WandB
+[92m47500
+[92m47600
+[92m47700
+[92m47800
+[92m47900
+[92m #95: episode_reward:0.0 steps:48000
+[92mLogging reward of: 0.0, at frame index: 48000, to WandB
+[92m48000
+[92mLogging loss of: -0.00945090688765049, at frame index: 48000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 48000, to WandB
+[93m [Evaluate] Step_0048000: mean_reward:0.0
+[93m48100
+[93m48200
+[93m48300
+[93m48400
+[92m #96: episode_reward:0.0 steps:48500
+[92mLogging reward of: 0.0, at frame index: 48500, to WandB
+[92m48500
+[92m48600
+[92m48700
+[92m48800
+[92m48900
+[92m #97: episode_reward:0.0 steps:49000
+[92mLogging reward of: 0.0, at frame index: 49000, to WandB
+[92m49000
+[92mLogging loss of: -0.007190858945250511, at frame index: 49000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 49000, to WandB
+[93m [Evaluate] Step_0049000: mean_reward:0.0
+[93m49100
+[93m49200
+[93m49300
+[93m49400
+[92m #98: episode_reward:0.0 steps:49500
+[92mLogging reward of: 0.0, at frame index: 49500, to WandB
+[92m49500
+[92m49600
+[92m49700
+[92m49800
+[92m49900
+[92m #99: episode_reward:0.0 steps:50000
+[92mLogging reward of: 0.0, at frame index: 50000, to WandB
+[92m50000
+[92mLogging loss of: -0.00957340095192194, at frame index: 50000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 50000, to WandB
+[93m [Evaluate] Step_0050000: mean_reward:0.0
+[93m50100
+[93m50200
+[93m50300
+[93m50400
+[92m #100: episode_reward:0.0 steps:50500
+[92mLogging reward of: 0.0, at frame index: 50500, to WandB
+[92m50500
+[92m50600
+[92m50700
+[92m50800
+[92m50900
+[92m #101: episode_reward:0.0 steps:51000
+[92mLogging reward of: 0.0, at frame index: 51000, to WandB
+[92m51000
+[92mLogging loss of: -0.009283444844186306, at frame index: 51000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 51000, to WandB
+[93m [Evaluate] Step_0051000: mean_reward:0.0
+[93m51100
+[93m51200
+[93m51300
+[93m51400
+[92m #102: episode_reward:0.0 steps:51500
+[92mLogging reward of: 0.0, at frame index: 51500, to WandB
+[92m51500
+[92m51600
+[92m51700
+[92m51800
+[92m51900
+[92m #103: episode_reward:0.0 steps:52000
+[92mLogging reward of: 0.0, at frame index: 52000, to WandB
+[92m52000
+[92mLogging loss of: -0.007657352369278669, at frame index: 52000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 52000, to WandB
+[93m [Evaluate] Step_0052000: mean_reward:0.0
+[93m52100
+[93m52200
+[93m52300
+[93m52400
+[92m #104: episode_reward:0.0 steps:52500
+[92mLogging reward of: 0.0, at frame index: 52500, to WandB
+[92m52500
+[92m52600
+[92m52700
+[92m52800
+[92m52900
+[92m #105: episode_reward:0.0 steps:53000
+[92mLogging reward of: 0.0, at frame index: 53000, to WandB
+[92m53000
+[92mLogging loss of: 0.0035297763533890247, at frame index: 53000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 53000, to WandB
+[93m [Evaluate] Step_0053000: mean_reward:0.0
+[93m53100
+[93m53200
+[93m53300
+[93m53400
+[92m #106: episode_reward:0.0 steps:53500
+[92mLogging reward of: 0.0, at frame index: 53500, to WandB
+[92m53500
+[92m53600
+[92m53700
+[92m53800
+[92m53900
+[92m #107: episode_reward:0.0 steps:54000
+[92mLogging reward of: 0.0, at frame index: 54000, to WandB
+[92m54000
+[92mLogging loss of: -0.006042760331183672, at frame index: 54000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 54000, to WandB
+[93m [Evaluate] Step_0054000: mean_reward:0.0
+[93m54100
+[93m54200
+[93m54300
+[93m54400
+[92m #108: episode_reward:0.0 steps:54500
+[92mLogging reward of: 0.0, at frame index: 54500, to WandB
+[92m54500
+[92m54600
+[92m54700
+[92m54800
+[92m54900
+[92m #109: episode_reward:0.0 steps:55000
+[92mLogging reward of: 0.0, at frame index: 55000, to WandB
+[92m55000
+[92mLogging loss of: -0.009522239677608013, at frame index: 55000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 55000, to WandB
+[93m [Evaluate] Step_0055000: mean_reward:0.0
+[93m55100
+[93m55200
+[93m55300
+[93m55400
+[92m #110: episode_reward:0.0 steps:55500
+[92mLogging reward of: 0.0, at frame index: 55500, to WandB
+[92m55500
+[92m55600
+[92m55700
+[92m55800
+[92m55900
+[92m #111: episode_reward:0.0 steps:56000
+[92mLogging reward of: 0.0, at frame index: 56000, to WandB
+[92m56000
+[92mLogging loss of: -0.005982758942991495, at frame index: 56000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 56000, to WandB
+[93m [Evaluate] Step_0056000: mean_reward:0.0
+[93m56100
+[93m56200
+[93m56300
+[93m56400
+[92m #112: episode_reward:0.0 steps:56500
+[92mLogging reward of: 0.0, at frame index: 56500, to WandB
+[92m56500
+[92m56600
+[92m56700
+[92m56800
+[92m56900
+[92m #113: episode_reward:0.0 steps:57000
+[92mLogging reward of: 0.0, at frame index: 57000, to WandB
+[92m57000
+[92mLogging loss of: -0.007317086216062307, at frame index: 57000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 57000, to WandB
+[93m [Evaluate] Step_0057000: mean_reward:0.0
+[93m57100
+[93m57200
+[93m57300
+[93m57400
+[92m #114: episode_reward:0.0 steps:57500
+[92mLogging reward of: 0.0, at frame index: 57500, to WandB
+[92m57500
+[92m57600
+[92m57700
+[92m57800
+[92m57900
+[92m #115: episode_reward:0.0 steps:58000
+[92mLogging reward of: 0.0, at frame index: 58000, to WandB
+[92m58000
+[92mLogging loss of: -0.009176410734653473, at frame index: 58000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 58000, to WandB
+[93m [Evaluate] Step_0058000: mean_reward:0.0
+[93m58100
+[93m58200
+[93m58300
+[93m58400
+[92m #116: episode_reward:0.0 steps:58500
+[92mLogging reward of: 0.0, at frame index: 58500, to WandB
+[92m58500
+[92m58600
+[92m58700
+[92m58800
+[92m58900
+[92m #117: episode_reward:0.0 steps:59000
+[92mLogging reward of: 0.0, at frame index: 59000, to WandB
+[92m59000
+[92mLogging loss of: -0.011466207914054394, at frame index: 59000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 59000, to WandB
+[93m [Evaluate] Step_0059000: mean_reward:0.0
+[93m59100
+[93m59200
+[93m59300
+[93m59400
+[92m #118: episode_reward:0.0 steps:59500
+[92mLogging reward of: 0.0, at frame index: 59500, to WandB
+[92m59500
+[92m59600
+[92m59700
+[92m59800
+[92m59900
+[92m #119: episode_reward:0.0 steps:60000
+[92mLogging reward of: 0.0, at frame index: 60000, to WandB
+[92m60000
+[92mLogging loss of: -0.006612744182348251, at frame index: 60000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 60000, to WandB
+[93m [Evaluate] Step_0060000: mean_reward:0.0
+[93m60100
+[93m60200
+[93m60300
+[93m60400
+[92m #120: episode_reward:0.0 steps:60500
+[92mLogging reward of: 0.0, at frame index: 60500, to WandB
+[92m60500
+[92m60600
+[92m60700
+[92m60800
+[92m60900
+[92m #121: episode_reward:0.0 steps:61000
+[92mLogging reward of: 0.0, at frame index: 61000, to WandB
+[92m61000
+[92mLogging loss of: -0.004378623329102993, at frame index: 61000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 61000, to WandB
+[93m [Evaluate] Step_0061000: mean_reward:0.0
+[93m61100
+[93m61200
+[93m61300
+[93m61400
+[92m #122: episode_reward:0.0 steps:61500
+[92mLogging reward of: 0.0, at frame index: 61500, to WandB
+[92m61500
+[92m61600
+[92m61700
+[92m61800
+[92m61900
+[92m #123: episode_reward:0.0 steps:62000
+[92mLogging reward of: 0.0, at frame index: 62000, to WandB
+[92m62000
+[92mLogging loss of: -0.009601213037967682, at frame index: 62000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 62000, to WandB
+[93m [Evaluate] Step_0062000: mean_reward:0.0
+[93m62100
+[93m62200
+[93m62300
+[93m62400
+[92m #124: episode_reward:0.0 steps:62500
+[92mLogging reward of: 0.0, at frame index: 62500, to WandB
+[92m62500
+[92m62600
+[92m62700
+[92m62800
+[92m62900
+[92m #125: episode_reward:0.0 steps:63000
+[92mLogging reward of: 0.0, at frame index: 63000, to WandB
+[92m63000
+[92mLogging loss of: -0.011317257769405842, at frame index: 63000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 63000, to WandB
+[93m [Evaluate] Step_0063000: mean_reward:0.0
+[93m63100
+[93m63200
+[93m63300
+[93m63400
+[92m #126: episode_reward:0.0 steps:63500
+[92mLogging reward of: 0.0, at frame index: 63500, to WandB
+[92m63500
+[92m63600
+[92m63700
+[92m63800
+[92m63900
+[92m #127: episode_reward:0.0 steps:64000
+[92mLogging reward of: 0.0, at frame index: 64000, to WandB
+[92m64000
+[92mLogging loss of: -0.00842459686100483, at frame index: 64000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 64000, to WandB
+[93m [Evaluate] Step_0064000: mean_reward:0.0
+[93m64100
+[93m64200
+[93m64300
+[93m64400
+[92m #128: episode_reward:0.0 steps:64500
+[92mLogging reward of: 0.0, at frame index: 64500, to WandB
+[92m64500
+[92m64600
+[92m64700
+[92m64800
+[92m64900
+[92m #129: episode_reward:0.0 steps:65000
+[92mLogging reward of: 0.0, at frame index: 65000, to WandB
+[92m65000
+[92mLogging loss of: -0.009057254530489445, at frame index: 65000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 65000, to WandB
+[93m [Evaluate] Step_0065000: mean_reward:0.0
+[93m65100
+[93m65200
+[93m65300
+[93m65400
+[92m #130: episode_reward:0.0 steps:65500
+[92mLogging reward of: 0.0, at frame index: 65500, to WandB
+[92m65500
+[92m65600
+[92m65700
+[92m65800
+[92m65900
+[92m #131: episode_reward:0.0 steps:66000
+[92mLogging reward of: 0.0, at frame index: 66000, to WandB
+[92m66000
+[92mLogging loss of: -0.005682539194822311, at frame index: 66000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 66000, to WandB
+[93m [Evaluate] Step_0066000: mean_reward:0.0
+[93m66100
+[93m66200
+[93m66300
+[93m66400
+[92m #132: episode_reward:0.0 steps:66500
+[92mLogging reward of: 0.0, at frame index: 66500, to WandB
+[92m66500
+[92m66600
+[92m66700
+[92m66800
+[92m66900
+[92m #133: episode_reward:0.0 steps:67000
+[92mLogging reward of: 0.0, at frame index: 67000, to WandB
+[92m67000
+[92mLogging loss of: -0.011520852334797382, at frame index: 67000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 67000, to WandB
+[93m [Evaluate] Step_0067000: mean_reward:0.0
+[93m67100
+[93m67200
+[93m67300
+[93m67400
+[92m #134: episode_reward:0.0 steps:67500
+[92mLogging reward of: 0.0, at frame index: 67500, to WandB
+[92m67500
+[92m67600
+[92m67700
+[92m67800
+[92m67900
+[92m #135: episode_reward:0.0 steps:68000
+[92mLogging reward of: 0.0, at frame index: 68000, to WandB
+[92m68000
+[92mLogging loss of: -0.01213403046131134, at frame index: 68000, to WandB
+[92mLogging validate_reward of: 39.719999999999665, at frame index: 68000, to WandB
+[93m [Evaluate] Step_0068000: mean_reward:39.719999999999665
+[93m68100
+[93m68200
+[93m68300
+[93m68400
+[92m #136: episode_reward:0.0 steps:68500
+[92mLogging reward of: 0.0, at frame index: 68500, to WandB
+[92m68500
+[92m68600
+[92m68700
+[92m68800
+[92m68900
+[92m #137: episode_reward:0.0 steps:69000
+[92mLogging reward of: 0.0, at frame index: 69000, to WandB
+[92m69000
+[92mLogging loss of: -0.004322613589465618, at frame index: 69000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 69000, to WandB
+[93m [Evaluate] Step_0069000: mean_reward:0.0
+[93m69100
+[93m69200
+[93m69300
+[93m69400
+[92m #138: episode_reward:0.0 steps:69500
+[92mLogging reward of: 0.0, at frame index: 69500, to WandB
+[92m69500
+[92m69600
+[92m69700
+[92m69800
+[92m69900
+[92m #139: episode_reward:0.0 steps:70000
+[92mLogging reward of: 0.0, at frame index: 70000, to WandB
+[92m70000
+[92mLogging loss of: -0.010294689796864986, at frame index: 70000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 70000, to WandB
+[93m [Evaluate] Step_0070000: mean_reward:0.0
+[93m70100
+[93m70200
+[93m70300
+[93m70400
+[92m #140: episode_reward:0.0 steps:70500
+[92mLogging reward of: 0.0, at frame index: 70500, to WandB
+[92m70500
+[92m70600
+[92m70700
+[92m70800
+[92m70900
+[92m #141: episode_reward:0.0 steps:71000
+[92mLogging reward of: 0.0, at frame index: 71000, to WandB
+[92m71000
+[92mLogging loss of: -0.010127848014235497, at frame index: 71000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 71000, to WandB
+[93m [Evaluate] Step_0071000: mean_reward:0.0
+[93m71100
+[93m71200
+[93m71300
+[93m71400
+[92m #142: episode_reward:0.0 steps:71500
+[92mLogging reward of: 0.0, at frame index: 71500, to WandB
+[92m71500
+[92m71600
+[92m71700
+[92m71800
+[92m71900
+[92m #143: episode_reward:0.0 steps:72000
+[92mLogging reward of: 0.0, at frame index: 72000, to WandB
+[92m72000
+[92mLogging loss of: -0.008559068664908409, at frame index: 72000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 72000, to WandB
+[93m [Evaluate] Step_0072000: mean_reward:0.0
+[93m72100
+[93m72200
+[93m72300
+[93m72400
+[92m #144: episode_reward:0.0 steps:72500
+[92mLogging reward of: 0.0, at frame index: 72500, to WandB
+[92m72500
+[92m72600
+[92m72700
+[92m72800
+[92m72900
+[92m #145: episode_reward:0.0 steps:73000
+[92mLogging reward of: 0.0, at frame index: 73000, to WandB
+[92m73000
+[92mLogging loss of: -0.010627520270645618, at frame index: 73000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 73000, to WandB
+[93m [Evaluate] Step_0073000: mean_reward:0.0
+[93m73100
+[93m73200
+[93m73300
+[93m73400
+[92m #146: episode_reward:0.0 steps:73500
+[92mLogging reward of: 0.0, at frame index: 73500, to WandB
+[92m73500
+[92m73600
+[92m73700
+[92m73800
+[92m73900
+[92m #147: episode_reward:0.0 steps:74000
+[92mLogging reward of: 0.0, at frame index: 74000, to WandB
+[92m74000
+[92mLogging loss of: -0.011320319026708603, at frame index: 74000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 74000, to WandB
+[93m [Evaluate] Step_0074000: mean_reward:0.0
+[93m74100
+[93m74200
+[93m74300
+[93m74400
+[92m #148: episode_reward:0.0 steps:74500
+[92mLogging reward of: 0.0, at frame index: 74500, to WandB
+[92m74500
+[92m74600
+[92m74700
+[92m74800
+[92m74900
+[92m #149: episode_reward:0.0 steps:75000
+[92mLogging reward of: 0.0, at frame index: 75000, to WandB
+[92m75000
+[92mLogging loss of: -0.010697632096707821, at frame index: 75000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 75000, to WandB
+[93m [Evaluate] Step_0075000: mean_reward:0.0
+[93m75100
+[93m75200
+[93m75300
+[93m75400
+[92m #150: episode_reward:0.0 steps:75500
+[92mLogging reward of: 0.0, at frame index: 75500, to WandB
+[92m75500
+[92m75600
+[92m75700
+[92m75800
+[92m75900
+[92m #151: episode_reward:0.0 steps:76000
+[92mLogging reward of: 0.0, at frame index: 76000, to WandB
+[92m76000
+[92mLogging loss of: -0.007365166209638119, at frame index: 76000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 76000, to WandB
+[93m [Evaluate] Step_0076000: mean_reward:0.0
+[93m76100
+[93m76200
+[93m76300
+[93m76400
+[92m #152: episode_reward:0.0 steps:76500
+[92mLogging reward of: 0.0, at frame index: 76500, to WandB
+[92m76500
+[92m76600
+[92m76700
+[92m76800
+[92m76900
+[92m #153: episode_reward:0.0 steps:77000
+[92mLogging reward of: 0.0, at frame index: 77000, to WandB
+[92m77000
+[92mLogging loss of: -0.01092583779245615, at frame index: 77000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 77000, to WandB
+[93m [Evaluate] Step_0077000: mean_reward:0.0
+[93m77100
+[93m77200
+[93m77300
+[93m77400
+[92m #154: episode_reward:0.0 steps:77500
+[92mLogging reward of: 0.0, at frame index: 77500, to WandB
+[92m77500
+[92m77600
+[92m77700
+[92m77800
+[92m77900
+[92m #155: episode_reward:0.0 steps:78000
+[92mLogging reward of: 0.0, at frame index: 78000, to WandB
+[92m78000
+[92mLogging loss of: -0.009754005819559097, at frame index: 78000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 78000, to WandB
+[93m [Evaluate] Step_0078000: mean_reward:0.0
+[93m78100
+[93m78200
+[93m78300
+[93m78400
+[92m #156: episode_reward:0.0 steps:78500
+[92mLogging reward of: 0.0, at frame index: 78500, to WandB
+[92m78500
+[92m78600
+[92m78700
+[92m78800
+[92m78900
+[92m #157: episode_reward:0.0 steps:79000
+[92mLogging reward of: 0.0, at frame index: 79000, to WandB
+[92m79000
+[92mLogging loss of: -0.011264035478234291, at frame index: 79000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 79000, to WandB
+[93m [Evaluate] Step_0079000: mean_reward:0.0
+[93m79100
+[93m79200
+[93m79300
+[93m79400
+[92m #158: episode_reward:0.0 steps:79500
+[92mLogging reward of: 0.0, at frame index: 79500, to WandB
+[92m79500
+[92m79600
+[92m79700
+[92m79800
+[92m79900
+[92m #159: episode_reward:0.0 steps:80000
+[92mLogging reward of: 0.0, at frame index: 80000, to WandB
+[92m80000
+[92mLogging loss of: -0.01024395041167736, at frame index: 80000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 80000, to WandB
+[93m [Evaluate] Step_0080000: mean_reward:0.0
+[93m80100
+[93m80200
+[93m80300
+[93m80400
+[92m #160: episode_reward:0.0 steps:80500
+[92mLogging reward of: 0.0, at frame index: 80500, to WandB
+[92m80500
+[92m80600
+[92m80700
+[92m80800
+[92m80900
+[92m #161: episode_reward:0.0 steps:81000
+[92mLogging reward of: 0.0, at frame index: 81000, to WandB
+[92m81000
+[92mLogging loss of: -0.009219435974955559, at frame index: 81000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 81000, to WandB
+[93m [Evaluate] Step_0081000: mean_reward:0.0
+[93m81100
+[93m81200
+[93m81300
+[93m81400
+[92m #162: episode_reward:0.0 steps:81500
+[92mLogging reward of: 0.0, at frame index: 81500, to WandB
+[92m81500
+[92m81600
+[92m81700
+[92m81800
+[92m81900
+[92m #163: episode_reward:0.0 steps:82000
+[92mLogging reward of: 0.0, at frame index: 82000, to WandB
+[92m82000
+[92mLogging loss of: -0.0033049406483769417, at frame index: 82000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 82000, to WandB
+[93m [Evaluate] Step_0082000: mean_reward:0.0
+[93m82100
+[93m82200
+[93m82300
+[93m82400
+[92m #164: episode_reward:0.0 steps:82500
+[92mLogging reward of: 0.0, at frame index: 82500, to WandB
+[92m82500
+[92m82600
+[92m82700
+[92m82800
+[92m82900
+[92m #165: episode_reward:0.0 steps:83000
+[92mLogging reward of: 0.0, at frame index: 83000, to WandB
+[92m83000
+[92mLogging loss of: -0.007955105043947697, at frame index: 83000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 83000, to WandB
+[93m [Evaluate] Step_0083000: mean_reward:0.0
+[93m83100
+[93m83200
+[93m83300
+[93m83400
+[92m #166: episode_reward:0.0 steps:83500
+[92mLogging reward of: 0.0, at frame index: 83500, to WandB
+[92m83500
+[92m83600
+[92m83700
+[92m83800
+[92m83900
+[92m #167: episode_reward:0.0 steps:84000
+[92mLogging reward of: 0.0, at frame index: 84000, to WandB
+[92m84000
+[92mLogging loss of: -0.008245712146162987, at frame index: 84000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 84000, to WandB
+[93m [Evaluate] Step_0084000: mean_reward:0.0
+[93m84100
+[93m84200
+[93m84300
+[93m84400
+[92m #168: episode_reward:0.0 steps:84500
+[92mLogging reward of: 0.0, at frame index: 84500, to WandB
+[92m84500
+[92m84600
+[92m84700
+[92m84800
+[92m84900
+[92m #169: episode_reward:0.0 steps:85000
+[92mLogging reward of: 0.0, at frame index: 85000, to WandB
+[92m85000
+[92mLogging loss of: -0.006213910412043333, at frame index: 85000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 85000, to WandB
+[93m [Evaluate] Step_0085000: mean_reward:0.0
+[93m85100
+[93m85200
+[93m85300
+[93m85400
+[92m #170: episode_reward:0.0 steps:85500
+[92mLogging reward of: 0.0, at frame index: 85500, to WandB
+[92m85500
+[92m85600
+[92m85700
+[92m85800
+[92m85900
+[92m #171: episode_reward:0.0 steps:86000
+[92mLogging reward of: 0.0, at frame index: 86000, to WandB
+[92m86000
+[92mLogging loss of: -0.012419657781720161, at frame index: 86000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 86000, to WandB
+[93m [Evaluate] Step_0086000: mean_reward:0.0
+[93m86100
+[93m86200
+[93m86300
+[93m86400
+[92m #172: episode_reward:0.0 steps:86500
+[92mLogging reward of: 0.0, at frame index: 86500, to WandB
+[92m86500
+[92m86600
+[92m86700
+[92m86800
+[92m86900
+[92m #173: episode_reward:0.0 steps:87000
+[92mLogging reward of: 0.0, at frame index: 87000, to WandB
+[92m87000
+[92mLogging loss of: -0.006003775168210268, at frame index: 87000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 87000, to WandB
+[93m [Evaluate] Step_0087000: mean_reward:0.0
+[93m87100
+[93m87200
+[93m87300
+[93m87400
+[92m #174: episode_reward:0.0 steps:87500
+[92mLogging reward of: 0.0, at frame index: 87500, to WandB
+[92m87500
+[92m87600
+[92m87700
+[92m87800
+[92m87900
+[92m #175: episode_reward:0.0 steps:88000
+[92mLogging reward of: 0.0, at frame index: 88000, to WandB
+[92m88000
+[92mLogging loss of: -0.011564522050321102, at frame index: 88000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 88000, to WandB
+[93m [Evaluate] Step_0088000: mean_reward:0.0
+[93m88100
+[93m88200
+[93m88300
+[93m88400
+[92m #176: episode_reward:0.0 steps:88500
+[92mLogging reward of: 0.0, at frame index: 88500, to WandB
+[92m88500
+[92m88600
+[92m88700
+[92m88800
+[92m88900
+[92m #177: episode_reward:0.0 steps:89000
+[92mLogging reward of: 0.0, at frame index: 89000, to WandB
+[92m89000
+[92mLogging loss of: -0.0068121072836220264, at frame index: 89000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 89000, to WandB
+[93m [Evaluate] Step_0089000: mean_reward:0.0
+[93m89100
+[93m89200
+[93m89300
+[93m89400
+[92m #178: episode_reward:0.0 steps:89500
+[92mLogging reward of: 0.0, at frame index: 89500, to WandB
+[92m89500
+[92m89600
+[92m89700
+[92m89800
+[92m89900
+[92m #179: episode_reward:0.0 steps:90000
+[92mLogging reward of: 0.0, at frame index: 90000, to WandB
+[92m90000
+[92mLogging loss of: -0.01064114086329937, at frame index: 90000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 90000, to WandB
+[93m [Evaluate] Step_0090000: mean_reward:0.0
+[93m90100
+[93m90200
+[93m90300
+[93m90400
+[92m #180: episode_reward:0.0 steps:90500
+[92mLogging reward of: 0.0, at frame index: 90500, to WandB
+[92m90500
+[92m90600
+[92m90700
+[92m90800
+[92m90900
+[92m #181: episode_reward:0.0 steps:91000
+[92mLogging reward of: 0.0, at frame index: 91000, to WandB
+[92m91000
+[92mLogging loss of: -0.011697382666170597, at frame index: 91000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 91000, to WandB
+[93m [Evaluate] Step_0091000: mean_reward:0.0
+[93m91100
+[93m91200
+[93m91300
+[93m91400
+[92m #182: episode_reward:0.0 steps:91500
+[92mLogging reward of: 0.0, at frame index: 91500, to WandB
+[92m91500
+[92m91600
+[92m91700
+[92m91800
+[92m91900
+[92m #183: episode_reward:0.0 steps:92000
+[92mLogging reward of: 0.0, at frame index: 92000, to WandB
+[92m92000
+[92mLogging loss of: -0.010413684882223606, at frame index: 92000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 92000, to WandB
+[93m [Evaluate] Step_0092000: mean_reward:0.0
+[93m92100
+[93m92200
+[93m92300
+[93m92400
+[92m #184: episode_reward:0.0 steps:92500
+[92mLogging reward of: 0.0, at frame index: 92500, to WandB
+[92m92500
+[92m92600
+[92m92700
+[92m92800
+[92m92900
+[92m #185: episode_reward:0.0 steps:93000
+[92mLogging reward of: 0.0, at frame index: 93000, to WandB
+[92m93000
+[92mLogging loss of: -0.011102409102022648, at frame index: 93000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 93000, to WandB
+[93m [Evaluate] Step_0093000: mean_reward:0.0
+[93m93100
+[93m93200
+[93m93300
+[93m93400
+[92m #186: episode_reward:0.0 steps:93500
+[92mLogging reward of: 0.0, at frame index: 93500, to WandB
+[92m93500
+[92m93600
+[92m93700
+[92m93800
+[92m93900
+[92m #187: episode_reward:0.0 steps:94000
+[92mLogging reward of: 0.0, at frame index: 94000, to WandB
+[92m94000
+[92mLogging loss of: -0.007006653118878603, at frame index: 94000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 94000, to WandB
+[93m [Evaluate] Step_0094000: mean_reward:0.0
+[93m94100
+[93m94200
+[93m94300
+[93m94400
+[92m #188: episode_reward:0.0 steps:94500
+[92mLogging reward of: 0.0, at frame index: 94500, to WandB
+[92m94500
+[92m94600
+[92m94700
+[92m94800
+[92m94900
+[92m #189: episode_reward:0.0 steps:95000
+[92mLogging reward of: 0.0, at frame index: 95000, to WandB
+[92m95000
+[92mLogging loss of: -0.006930721923708916, at frame index: 95000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 95000, to WandB
+[93m [Evaluate] Step_0095000: mean_reward:0.0
+[93m95100
+[93m95200
+[93m95300
+[93m95400
+[92m #190: episode_reward:0.0 steps:95500
+[92mLogging reward of: 0.0, at frame index: 95500, to WandB
+[92m95500
+[92m95600
+[92m95700
+[92m95800
+[92m95900
+[92m #191: episode_reward:0.0 steps:96000
+[92mLogging reward of: 0.0, at frame index: 96000, to WandB
+[92m96000
+[92mLogging loss of: -0.009331879206001759, at frame index: 96000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 96000, to WandB
+[93m [Evaluate] Step_0096000: mean_reward:0.0
+[93m96100
+[93m96200
+[93m96300
+[93m96400
+[92m #192: episode_reward:0.0 steps:96500
+[92mLogging reward of: 0.0, at frame index: 96500, to WandB
+[92m96500
+[92m96600
+[92m96700
+[92m96800
+[92m96900
+[92m #193: episode_reward:0.0 steps:97000
+[92mLogging reward of: 0.0, at frame index: 97000, to WandB
+[92m97000
+[92mLogging loss of: -0.0027677612379193306, at frame index: 97000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 97000, to WandB
+[93m [Evaluate] Step_0097000: mean_reward:0.0
+[93m97100
+[93m97200
+[93m97300
+[93m97400
+[92m #194: episode_reward:0.0 steps:97500
+[92mLogging reward of: 0.0, at frame index: 97500, to WandB
+[92m97500
+[92m97600
+[92m97700
+[92m97800
+[92m97900
+[92m #195: episode_reward:0.0 steps:98000
+[92mLogging reward of: 0.0, at frame index: 98000, to WandB
+[92m98000
+[92mLogging loss of: -0.013402226381003857, at frame index: 98000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 98000, to WandB
+[93m [Evaluate] Step_0098000: mean_reward:0.0
+[93m98100
+[93m98200
+[93m98300
+[93m98400
+[92m #196: episode_reward:0.0 steps:98500
+[92mLogging reward of: 0.0, at frame index: 98500, to WandB
+[92m98500
+[92m98600
+[92m98700
+[92m98800
+[92m98900
+[92m #197: episode_reward:0.0 steps:99000
+[92mLogging reward of: 0.0, at frame index: 99000, to WandB
+[92m99000
+[92mLogging loss of: -0.010389517061412334, at frame index: 99000, to WandB
+[92mLogging validate_reward of: 0.0, at frame index: 99000, to WandB
+[93m [Evaluate] Step_0099000: mean_reward:0.0
+[93m99100
+[93m99200
+[93m99300
+[93m99400
+[92m #198: episode_reward:0.0 steps:99500
+[92mLogging reward of: 0.0, at frame index: 99500, to WandB
+[92m99500
+[92m99600
+[92m99700
+[92m99800
+[92m99900
+[92m #199: episode_reward:0.0 steps:100000
+[92mLogging reward of: 0.0, at frame index: 100000, to WandB
+[92mRoboLoco-v0-100000_training_steps.mp4
+[92m0.002

@@ -1,0 +1,390 @@
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1024: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  is_limited = physics.model.actuator_ctrllimited.ravel().astype(np.bool)
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1026: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  minima = np.full(num_actions, fill_value=-constants.mjMAXVAL, dtype=np.float)
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1027: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  maxima = np.full(num_actions, fill_value=constants.mjMAXVAL, dtype=np.float)
+C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\dm_control\mujoco\engine.py:1031: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  shape=(num_actions,), dtype=np.float, minimum=minima, maximum=maxima)
+8
+frame index:1
+discount: 1.0
+step-type: StepType.MID
+frame index:2
+discount: 1.0
+step-type: StepType.MID
+frame index:3
+discount: 1.0
+step-type: StepType.MID
+frame index:4
+discount: 1.0
+step-type: StepType.MID
+frame index:5
+discount: 1.0
+step-type: StepType.MID
+frame index:6
+discount: 1.0
+step-type: StepType.MID
+frame index:7
+discount: 1.0
+step-type: StepType.MID
+frame index:8
+discount: 1.0
+step-type: StepType.MID
+frame index:9
+discount: 1.0
+step-type: StepType.MID
+frame index:10
+discount: 1.0
+step-type: StepType.MID
+frame index:11
+discount: 1.0
+step-type: StepType.MID
+frame index:12
+discount: 1.0
+step-type: StepType.MID
+frame index:13
+discount: 1.0
+step-type: StepType.MID
+frame index:14
+discount: 1.0
+step-type: StepType.MID
+frame index:15
+discount: 1.0
+step-type: StepType.MID
+frame index:16
+discount: 1.0
+step-type: StepType.MID
+frame index:17
+discount: 1.0
+step-type: StepType.MID
+frame index:18
+discount: 1.0
+step-type: StepType.MID
+frame index:19
+discount: 1.0
+step-type: StepType.MID
+frame index:20
+discount: 1.0
+step-type: StepType.MID
+frame index:21
+discount: 1.0
+step-type: StepType.MID
+frame index:22
+discount: 1.0
+step-type: StepType.MID
+frame index:23
+discount: 1.0
+step-type: StepType.MID
+frame index:24
+discount: 1.0
+step-type: StepType.MID
+frame index:25
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.22119496762752533, at frame index: 25, to WandB
+frame index:26
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.05725546553730965, at frame index: 26, to WandB
+frame index:27
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.012139938771724701, at frame index: 27, to WandB
+frame index:28
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03145543858408928, at frame index: 28, to WandB
+frame index:29
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.04286852851510048, at frame index: 29, to WandB
+frame index:30
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10049501061439514, at frame index: 30, to WandB
+frame index:31
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.09863776713609695, at frame index: 31, to WandB
+frame index:32
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.09300848841667175, at frame index: 32, to WandB
+frame index:33
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.06279021501541138, at frame index: 33, to WandB
+frame index:34
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.043811529874801636, at frame index: 34, to WandB
+frame index:35
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03750581294298172, at frame index: 35, to WandB
+frame index:36
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.020231598988175392, at frame index: 36, to WandB
+frame index:37
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.038685236126184464, at frame index: 37, to WandB
+frame index:38
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1188497319817543, at frame index: 38, to WandB
+frame index:39
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.11548963189125061, at frame index: 39, to WandB
+frame index:40
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.07795218378305435, at frame index: 40, to WandB
+frame index:41
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.06578082591295242, at frame index: 41, to WandB
+frame index:42
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.02836291491985321, at frame index: 42, to WandB
+frame index:43
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.06440193951129913, at frame index: 43, to WandB
+frame index:44
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.05081326887011528, at frame index: 44, to WandB
+frame index:45
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.0652291402220726, at frame index: 45, to WandB
+frame index:46
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.07551470398902893, at frame index: 46, to WandB
+frame index:47
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10491624474525452, at frame index: 47, to WandB
+frame index:48
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.12110758572816849, at frame index: 48, to WandB
+frame index:49
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1217508316040039, at frame index: 49, to WandB
+frame index:50
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10850312560796738, at frame index: 50, to WandB
+frame index:51
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.11068796366453171, at frame index: 51, to WandB
+frame index:52
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.07944867759943008, at frame index: 52, to WandB
+frame index:53
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.07525637000799179, at frame index: 53, to WandB
+frame index:54
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03140171989798546, at frame index: 54, to WandB
+frame index:55
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.020862074568867683, at frame index: 55, to WandB
+frame index:56
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03055722825229168, at frame index: 56, to WandB
+frame index:57
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.0538526326417923, at frame index: 57, to WandB
+frame index:58
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.09030809998512268, at frame index: 58, to WandB
+frame index:59
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.086829774081707, at frame index: 59, to WandB
+frame index:60
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.09106472134590149, at frame index: 60, to WandB
+frame index:61
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.05218275263905525, at frame index: 61, to WandB
+frame index:62
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.04831501469016075, at frame index: 62, to WandB
+frame index:63
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03327378258109093, at frame index: 63, to WandB
+frame index:64
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.060918230563402176, at frame index: 64, to WandB
+frame index:65
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.09424632787704468, at frame index: 65, to WandB
+frame index:66
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10307544469833374, at frame index: 66, to WandB
+frame index:67
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.05945228412747383, at frame index: 67, to WandB
+frame index:68
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.15757639706134796, at frame index: 68, to WandB
+frame index:69
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.19457119703292847, at frame index: 69, to WandB
+frame index:70
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.15530066192150116, at frame index: 70, to WandB
+frame index:71
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03934616968035698, at frame index: 71, to WandB
+frame index:72
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.0989919900894165, at frame index: 72, to WandB
+frame index:73
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.13892370462417603, at frame index: 73, to WandB
+frame index:74
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.06644659489393234, at frame index: 74, to WandB
+frame index:75
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.0511077381670475, at frame index: 75, to WandB
+frame index:76
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10356709361076355, at frame index: 76, to WandB
+frame index:77
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.09959634393453598, at frame index: 77, to WandB
+frame index:78
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.03762173280119896, at frame index: 78, to WandB
+frame index:79
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.04401904344558716, at frame index: 79, to WandB
+frame index:80
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10337936878204346, at frame index: 80, to WandB
+frame index:81
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.023731185123324394, at frame index: 81, to WandB
+frame index:82
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.1248307004570961, at frame index: 82, to WandB
+frame index:83
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.11647184938192368, at frame index: 83, to WandB
+frame index:84
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.060144200921058655, at frame index: 84, to WandB
+frame index:85
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.04643174633383751, at frame index: 85, to WandB
+frame index:86
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.030632534995675087, at frame index: 86, to WandB
+frame index:87
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.046028297394514084, at frame index: 87, to WandB
+frame index:88
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.061508696526288986, at frame index: 88, to WandB
+frame index:89
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.04530474543571472, at frame index: 89, to WandB
+frame index:90
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.0706881657242775, at frame index: 90, to WandB
+frame index:91
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.033412087708711624, at frame index: 91, to WandB
+frame index:92
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.021717557683587074, at frame index: 92, to WandB
+frame index:93
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.061910480260849, at frame index: 93, to WandB
+frame index:94
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.039202991873025894, at frame index: 94, to WandB
+frame index:95
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.025376947596669197, at frame index: 95, to WandB
+frame index:96
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.015934642404317856, at frame index: 96, to WandB
+frame index:97
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.05805235728621483, at frame index: 97, to WandB
+frame index:98
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.025038333609700203, at frame index: 98, to WandB
+frame index:99
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.10199129581451416, at frame index: 99, to WandB
+frame index:100
+discount: 1.0
+step-type: StepType.MID
+Logging loss of: 0.05167284607887268, at frame index: 100, to WandB
+MyRoboLoco_animation_100_model_frames.mp4

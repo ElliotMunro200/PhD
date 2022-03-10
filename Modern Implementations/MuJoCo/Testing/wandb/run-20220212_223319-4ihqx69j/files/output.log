@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_main.py", line 202, in <module>
+    agent = DDPG(num_states, num_actions, args)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_ddpg.py", line 28, in __init__
+    self.actor = Actor(self.num_states, self.num_actions, **net_cfg)
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py", line 1159, in __setattr__
+    raise AttributeError(
+AttributeError: cannot assign module before Module.__init__() call

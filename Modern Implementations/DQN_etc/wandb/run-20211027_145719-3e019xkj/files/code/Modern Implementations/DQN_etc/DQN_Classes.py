@@ -251,8 +251,8 @@ if __name__ == "__main__":
     #DQN
     if DQN:
         # env = SDP_env()
-        # num_states = env.num_states
-        # num_actions = env.num_actions
+        # dim_states = env.dim_states
+        # dim_actions = env.dim_actions
         env = gym.make(config["env_name"])
         num_states = env.observation_space.shape[0]
         num_actions = env.action_space.n
@@ -264,8 +264,8 @@ if __name__ == "__main__":
     #h-DQN
     if h_DQN:
         # env = SDP_env()
-        # num_states = env.num_states
-        # num_actions = env.num_actions
+        # dim_states = env.dim_states
+        # dim_actions = env.dim_actions
         goal_state_rep_f = 2
         env = gym.make(config["env_name"])
         num_goals = env.observation_space.shape[0]

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\S_L_CartPole_DDPG_main.py", line 215, in <module>
+    agent = DDPG(dim_states, dim_actions, args)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_ddpg.py", line 38, in __init__
+    self.memory = SequentialMemory(limit=args.rmsize, window_length=args.window_length)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_memory.py", line 122, in __init__
+    self.terminals = RingBuffer(limit)
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_memory.py", line 36, in __init__
+    self.data = [None for _ in range(maxlen)]
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_memory.py", line 36, in <listcomp>
+    self.data = [None for _ in range(maxlen)]
+KeyboardInterrupt

@@ -1,0 +1,381 @@
+frame index:1
+reward: 0.7991162473933539
+step-type: StepType.MID
+frame index:2
+reward: 0.7968759980163183
+step-type: StepType.MID
+frame index:3
+reward: 0.9959110778234626
+step-type: StepType.MID
+frame index:4
+reward: 0.995705956640703
+step-type: StepType.MID
+frame index:5
+reward: 0.9954783352929487
+step-type: StepType.MID
+frame index:6
+reward: 0.995226790857983
+step-type: StepType.MID
+frame index:7
+reward: 0.7919918179460913
+step-type: StepType.MID
+frame index:8
+reward: 0.7861757899484227
+step-type: StepType.MID
+frame index:9
+reward: 0.7787601915151393
+step-type: StepType.MID
+frame index:10
+reward: 0.7697810673696777
+step-type: StepType.MID
+frame index:11
+reward: 0.960958533711649
+step-type: StepType.MID
+frame index:12
+reward: 0.959508223742134
+step-type: StepType.MID
+frame index:13
+reward: 0.9578682882731975
+step-type: StepType.MID
+frame index:14
+reward: 0.9560308217358546
+step-type: StepType.MID
+frame index:15
+reward: 0.9539871192252084
+step-type: StepType.MID
+frame index:16
+reward: 0.9517276680745754
+step-type: StepType.MID
+frame index:17
+reward: 0.7492504424896743
+step-type: StepType.MID
+frame index:18
+reward: 0.933506137714405
+step-type: StepType.MID
+frame index:19
+reward: 0.9301497407197391
+step-type: StepType.MID
+frame index:20
+reward: 0.9264805999795673
+step-type: StepType.MID
+frame index:21
+reward: 0.9224846388684714
+step-type: StepType.MID
+frame index:22
+reward: 0.9181470140581376
+step-type: StepType.MID
+frame index:23
+reward: 0.9134521758409581
+step-type: StepType.MID
+frame index:24
+reward: 0.7147640261864903
+step-type: StepType.MID
+frame index:25
+reward: 0.8875793485063955
+step-type: StepType.MID
+Logging loss of: 0.9857709407806396, at frame index: 25, to WandB
+frame index:26
+reward: 0.8812512310153728
+step-type: StepType.MID
+Logging loss of: 0.971637487411499, at frame index: 26, to WandB
+frame index:27
+reward: 0.8744543611870436
+step-type: StepType.MID
+Logging loss of: 0.9297389388084412, at frame index: 27, to WandB
+frame index:28
+reward: 0.867172502338317
+step-type: StepType.MID
+Logging loss of: 0.9223856329917908, at frame index: 28, to WandB
+frame index:29
+reward: 0.674599268441591
+step-type: StepType.MID
+Logging reward of: 25.638395414912882, at frame index: 29, to WandB
+Logging loss of: 0.885862410068512, at frame index: 29, to WandB
+frame index:30
+reward: 0.0
+step-type: StepType.FIRST
+Logging loss of: 0.870771586894989, at frame index: 30, to WandB
+frame index:31
+reward: 0.9998840796635101
+step-type: StepType.MID
+Logging loss of: 0.8663130402565002, at frame index: 31, to WandB
+frame index:32
+reward: 0.7989882051948108
+step-type: StepType.MID
+Logging loss of: 0.7996770739555359, at frame index: 32, to WandB
+frame index:33
+reward: 0.9987032935165626
+step-type: StepType.MID
+Logging loss of: 0.8992950320243835, at frame index: 33, to WandB
+frame index:34
+reward: 0.796482327141701
+step-type: StepType.MID
+Logging loss of: 0.7924157977104187, at frame index: 34, to WandB
+frame index:35
+reward: 0.7924715897622985
+step-type: StepType.MID
+Logging loss of: 0.8618490695953369, at frame index: 35, to WandB
+frame index:36
+reward: 0.9904125827652741
+step-type: StepType.MID
+Logging loss of: 0.8104870915412903, at frame index: 36, to WandB
+frame index:37
+reward: 0.7867244287533671
+step-type: StepType.MID
+Logging loss of: 0.8746910691261292, at frame index: 37, to WandB
+frame index:38
+reward: 0.9830388821011089
+step-type: StepType.MID
+Logging loss of: 0.8817098736763, at frame index: 38, to WandB
+frame index:39
+reward: 0.9825916271383269
+step-type: StepType.MID
+Logging loss of: 0.8173444271087646, at frame index: 39, to WandB
+frame index:40
+reward: 0.7787056327191403
+step-type: StepType.MID
+Logging loss of: 0.8730072975158691, at frame index: 40, to WandB
+frame index:41
+reward: 0.9726137565796807
+step-type: StepType.MID
+Logging loss of: 0.8535293936729431, at frame index: 41, to WandB
+frame index:42
+reward: 0.7690232446297843
+step-type: StepType.MID
+Logging loss of: 0.8313022255897522, at frame index: 42, to WandB
+frame index:43
+reward: 0.7584573463787603
+step-type: StepType.MID
+Logging loss of: 0.8403863906860352, at frame index: 43, to WandB
+frame index:44
+reward: 0.9464544816170017
+step-type: StepType.MID
+Logging loss of: 0.8692159652709961, at frame index: 44, to WandB
+frame index:45
+reward: 0.7448786167715409
+step-type: StepType.MID
+Logging loss of: 0.8677079677581787, at frame index: 45, to WandB
+frame index:46
+reward: 0.928739265523578
+step-type: StepType.MID
+Logging loss of: 0.900677502155304, at frame index: 46, to WandB
+frame index:47
+reward: 0.9260627103306849
+step-type: StepType.MID
+Logging loss of: 0.8439437747001648, at frame index: 47, to WandB
+frame index:48
+reward: 0.9230583732188352
+step-type: StepType.MID
+Logging loss of: 0.9038345813751221, at frame index: 48, to WandB
+frame index:49
+reward: 0.7237383432008445
+step-type: StepType.MID
+Logging reward of: 16.60102878700681, at frame index: 49, to WandB
+Logging loss of: 0.9569939970970154, at frame index: 49, to WandB
+frame index:50
+reward: 0.0
+step-type: StepType.FIRST
+Logging loss of: 0.974744975566864, at frame index: 50, to WandB
+frame index:51
+reward: 0.7990383457323751
+step-type: StepType.MID
+Logging loss of: 0.9208356738090515, at frame index: 51, to WandB
+frame index:52
+reward: 0.7969779435614319
+step-type: StepType.MID
+Logging loss of: 0.9643042683601379, at frame index: 52, to WandB
+frame index:53
+reward: 0.996164463289508
+step-type: StepType.MID
+Logging loss of: 1.0067089796066284, at frame index: 53, to WandB
+frame index:54
+reward: 0.9960890198333382
+step-type: StepType.MID
+Logging loss of: 1.055759072303772, at frame index: 54, to WandB
+frame index:55
+reward: 0.7931747256216561
+step-type: StepType.MID
+Logging loss of: 0.9638075828552246, at frame index: 55, to WandB
+frame index:56
+reward: 0.9912860728120167
+step-type: StepType.MID
+Logging loss of: 0.9977116584777832, at frame index: 56, to WandB
+frame index:57
+reward: 0.7877075882022273
+step-type: StepType.MID
+Logging loss of: 1.0124272108078003, at frame index: 57, to WandB
+frame index:58
+reward: 0.984265503605962
+step-type: StepType.MID
+Logging loss of: 1.0090291500091553, at frame index: 58, to WandB
+frame index:59
+reward: 0.9838205554602146
+step-type: StepType.MID
+Logging loss of: 1.0629090070724487, at frame index: 59, to WandB
+frame index:60
+reward: 0.983296811592496
+step-type: StepType.MID
+Logging loss of: 1.056378960609436, at frame index: 60, to WandB
+frame index:61
+reward: 0.7793764273888442
+step-type: StepType.MID
+Logging loss of: 0.931467592716217, at frame index: 61, to WandB
+frame index:62
+reward: 0.7705568838488139
+step-type: StepType.MID
+Logging loss of: 1.0418076515197754, at frame index: 62, to WandB
+frame index:63
+reward: 0.7602231727946195
+step-type: StepType.MID
+Logging loss of: 1.0564979314804077, at frame index: 63, to WandB
+frame index:64
+reward: 0.9487132156455595
+step-type: StepType.MID
+Logging loss of: 1.040831446647644, at frame index: 64, to WandB
+frame index:65
+reward: 0.9469090488554884
+step-type: StepType.MID
+Logging loss of: 1.109419584274292, at frame index: 65, to WandB
+frame index:66
+reward: 0.7451645199011948
+step-type: StepType.MID
+Logging loss of: 1.1552931070327759, at frame index: 66, to WandB
+frame index:67
+reward: 0.7313828706141094
+step-type: StepType.MID
+Logging reward of: 14.794147168759855, at frame index: 67, to WandB
+Logging loss of: 1.121888518333435, at frame index: 67, to WandB
+frame index:68
+reward: 0.0
+step-type: StepType.FIRST
+Logging loss of: 1.3461380004882812, at frame index: 68, to WandB
+frame index:69
+reward: 0.7979802660068729
+step-type: StepType.MID
+Logging loss of: 1.1570030450820923, at frame index: 69, to WandB
+frame index:70
+reward: 0.7957325907508381
+step-type: StepType.MID
+Logging loss of: 1.1732670068740845, at frame index: 70, to WandB
+frame index:71
+reward: 0.7920330736778379
+step-type: StepType.MID
+Logging loss of: 1.2982959747314453, at frame index: 71, to WandB
+frame index:72
+reward: 0.9900907005918296
+step-type: StepType.MID
+Logging loss of: 1.4901385307312012, at frame index: 72, to WandB
+frame index:73
+reward: 0.7868777665012014
+step-type: StepType.MID
+Logging loss of: 1.3825602531433105, at frame index: 73, to WandB
+frame index:74
+reward: 0.983536885417367
+step-type: StepType.MID
+Logging loss of: 1.0133596658706665, at frame index: 74, to WandB
+frame index:75
+reward: 0.9834033391327263
+step-type: StepType.MID
+Logging loss of: 1.179132342338562, at frame index: 75, to WandB
+frame index:76
+reward: 0.9831950455596582
+step-type: StepType.MID
+Logging loss of: 1.6004287004470825, at frame index: 76, to WandB
+frame index:77
+reward: 0.779607411875087
+step-type: StepType.MID
+Logging loss of: 1.2840403318405151, at frame index: 77, to WandB
+frame index:78
+reward: 0.9740456355749793
+step-type: StepType.MID
+Logging loss of: 1.4225651025772095, at frame index: 78, to WandB
+frame index:79
+reward: 0.9734612742019558
+step-type: StepType.MID
+Logging loss of: 1.313092827796936, at frame index: 79, to WandB
+frame index:80
+reward: 0.9727523275295342
+step-type: StepType.MID
+Logging loss of: 1.7591804265975952, at frame index: 80, to WandB
+frame index:81
+reward: 0.971914353549325
+step-type: StepType.MID
+Logging loss of: 1.8472315073013306, at frame index: 81, to WandB
+frame index:82
+reward: 0.7683843279426136
+step-type: StepType.MID
+Logging loss of: 1.9314182996749878, at frame index: 82, to WandB
+frame index:83
+reward: 0.9591694346169174
+step-type: StepType.MID
+Logging loss of: 2.0761630535125732, at frame index: 83, to WandB
+frame index:84
+reward: 0.7564183670334446
+step-type: StepType.MID
+Logging loss of: 1.817872405052185, at frame index: 84, to WandB
+frame index:85
+reward: 0.9435834151693411
+step-type: StepType.MID
+Logging loss of: 1.1435695886611938, at frame index: 85, to WandB
+frame index:86
+reward: 0.9413828560858672
+step-type: StepType.MID
+Logging loss of: 1.5160218477249146, at frame index: 86, to WandB
+frame index:87
+reward: 0.9389111378100017
+step-type: StepType.MID
+Logging loss of: 2.1736648082733154, at frame index: 87, to WandB
+frame index:88
+reward: 0.9361572043864628
+step-type: StepType.MID
+Logging loss of: 2.053428888320923, at frame index: 88, to WandB
+frame index:89
+reward: 0.7352196732048555
+step-type: StepType.MID
+Logging loss of: 2.1892218589782715, at frame index: 89, to WandB
+frame index:90
+reward: 0.9153459560607622
+step-type: StepType.MID
+Logging loss of: 1.1899971961975098, at frame index: 90, to WandB
+frame index:91
+reward: 0.7167513668531439
+step-type: StepType.MID
+Logging reward of: 20.395954409532624, at frame index: 91, to WandB
+Logging loss of: 2.1605865955352783, at frame index: 91, to WandB
+frame index:92
+reward: 0.0
+step-type: StepType.FIRST
+Logging loss of: 1.9759601354599, at frame index: 92, to WandB
+frame index:93
+reward: 0.7980866260170286
+step-type: StepType.MID
+Logging loss of: 1.6891266107559204, at frame index: 93, to WandB
+frame index:94
+reward: 0.9975663864903123
+step-type: StepType.MID
+Logging loss of: 2.3730628490448, at frame index: 94, to WandB
+frame index:95
+reward: 0.9975201012227145
+step-type: StepType.MID
+Logging loss of: 1.8082728385925293, at frame index: 95, to WandB
+frame index:96
+reward: 0.7957079725228524
+step-type: StepType.MID
+Logging loss of: 3.2558135986328125, at frame index: 96, to WandB
+frame index:97
+reward: 0.7918689963365353
+step-type: StepType.MID
+Logging loss of: 2.164188861846924, at frame index: 97, to WandB
+frame index:98
+reward: 0.9896133316944226
+step-type: StepType.MID
+Logging loss of: 2.4459333419799805, at frame index: 98, to WandB
+frame index:99
+reward: 0.7862758339449635
+step-type: StepType.MID
+Logging loss of: 1.6673182249069214, at frame index: 99, to WandB
+frame index:100
+reward: 0.982425306992939
+step-type: StepType.MID
+Logging loss of: 2.3011720180511475, at frame index: 100, to WandB
+MyCartPole_animation_100_model_frames.mp4

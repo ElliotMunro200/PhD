@@ -1,0 +1,582 @@
+simulation timestep: 0.01
+num sim sub-steps per control timestep: 1
+control timestep: 0.01
+episode time limit: 10
+episode step limit: 1000.0
+Logging reward of: 54.85759850470439, at frame index: 79, to WandB
+Logging reward of: 38.68375682339674, at frame index: 139, to WandB
+Logging reward of: 45.98912660449523, at frame index: 208, to WandB
+Logging reward of: 69.28037313734033, at frame index: 307, to WandB
+Logging reward of: 27.98188118871251, at frame index: 354, to WandB
+Logging reward of: 35.30885512838769, at frame index: 409, to WandB
+Logging reward of: 28.346283705890915, at frame index: 456, to WandB
+Logging reward of: 27.400523652181583, at frame index: 502, to WandB
+Logging reward of: 23.568993018378272, at frame index: 543, to WandB
+Logging reward of: 30.992741171649502, at frame index: 594, to WandB
+Logging reward of: 26.36776295740003, at frame index: 639, to WandB
+Logging reward of: 26.264815558869103, at frame index: 683, to WandB
+Logging reward of: 28.004309004303217, at frame index: 730, to WandB
+Logging reward of: 25.18270325550462, at frame index: 773, to WandB
+Logging reward of: 26.317640768926566, at frame index: 818, to WandB
+Logging reward of: 65.91508560863826, at frame index: 911, to WandB
+Logging reward of: 42.37038961860797, at frame index: 975, to WandB
+frame index:1000
+Logging loss of: 645.0413818359375, at frame index: 1000, to WandB
+Logging reward of: 24.837751937083006, at frame index: 1017, to WandB
+Logging reward of: 23.657582771233756, at frame index: 1058, to WandB
+Logging reward of: 21.700526563592437, at frame index: 1097, to WandB
+Logging reward of: 22.41358168336689, at frame index: 1136, to WandB
+Logging reward of: 21.995882099186538, at frame index: 1175, to WandB
+Logging reward of: 24.592041116297974, at frame index: 1218, to WandB
+Logging reward of: 25.918810746193586, at frame index: 1263, to WandB
+Logging reward of: 24.391679485034686, at frame index: 1305, to WandB
+Logging reward of: 21.452356754940133, at frame index: 1343, to WandB
+Logging reward of: 22.26532842975412, at frame index: 1382, to WandB
+Logging reward of: 23.559810655537458, at frame index: 1423, to WandB
+Logging reward of: 22.765949897313902, at frame index: 1463, to WandB
+Logging reward of: 24.110694497579715, at frame index: 1505, to WandB
+Logging reward of: 23.56595173419427, at frame index: 1546, to WandB
+Logging reward of: 26.38931792635235, at frame index: 1591, to WandB
+Logging reward of: 28.17002407698678, at frame index: 1638, to WandB
+Logging reward of: 29.957920573001076, at frame index: 1687, to WandB
+Logging reward of: 35.15174419374091, at frame index: 1742, to WandB
+Logging reward of: 50.68217035939639, at frame index: 1816, to WandB
+Logging reward of: 20.846692124727326, at frame index: 1853, to WandB
+Logging reward of: 22.84158747346872, at frame index: 1893, to WandB
+Logging reward of: 51.03719359686814, at frame index: 1968, to WandB
+frame index:2000
+Logging loss of: 1.411847710609436, at frame index: 2000, to WandB
+Logging reward of: 39.041841133963594, at frame index: 2028, to WandB
+Logging reward of: 37.66062565038465, at frame index: 2086, to WandB
+Logging reward of: 28.550414913556498, at frame index: 2133, to WandB
+Logging reward of: 27.036343975152768, at frame index: 2178, to WandB
+Logging reward of: 36.070278137986534, at frame index: 2235, to WandB
+Logging reward of: 42.878097470835584, at frame index: 2300, to WandB
+Logging reward of: 60.01778684678765, at frame index: 2385, to WandB
+Logging reward of: 57.28139496049823, at frame index: 2467, to WandB
+Logging reward of: 63.04217876346608, at frame index: 2557, to WandB
+Logging reward of: 105.25773921255018, at frame index: 2699, to WandB
+Logging reward of: 109.98377142580573, at frame index: 2847, to WandB
+Logging reward of: 70.95087598690277, at frame index: 2946, to WandB
+frame index:3000
+Logging loss of: 0.35579314827919006, at frame index: 3000, to WandB
+Logging reward of: 65.66699884356962, at frame index: 3039, to WandB
+Logging reward of: 113.2944253175351, at frame index: 3192, to WandB
+Logging reward of: 93.92822551196753, at frame index: 3320, to WandB
+Logging reward of: 83.33608782215168, at frame index: 3435, to WandB
+Logging reward of: 66.52173057027517, at frame index: 3529, to WandB
+Logging reward of: 64.04369069409532, at frame index: 3620, to WandB
+Logging reward of: 265.2689604946535, at frame index: 3994, to WandB
+frame index:4000
+Logging loss of: 0.34019389748573303, at frame index: 4000, to WandB
+Logging reward of: 238.4353386197314, at frame index: 4366, to WandB
+Logging reward of: 175.4400265212461, at frame index: 4614, to WandB
+Logging reward of: 200.903212258186, at frame index: 4894, to WandB
+frame index:5000
+Logging loss of: 0.06792827695608139, at frame index: 5000, to WandB
+Logging reward of: 132.41464771858801, at frame index: 5088, to WandB
+Logging reward of: 119.7486723764284, at frame index: 5265, to WandB
+Logging reward of: 124.23121231008358, at frame index: 5446, to WandB
+Logging reward of: 114.18788553085295, at frame index: 5616, to WandB
+Logging reward of: 125.16051134606226, at frame index: 5800, to WandB
+Logging reward of: 119.90185506535664, at frame index: 5979, to WandB
+frame index:6000
+Logging loss of: 0.17460884153842926, at frame index: 6000, to WandB
+Logging reward of: 160.9146231263099, at frame index: 6219, to WandB
+Logging reward of: 174.8638866038082, at frame index: 6476, to WandB
+Logging reward of: 172.18176267247975, at frame index: 6732, to WandB
+Logging reward of: 175.01530675219803, at frame index: 6989, to WandB
+frame index:7000
+Logging loss of: 0.10357272624969482, at frame index: 7000, to WandB
+Logging reward of: 139.98160236867528, at frame index: 7200, to WandB
+Logging reward of: 146.0384477198856, at frame index: 7421, to WandB
+Logging reward of: 118.59184494958518, at frame index: 7596, to WandB
+Logging reward of: 100.45527685925435, at frame index: 7745, to WandB
+Logging reward of: 38.63481310298533, at frame index: 7806, to WandB
+Logging reward of: 21.086771532882835, at frame index: 7844, to WandB
+Logging reward of: 28.707790652158884, at frame index: 7892, to WandB
+Logging reward of: 21.67493216713936, at frame index: 7931, to WandB
+Logging reward of: 23.120658256796684, at frame index: 7972, to WandB
+frame index:8000
+Logging loss of: 37.22746276855469, at frame index: 8000, to WandB
+Logging reward of: 33.664208303537826, at frame index: 8027, to WandB
+Logging reward of: 65.36860968095787, at frame index: 8126, to WandB
+Logging reward of: 102.24030914248266, at frame index: 8266, to WandB
+Logging reward of: 42.527675006120155, at frame index: 8330, to WandB
+Logging reward of: 37.5424881498625, at frame index: 8388, to WandB
+Logging reward of: 31.27200365014846, at frame index: 8439, to WandB
+Logging reward of: 38.68985779833047, at frame index: 8499, to WandB
+Logging reward of: 43.85282655946708, at frame index: 8565, to WandB
+Logging reward of: 57.91713002927977, at frame index: 8648, to WandB
+Logging reward of: 152.88516977959733, at frame index: 8855, to WandB
+Logging reward of: 80.72563690669742, at frame index: 8967, to WandB
+frame index:9000
+Logging loss of: 3.044011116027832, at frame index: 9000, to WandB
+Logging reward of: 144.33318488782294, at frame index: 9171, to WandB
+Logging reward of: 102.03789738552851, at frame index: 9311, to WandB
+Logging reward of: 124.09227854460586, at frame index: 9493, to WandB
+Logging reward of: 109.94563728637507, at frame index: 9645, to WandB
+Logging reward of: 111.03585851253969, at frame index: 9819, to WandB
+frame index:10000
+Logging loss of: 0.06333495676517487, at frame index: 10000, to WandB
+Logging reward of: 217.36686141536794, at frame index: 10163, to WandB
+Logging reward of: 312.3091599935108, at frame index: 10597, to WandB
+Logging reward of: 135.2117338558844, at frame index: 10810, to WandB
+frame index:11000
+Logging loss of: 0.03919167444109917, at frame index: 11000, to WandB
+Logging reward of: 527.4413261373376, at frame index: 11604, to WandB
+Logging reward of: 90.82663774095805, at frame index: 11742, to WandB
+Logging reward of: 102.790808008258, at frame index: 11893, to WandB
+frame index:12000
+Logging loss of: 0.24696947634220123, at frame index: 12000, to WandB
+Logging reward of: 108.24677373053677, at frame index: 12051, to WandB
+Logging reward of: 101.26790839993163, at frame index: 12199, to WandB
+Logging reward of: 108.89382247716334, at frame index: 12359, to WandB
+Logging reward of: 112.70457009343785, at frame index: 12524, to WandB
+Logging reward of: 206.99137444083203, at frame index: 12810, to WandB
+frame index:13000
+Logging loss of: 0.1042235717177391, at frame index: 13000, to WandB
+Logging reward of: 133.44018747694898, at frame index: 13004, to WandB
+Logging reward of: 126.82574156801378, at frame index: 13190, to WandB
+Logging reward of: 152.13229479728008, at frame index: 13408, to WandB
+Logging reward of: 95.23354430728976, at frame index: 13544, to WandB
+Logging reward of: 174.0181394987473, at frame index: 13798, to WandB
+frame index:14000
+Logging loss of: 1.1720030307769775, at frame index: 14000, to WandB
+Logging reward of: 219.73831185393186, at frame index: 14111, to WandB
+Logging reward of: 22.270559225275893, at frame index: 14150, to WandB
+Logging reward of: 67.82722439836878, at frame index: 14252, to WandB
+Logging reward of: 30.254824027579307, at frame index: 14302, to WandB
+Logging reward of: 238.61453971601688, at frame index: 14637, to WandB
+Logging reward of: 134.4013797046873, at frame index: 14835, to WandB
+Logging reward of: 60.71731077467606, at frame index: 14930, to WandB
+frame index:15000
+Logging loss of: 1.1687774658203125, at frame index: 15000, to WandB
+Logging reward of: 56.01574062416812, at frame index: 15018, to WandB
+Logging reward of: 44.421765056388836, at frame index: 15088, to WandB
+Logging reward of: 342.28371881326666, at frame index: 15599, to WandB
+frame index:16000
+Logging loss of: 0.20228785276412964, at frame index: 16000, to WandB
+Logging reward of: 276.7135130174912, at frame index: 16045, to WandB
+Logging reward of: 254.22158797298286, at frame index: 16494, to WandB
+frame index:17000
+Logging loss of: 0.0007519309874624014, at frame index: 17000, to WandB
+Logging reward of: 355.3298885598186, at frame index: 17111, to WandB
+Logging reward of: 324.63441532483574, at frame index: 17648, to WandB
+frame index:18000
+Logging loss of: 0.010413127951323986, at frame index: 18000, to WandB
+Logging reward of: 366.41738045677863, at frame index: 18244, to WandB
+Logging reward of: 215.03153372217847, at frame index: 18589, to WandB
+frame index:19000
+Logging loss of: 0.022337784990668297, at frame index: 19000, to WandB
+Logging reward of: 283.0179186463207, at frame index: 19040, to WandB
+Logging reward of: 130.15085108180853, at frame index: 19247, to WandB
+Logging reward of: 141.2239188132043, at frame index: 19466, to WandB
+Logging reward of: 20.63934205992149, at frame index: 19503, to WandB
+Logging reward of: 20.644297540064894, at frame index: 19540, to WandB
+Logging reward of: 33.668546473189075, at frame index: 19595, to WandB
+frame index:20000
+Logging loss of: 9.660260200500488, at frame index: 20000, to WandB
+Logging reward of: 307.8012225385247, at frame index: 20044, to WandB
+Logging reward of: 21.351189966144386, at frame index: 20082, to WandB
+Logging reward of: 61.454936900643624, at frame index: 20182, to WandB
+Logging reward of: 21.433579128123334, at frame index: 20221, to WandB
+Logging reward of: 47.1945796293636, at frame index: 20294, to WandB
+Logging reward of: 57.51583800032557, at frame index: 20381, to WandB
+Logging reward of: 242.67845230260653, at frame index: 20754, to WandB
+frame index:21000
+Logging loss of: 0.23959515988826752, at frame index: 21000, to WandB
+Logging reward of: 664.7609003355437, at frame index: 21754, to WandB
+frame index:22000
+Logging loss of: 0.05288054421544075, at frame index: 22000, to WandB
+Logging reward of: 341.39177022578974, at frame index: 22353, to WandB
+Logging reward of: 244.42771425762623, at frame index: 22747, to WandB
+Logging reward of: 124.70953172486834, at frame index: 22935, to WandB
+frame index:23000
+Logging loss of: 0.5745018720626831, at frame index: 23000, to WandB
+Logging reward of: 134.5685909627877, at frame index: 23133, to WandB
+Logging reward of: 106.36038640217089, at frame index: 23293, to WandB
+Logging reward of: 27.197284592361896, at frame index: 23338, to WandB
+Logging reward of: 23.418184771878423, at frame index: 23380, to WandB
+Logging reward of: 119.12308794979204, at frame index: 23558, to WandB
+Logging reward of: 160.94923569748715, at frame index: 23788, to WandB
+Logging reward of: 110.35566348764529, at frame index: 23954, to WandB
+frame index:24000
+Logging loss of: 0.05438193306326866, at frame index: 24000, to WandB
+Logging reward of: 128.6972737757965, at frame index: 24142, to WandB
+Logging reward of: 119.41251499152749, at frame index: 24318, to WandB
+Logging reward of: 114.33682006764299, at frame index: 24489, to WandB
+Logging reward of: 139.2381974498928, at frame index: 24691, to WandB
+Logging reward of: 20.29488175990327, at frame index: 24727, to WandB
+Logging reward of: 97.02240694003044, at frame index: 24861, to WandB
+frame index:25000
+Logging loss of: 0.054061159491539, at frame index: 25000, to WandB
+Logging reward of: 191.86541269890614, at frame index: 25126, to WandB
+Logging reward of: 143.19660391722672, at frame index: 25333, to WandB
+Logging reward of: 124.51208399923284, at frame index: 25521, to WandB
+Logging reward of: 28.77978803315806, at frame index: 25569, to WandB
+Logging reward of: 161.2495150819919, at frame index: 25814, to WandB
+Logging reward of: 29.256786620968963, at frame index: 25864, to WandB
+Logging reward of: 23.776379509591596, at frame index: 25906, to WandB
+frame index:26000
+Logging loss of: 2.0931451320648193, at frame index: 26000, to WandB
+Logging reward of: 64.60160381070547, at frame index: 26001, to WandB
+Logging reward of: 188.0589902368317, at frame index: 26295, to WandB
+Logging reward of: 27.34345278434561, at frame index: 26342, to WandB
+Logging reward of: 108.7769566882004, at frame index: 26516, to WandB
+Logging reward of: 149.23953760453438, at frame index: 26756, to WandB
+Logging reward of: 53.69530319163867, at frame index: 26839, to WandB
+frame index:27000
+Logging loss of: 0.21321558952331543, at frame index: 27000, to WandB
+Logging reward of: 167.41315229192207, at frame index: 27098, to WandB
+Logging reward of: 300.9995378635669, at frame index: 27551, to WandB
+frame index:28000
+Logging loss of: 0.2006586790084839, at frame index: 28000, to WandB
+Logging reward of: 725.6639058267707, at frame index: 28551, to WandB
+Logging reward of: 272.3473780099401, at frame index: 28929, to WandB
+frame index:29000
+Logging loss of: 1.0841556787490845, at frame index: 29000, to WandB
+Logging reward of: 164.34821614238405, at frame index: 29167, to WandB
+Logging reward of: 208.58356807451682, at frame index: 29481, to WandB
+frame index:30000
+Logging loss of: 0.10211855173110962, at frame index: 30000, to WandB
+Logging reward of: 789.1818652859068, at frame index: 30481, to WandB
+Logging reward of: 157.1109827834139, at frame index: 30715, to WandB
+Logging reward of: 118.59784959047985, at frame index: 30901, to WandB
+frame index:31000
+Logging loss of: 3.7834808826446533, at frame index: 31000, to WandB
+Logging reward of: 124.95258551452999, at frame index: 31093, to WandB
+Logging reward of: 131.38697179916016, at frame index: 31292, to WandB
+Logging reward of: 125.75520021595153, at frame index: 31486, to WandB
+Logging reward of: 137.24502672016888, at frame index: 31704, to WandB
+Logging reward of: 145.06375781741957, at frame index: 31941, to WandB
+frame index:32000
+Logging loss of: 0.1907125562429428, at frame index: 32000, to WandB
+Logging reward of: 286.35573706891455, at frame index: 32388, to WandB
+Logging reward of: 178.50704204939098, at frame index: 32659, to WandB
+Logging reward of: 72.33307009738391, at frame index: 32761, to WandB
+frame index:33000
+Logging loss of: 0.07571309059858322, at frame index: 33000, to WandB
+Logging reward of: 683.6867874218136, at frame index: 33761, to WandB
+frame index:34000
+Logging loss of: 0.11289840936660767, at frame index: 34000, to WandB
+Logging reward of: 770.4663649271436, at frame index: 34761, to WandB
+frame index:35000
+Logging loss of: 0.44986382126808167, at frame index: 35000, to WandB
+Logging reward of: 428.4612920917386, at frame index: 35367, to WandB
+Logging reward of: 301.0629220292271, at frame index: 35912, to WandB
+frame index:36000
+Logging loss of: 24.31998634338379, at frame index: 36000, to WandB
+Logging reward of: 230.5018401006741, at frame index: 36276, to WandB
+Logging reward of: 109.94387235172775, at frame index: 36443, to WandB
+Logging reward of: 68.59574816859723, at frame index: 36539, to WandB
+Logging reward of: 143.00360951216499, at frame index: 36754, to WandB
+Logging reward of: 115.22781961377385, at frame index: 36927, to WandB
+frame index:37000
+Logging loss of: 0.2174437791109085, at frame index: 37000, to WandB
+Logging reward of: 109.34804569364148, at frame index: 37096, to WandB
+Logging reward of: 124.45198073648547, at frame index: 37290, to WandB
+Logging reward of: 182.9149587177724, at frame index: 37584, to WandB
+frame index:38000
+Logging loss of: 0.01720481365919113, at frame index: 38000, to WandB
+Logging reward of: 613.5838727686564, at frame index: 38584, to WandB
+Logging reward of: 293.3347678331551, at frame index: 38967, to WandB
+frame index:39000
+Logging loss of: 1.9903312921524048, at frame index: 39000, to WandB
+Logging reward of: 37.60003900159974, at frame index: 39026, to WandB
+frame index:40000
+Logging loss of: 0.00927658099681139, at frame index: 40000, to WandB
+Logging reward of: 777.9062038704957, at frame index: 40026, to WandB
+frame index:41000
+Logging loss of: 0.06765642762184143, at frame index: 41000, to WandB
+Logging reward of: 721.6913110357773, at frame index: 41026, to WandB
+frame index:42000
+Logging loss of: 0.0035075191408395767, at frame index: 42000, to WandB
+Logging reward of: 677.1414236133559, at frame index: 42026, to WandB
+Logging reward of: 178.4817440677641, at frame index: 42297, to WandB
+Logging reward of: 49.69356881961723, at frame index: 42374, to WandB
+Logging reward of: 34.926077642843325, at frame index: 42428, to WandB
+Logging reward of: 248.01729412846248, at frame index: 42802, to WandB
+frame index:43000
+Logging loss of: 0.34772250056266785, at frame index: 43000, to WandB
+Logging reward of: 188.2026912988886, at frame index: 43087, to WandB
+Logging reward of: 189.5818992018032, at frame index: 43374, to WandB
+Logging reward of: 175.56122576677114, at frame index: 43648, to WandB
+Logging reward of: 214.94161496735575, at frame index: 43986, to WandB
+frame index:44000
+Logging loss of: 1.8536049127578735, at frame index: 44000, to WandB
+Logging reward of: 770.6092231320174, at frame index: 44986, to WandB
+frame index:45000
+Logging loss of: 1.3571702241897583, at frame index: 45000, to WandB
+Logging reward of: 741.908524565859, at frame index: 45986, to WandB
+frame index:46000
+Logging loss of: 0.8321325182914734, at frame index: 46000, to WandB
+Logging reward of: 347.3580018211809, at frame index: 46487, to WandB
+Logging reward of: 28.759813436254316, at frame index: 46536, to WandB
+Logging reward of: 61.49722873074339, at frame index: 46632, to WandB
+Logging reward of: 132.24354951239079, at frame index: 46840, to WandB
+frame index:47000
+Logging loss of: 0.11817753314971924, at frame index: 47000, to WandB
+Logging reward of: 141.05533023815534, at frame index: 47060, to WandB
+Logging reward of: 139.3008615707694, at frame index: 47273, to WandB
+Logging reward of: 135.25260696229535, at frame index: 47477, to WandB
+Logging reward of: 130.91643369828765, at frame index: 47675, to WandB
+Logging reward of: 24.739770791295385, at frame index: 47718, to WandB
+Logging reward of: 149.18663223529458, at frame index: 47943, to WandB
+frame index:48000
+Logging loss of: 0.9418676495552063, at frame index: 48000, to WandB
+Logging reward of: 218.93075776234423, at frame index: 48308, to WandB
+frame index:49000
+Logging loss of: 0.035057347267866135, at frame index: 49000, to WandB
+Logging reward of: 629.1444824988855, at frame index: 49308, to WandB
+Logging reward of: 145.1621396958434, at frame index: 49528, to WandB
+Logging reward of: 138.20724628878807, at frame index: 49732, to WandB
+Logging reward of: 142.69581119429458, at frame index: 49944, to WandB
+frame index:50000
+Logging loss of: 0.4051748216152191, at frame index: 50000, to WandB
+Logging reward of: 152.4943528195616, at frame index: 50169, to WandB
+Logging reward of: 157.65436328786265, at frame index: 50411, to WandB
+Logging reward of: 177.66517834313814, at frame index: 50683, to WandB
+Logging reward of: 177.9702429570066, at frame index: 50963, to WandB
+frame index:51000
+Logging loss of: 0.1458025574684143, at frame index: 51000, to WandB
+Logging reward of: 623.9555980336544, at frame index: 51963, to WandB
+frame index:52000
+Logging loss of: 78.37879943847656, at frame index: 52000, to WandB
+Logging reward of: 325.80483295175736, at frame index: 52399, to WandB
+frame index:53000
+Logging loss of: 0.8890256285667419, at frame index: 53000, to WandB
+Logging reward of: 365.6827165343232, at frame index: 53001, to WandB
+Logging reward of: 227.12286015049364, at frame index: 53381, to WandB
+Logging reward of: 47.35172981152134, at frame index: 53454, to WandB
+frame index:54000
+Logging loss of: 0.6802011132240295, at frame index: 54000, to WandB
+Logging reward of: 386.1832165035922, at frame index: 54016, to WandB
+Logging reward of: 141.1114919141051, at frame index: 54224, to WandB
+Logging reward of: 141.53249120623707, at frame index: 54431, to WandB
+Logging reward of: 126.9514150128331, at frame index: 54619, to WandB
+Logging reward of: 143.49989855952293, at frame index: 54829, to WandB
+frame index:55000
+Logging loss of: 0.1077565923333168, at frame index: 55000, to WandB
+Logging reward of: 131.74803160438546, at frame index: 55025, to WandB
+Logging reward of: 136.29468928728576, at frame index: 55227, to WandB
+Logging reward of: 134.45983511379657, at frame index: 55429, to WandB
+Logging reward of: 144.19466843766713, at frame index: 55646, to WandB
+Logging reward of: 153.5844486263568, at frame index: 55875, to WandB
+frame index:56000
+Logging loss of: 0.026309490203857422, at frame index: 56000, to WandB
+Logging reward of: 150.67331770552437, at frame index: 56102, to WandB
+Logging reward of: 146.88032064827826, at frame index: 56325, to WandB
+Logging reward of: 153.48426098506243, at frame index: 56558, to WandB
+Logging reward of: 175.6673057764603, at frame index: 56820, to WandB
+frame index:57000
+Logging loss of: 0.009486553259193897, at frame index: 57000, to WandB
+Logging reward of: 195.11772587770082, at frame index: 57113, to WandB
+Logging reward of: 182.06781322775996, at frame index: 57392, to WandB
+Logging reward of: 183.25619442199607, at frame index: 57679, to WandB
+Logging reward of: 36.695155499505546, at frame index: 57738, to WandB
+frame index:58000
+Logging loss of: 3.690356969833374, at frame index: 58000, to WandB
+Logging reward of: 183.40267475369572, at frame index: 58009, to WandB
+frame index:59000
+Logging loss of: 0.00015165146032813936, at frame index: 59000, to WandB
+Logging reward of: 795.3889314606735, at frame index: 59009, to WandB
+frame index:60000
+Logging loss of: 0.008061490021646023, at frame index: 60000, to WandB
+Logging reward of: 795.577118593354, at frame index: 60009, to WandB
+frame index:61000
+Logging loss of: 1.9474666260066442e-05, at frame index: 61000, to WandB
+Logging reward of: 797.7635455172945, at frame index: 61009, to WandB
+Logging reward of: 36.10852027322, at frame index: 61066, to WandB
+frame index:62000
+Logging loss of: 0.00020689507073257118, at frame index: 62000, to WandB
+Logging reward of: 798.5403774226338, at frame index: 62066, to WandB
+Logging reward of: 76.54652126652483, at frame index: 62175, to WandB
+frame index:63000
+Logging loss of: 0.05463279411196709, at frame index: 63000, to WandB
+Logging reward of: 786.459919568562, at frame index: 63175, to WandB
+frame index:64000
+Logging loss of: 0.03659958392381668, at frame index: 64000, to WandB
+Logging reward of: 722.3188916964357, at frame index: 64175, to WandB
+frame index:65000
+Logging loss of: 0.0025818219874054193, at frame index: 65000, to WandB
+Logging reward of: 743.4466314445968, at frame index: 65175, to WandB
+Logging reward of: 34.23268655153322, at frame index: 65231, to WandB
+Logging reward of: 589.2800602136257, at frame index: 65993, to WandB
+frame index:66000
+Logging loss of: 0.47789451479911804, at frame index: 66000, to WandB
+Logging reward of: 797.6012466693614, at frame index: 66993, to WandB
+frame index:67000
+Logging loss of: 0.3795814514160156, at frame index: 67000, to WandB
+Logging reward of: 757.5545184492419, at frame index: 67993, to WandB
+frame index:68000
+Logging loss of: 226.70306396484375, at frame index: 68000, to WandB
+Logging reward of: 135.8176597616196, at frame index: 68204, to WandB
+Logging reward of: 165.5949373661221, at frame index: 68472, to WandB
+frame index:69000
+Logging loss of: 0.006724187638610601, at frame index: 69000, to WandB
+Logging reward of: 777.0554500318668, at frame index: 69472, to WandB
+Logging reward of: 212.81612327232995, at frame index: 69755, to WandB
+Logging reward of: 55.82175768642795, at frame index: 69838, to WandB
+frame index:70000
+Logging loss of: 0.05969241261482239, at frame index: 70000, to WandB
+Logging reward of: 759.0331177009122, at frame index: 70838, to WandB
+frame index:71000
+Logging loss of: 0.24967940151691437, at frame index: 71000, to WandB
+Logging reward of: 718.6269746470856, at frame index: 71838, to WandB
+frame index:72000
+Logging loss of: 0.17831259965896606, at frame index: 72000, to WandB
+Logging reward of: 370.2313227331023, at frame index: 72362, to WandB
+Logging reward of: 27.390509561616277, at frame index: 72409, to WandB
+Logging reward of: 23.36209064213103, at frame index: 72450, to WandB
+Logging reward of: 21.73356133133606, at frame index: 72489, to WandB
+frame index:73000
+Logging loss of: 0.029222970828413963, at frame index: 73000, to WandB
+Logging reward of: 792.0839334514075, at frame index: 73489, to WandB
+Logging reward of: 37.49865554061268, at frame index: 73548, to WandB
+frame index:74000
+Logging loss of: 0.03908466920256615, at frame index: 74000, to WandB
+Logging reward of: 750.5071624535815, at frame index: 74548, to WandB
+frame index:75000
+Logging loss of: 0.011432383209466934, at frame index: 75000, to WandB
+Logging reward of: 736.3105039391024, at frame index: 75548, to WandB
+Logging reward of: 217.09045727502732, at frame index: 75876, to WandB
+Logging reward of: 37.06466818240084, at frame index: 75936, to WandB
+Logging reward of: 22.00379916887452, at frame index: 75975, to WandB
+frame index:76000
+Logging loss of: 1969.5511474609375, at frame index: 76000, to WandB
+Logging reward of: 20.761578868878384, at frame index: 76012, to WandB
+Logging reward of: 20.187992647849963, at frame index: 76048, to WandB
+Logging reward of: 20.014776153717733, at frame index: 76084, to WandB
+Logging reward of: 47.612262343767206, at frame index: 76155, to WandB
+Logging reward of: 116.99143262498573, at frame index: 76325, to WandB
+Logging reward of: 111.41790357143546, at frame index: 76486, to WandB
+Logging reward of: 172.5333777858216, at frame index: 76735, to WandB
+frame index:77000
+Logging loss of: 3.475438356399536, at frame index: 77000, to WandB
+Logging reward of: 206.6670984369982, at frame index: 77048, to WandB
+frame index:78000
+Logging loss of: 0.5654023885726929, at frame index: 78000, to WandB
+Logging reward of: 715.4775170059027, at frame index: 78048, to WandB
+frame index:79000
+Logging loss of: 0.2379550188779831, at frame index: 79000, to WandB
+Logging reward of: 791.1015452505759, at frame index: 79048, to WandB
+frame index:80000
+Logging loss of: 0.010350176133215427, at frame index: 80000, to WandB
+Logging reward of: 780.2626776042969, at frame index: 80048, to WandB
+frame index:81000
+Logging loss of: 0.023316776379942894, at frame index: 81000, to WandB
+Logging reward of: 740.9181738051233, at frame index: 81048, to WandB
+frame index:82000
+Logging loss of: 0.00496138958260417, at frame index: 82000, to WandB
+Logging reward of: 783.2058637710168, at frame index: 82048, to WandB
+frame index:83000
+Logging loss of: 0.00016981705266516656, at frame index: 83000, to WandB
+Logging reward of: 795.2723791976331, at frame index: 83048, to WandB
+frame index:84000
+Logging loss of: 0.0005038810195401311, at frame index: 84000, to WandB
+Logging reward of: 798.6943855729905, at frame index: 84048, to WandB
+frame index:85000
+Logging loss of: 5.1768027333309874e-05, at frame index: 85000, to WandB
+Logging reward of: 786.7352468978335, at frame index: 85048, to WandB
+Logging reward of: 333.6022927643469, at frame index: 85480, to WandB
+Logging reward of: 108.17233917451136, at frame index: 85677, to WandB
+Logging reward of: 42.35156891435606, at frame index: 85741, to WandB
+Logging reward of: 49.1993002095214, at frame index: 85813, to WandB
+Logging reward of: 25.70724513125934, at frame index: 85857, to WandB
+Logging reward of: 81.38552547255482, at frame index: 85969, to WandB
+frame index:86000
+Logging loss of: 469.1523132324219, at frame index: 86000, to WandB
+Logging reward of: 50.397296316619716, at frame index: 86043, to WandB
+Logging reward of: 179.79213896337217, at frame index: 86310, to WandB
+Logging reward of: 227.3496637343943, at frame index: 86650, to WandB
+Logging reward of: 112.39339040924219, at frame index: 86835, to WandB
+frame index:87000
+Logging loss of: 0.5740270018577576, at frame index: 87000, to WandB
+Logging reward of: 135.3347894794252, at frame index: 87047, to WandB
+Logging reward of: 142.55934587532977, at frame index: 87262, to WandB
+Logging reward of: 121.96755596272776, at frame index: 87446, to WandB
+Logging reward of: 119.02205159327944, at frame index: 87623, to WandB
+Logging reward of: 109.0499616134307, at frame index: 87786, to WandB
+Logging reward of: 110.8078505324018, at frame index: 87951, to WandB
+frame index:88000
+Logging loss of: 3.184891939163208, at frame index: 88000, to WandB
+Logging reward of: 113.73134066572838, at frame index: 88119, to WandB
+Logging reward of: 104.02993992174727, at frame index: 88275, to WandB
+Logging reward of: 106.53353175417925, at frame index: 88435, to WandB
+Logging reward of: 114.44776981925854, at frame index: 88605, to WandB
+Logging reward of: 127.18864893188582, at frame index: 88792, to WandB
+Logging reward of: 129.77152740205062, at frame index: 88984, to WandB
+frame index:89000
+Logging loss of: 3.616244316101074, at frame index: 89000, to WandB
+Logging reward of: 134.53349017488125, at frame index: 89185, to WandB
+Logging reward of: 161.3447022034649, at frame index: 89423, to WandB
+Logging reward of: 127.93314293403411, at frame index: 89618, to WandB
+Logging reward of: 141.2971850795356, at frame index: 89830, to WandB
+frame index:90000
+Logging loss of: 0.06450633704662323, at frame index: 90000, to WandB
+Logging reward of: 135.6462541341351, at frame index: 90034, to WandB
+Logging reward of: 123.25334454118138, at frame index: 90221, to WandB
+Logging reward of: 144.4735046058071, at frame index: 90434, to WandB
+Logging reward of: 141.62048098655043, at frame index: 90643, to WandB
+Logging reward of: 151.7529858820782, at frame index: 90865, to WandB
+frame index:91000
+Logging loss of: 0.025646226480603218, at frame index: 91000, to WandB
+Logging reward of: 140.43837736851867, at frame index: 91073, to WandB
+Logging reward of: 148.61759767344873, at frame index: 91292, to WandB
+Logging reward of: 144.5253002016655, at frame index: 91506, to WandB
+Logging reward of: 166.0900017060092, at frame index: 91747, to WandB
+Logging reward of: 153.92841227854544, at frame index: 91974, to WandB
+frame index:92000
+Logging loss of: 0.47624334692955017, at frame index: 92000, to WandB
+Logging reward of: 167.49969182615737, at frame index: 92219, to WandB
+Logging reward of: 169.99942532948901, at frame index: 92467, to WandB
+Logging reward of: 145.7248084471806, at frame index: 92685, to WandB
+Logging reward of: 151.73312393320194, at frame index: 92911, to WandB
+frame index:93000
+Logging loss of: 0.24178437888622284, at frame index: 93000, to WandB
+Logging reward of: 181.0763423084624, at frame index: 93175, to WandB
+Logging reward of: 166.54773051270925, at frame index: 93421, to WandB
+Logging reward of: 168.91873190035747, at frame index: 93672, to WandB
+Logging reward of: 192.14843971475875, at frame index: 93952, to WandB
+frame index:94000
+Logging loss of: 1.2294081449508667, at frame index: 94000, to WandB
+Logging reward of: 214.83362576627198, at frame index: 94262, to WandB
+Logging reward of: 162.45579811360327, at frame index: 94507, to WandB
+Logging reward of: 188.22472174155746, at frame index: 94784, to WandB
+frame index:95000
+Logging loss of: 0.013901782222092152, at frame index: 95000, to WandB
+Logging reward of: 213.04887396699056, at frame index: 95094, to WandB
+Logging reward of: 211.99813380412854, at frame index: 95403, to WandB
+Logging reward of: 171.87535025561462, at frame index: 95661, to WandB
+Logging reward of: 154.0143289116407, at frame index: 95894, to WandB
+frame index:96000
+Logging loss of: 0.23026251792907715, at frame index: 96000, to WandB
+Logging reward of: 182.95845220956195, at frame index: 96161, to WandB
+Logging reward of: 173.7964140890357, at frame index: 96411, to WandB
+Logging reward of: 132.07489759224734, at frame index: 96605, to WandB
+Logging reward of: 20.109635545932157, at frame index: 96641, to WandB
+Logging reward of: 159.59494252659596, at frame index: 96859, to WandB
+Logging reward of: 22.7100574161752, at frame index: 96899, to WandB
+Logging reward of: 58.38392807682602, at frame index: 96984, to WandB
+frame index:97000
+Logging loss of: 6.31290864944458, at frame index: 97000, to WandB
+Logging reward of: 44.894969960282516, at frame index: 97051, to WandB
+Logging reward of: 21.43599002569486, at frame index: 97089, to WandB
+Logging reward of: 123.11769905035504, at frame index: 97254, to WandB
+Logging reward of: 319.969086504121, at frame index: 97668, to WandB
+Logging reward of: 127.94392507563168, at frame index: 97840, to WandB
+frame index:98000
+Logging loss of: 0.3681207001209259, at frame index: 98000, to WandB
+Logging reward of: 287.1409359859419, at frame index: 98224, to WandB
+Logging reward of: 20.863603582107707, at frame index: 98261, to WandB
+Logging reward of: 444.9262962339529, at frame index: 98849, to WandB
+frame index:99000
+Logging loss of: 0.09845107793807983, at frame index: 99000, to WandB
+Logging reward of: 423.58288566616295, at frame index: 99429, to WandB
+frame index:100000
+Logging loss of: 0.02323848567903042, at frame index: 100000, to WandB
+total frame length of animation: 2990
+episodes of animation: 38
+number of frames by episode: [24, 14, 12, 13, 18, 30, 84, 78, 17, 34, 42, 41, 22, 66, 112, 69, 57, 25, 58, 182, 300, 86, 66, 64, 169, 69, 300, 300, 15, 12, 300, 14, 49, 59, 73, 93, 11, 12]
+MyCartPole-100000_training_steps.mp4

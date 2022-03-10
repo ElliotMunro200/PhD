@@ -1,0 +1,48 @@
+2022-01-23 16:55:29,546 INFO    MainThread:9748 [internal.py:wandb_internal():87] W&B internal server running at pid: 9748, started at: 2022-01-23 16:55:29.546927
+2022-01-23 16:55:29,549 INFO    WriterThread:9748 [datastore.py:open_for_write():77] open: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\run-3thbpycs.wandb
+2022-01-23 16:55:29,550 DEBUG   HandlerThread:9748 [handler.py:handle_request():130] handle_request: check_version
+2022-01-23 16:55:29,554 DEBUG   SenderThread:9748 [sender.py:send():238] send: header
+2022-01-23 16:55:29,562 DEBUG   SenderThread:9748 [sender.py:send_request():252] send_request: check_version
+2022-01-23 16:55:29,709 DEBUG   SenderThread:9748 [sender.py:send():238] send: run
+2022-01-23 16:55:30,126 INFO    SenderThread:9748 [dir_watcher.py:__init__():169] watching files in: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files
+2022-01-23 16:55:30,126 INFO    SenderThread:9748 [sender.py:_start_run_threads():825] run started: 3thbpycs with start time 1642910127
+2022-01-23 16:55:30,126 DEBUG   SenderThread:9748 [sender.py:send():238] send: summary
+2022-01-23 16:55:30,126 DEBUG   HandlerThread:9748 [handler.py:handle_request():130] handle_request: run_start
+2022-01-23 16:55:30,135 INFO    SenderThread:9748 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2022-01-23 16:55:30,145 DEBUG   HandlerThread:9748 [meta.py:__init__():40] meta init
+2022-01-23 16:55:30,145 DEBUG   HandlerThread:9748 [meta.py:__init__():54] meta init done
+2022-01-23 16:55:30,145 DEBUG   HandlerThread:9748 [meta.py:probe():214] probe
+2022-01-23 16:55:30,181 DEBUG   HandlerThread:9748 [meta.py:_setup_git():204] setup git
+2022-01-23 16:55:30,323 DEBUG   HandlerThread:9748 [meta.py:_setup_git():211] setup git done
+2022-01-23 16:55:30,323 DEBUG   HandlerThread:9748 [meta.py:_save_code():92] save code
+2022-01-23 16:55:30,402 DEBUG   HandlerThread:9748 [meta.py:_save_code():113] save code done
+2022-01-23 16:55:30,402 DEBUG   HandlerThread:9748 [meta.py:_save_patches():130] save patches
+2022-01-23 16:55:30,788 DEBUG   HandlerThread:9748 [meta.py:_save_patches():172] save patches done
+2022-01-23 16:55:30,788 DEBUG   HandlerThread:9748 [meta.py:_save_pip():58] save pip
+2022-01-23 16:55:30,789 DEBUG   HandlerThread:9748 [meta.py:_save_pip():72] save pip done
+2022-01-23 16:55:30,789 DEBUG   HandlerThread:9748 [meta.py:probe():252] probe done
+2022-01-23 16:55:30,856 DEBUG   SenderThread:9748 [sender.py:send():238] send: files
+2022-01-23 16:55:30,856 INFO    SenderThread:9748 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2022-01-23 16:55:30,857 INFO    SenderThread:9748 [sender.py:_save_file():960] saving file code\Modern Implementations\MuJoCo\Testing\C_L_RoboLoco_Learning.py with policy now
+2022-01-23 16:55:30,858 INFO    SenderThread:9748 [sender.py:_save_file():960] saving file diff.patch with policy now
+2022-01-23 16:55:30,863 DEBUG   HandlerThread:9748 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-23 16:55:30,864 DEBUG   SenderThread:9748 [sender.py:send_request():252] send_request: stop_status
+2022-01-23 16:55:30,893 DEBUG   HandlerThread:9748 [handler.py:handle_request():130] handle_request: pause
+2022-01-23 16:55:30,893 INFO    HandlerThread:9748 [handler.py:handle_request_pause():612] stopping system metrics thread
+2022-01-23 16:55:31,140 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\wandb-summary.json
+2022-01-23 16:55:31,140 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\diff.patch
+2022-01-23 16:55:31,141 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\output.log
+2022-01-23 16:55:31,141 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\code\Modern Implementations\MuJoCo\Testing\C_L_RoboLoco_Learning.py
+2022-01-23 16:55:31,141 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\wandb-metadata.json
+2022-01-23 16:55:31,142 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\requirements.txt
+2022-01-23 16:55:31,142 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\code\Modern Implementations
+2022-01-23 16:55:31,143 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\code\Modern Implementations\MuJoCo
+2022-01-23 16:55:31,143 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\code
+2022-01-23 16:55:31,143 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\code\Modern Implementations\MuJoCo\Testing
+2022-01-23 16:55:31,232 DEBUG   SenderThread:9748 [sender.py:send():238] send: stats
+2022-01-23 16:55:31,249 INFO    Thread-28 :9748 [upload_job.py:push():117] Skipped uploading C:\Users\JACK-S~1\AppData\Local\Temp\tmpoqyc17yywandb\9s5mbpyy-code/Modern Implementations/MuJoCo/Testing/C_L_RoboLoco_Learning.py
+2022-01-23 16:55:31,909 INFO    Thread-27 :9748 [upload_job.py:push():137] Uploaded file C:\Users\JACK-S~1\AppData\Local\Temp\tmpoqyc17yywandb\2a45y9x1-wandb-metadata.json
+2022-01-23 16:55:31,939 INFO    Thread-29 :9748 [upload_job.py:push():137] Uploaded file C:\Users\JACK-S~1\AppData\Local\Temp\tmpoqyc17yywandb\1p4el9jz-diff.patch
+2022-01-23 16:55:33,149 INFO    Thread-12 :9748 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\wandb\run-20220123_165527-3thbpycs\files\output.log
+2022-01-23 16:55:46,242 DEBUG   HandlerThread:9748 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-23 16:55:46,242 DEBUG   SenderThread:9748 [sender.py:send_request():252] send_request: stop_status

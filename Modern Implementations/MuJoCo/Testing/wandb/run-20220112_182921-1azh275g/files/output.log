@@ -1,0 +1,208 @@
+frame index:1
+frame index:2
+frame index:3
+frame index:4
+frame index:5
+frame index:6
+frame index:7
+frame index:8
+frame index:9
+frame index:10
+frame index:11
+frame index:12
+frame index:13
+frame index:14
+frame index:15
+frame index:16
+frame index:17
+frame index:18
+frame index:19
+frame index:20
+frame index:21
+frame index:22
+frame index:23
+frame index:24
+frame index:25
+Logging loss of: 0.9665235877037048, at frame index: 25, to WandB
+frame index:26
+Logging loss of: 0.9786081910133362, at frame index: 26, to WandB
+frame index:27
+Logging loss of: 0.95005863904953, at frame index: 27, to WandB
+frame index:28
+Logging loss of: 1.0559245347976685, at frame index: 28, to WandB
+frame index:29
+Logging loss of: 0.982409656047821, at frame index: 29, to WandB
+frame index:30
+Logging loss of: 0.9970543384552002, at frame index: 30, to WandB
+frame index:31
+Logging loss of: 0.9401904940605164, at frame index: 31, to WandB
+frame index:32
+Logging loss of: 0.9596348404884338, at frame index: 32, to WandB
+frame index:33
+Logging loss of: 0.9384374022483826, at frame index: 33, to WandB
+frame index:34
+Logging loss of: 0.9653418660163879, at frame index: 34, to WandB
+frame index:35
+Logging loss of: 1.0392354726791382, at frame index: 35, to WandB
+frame index:36
+Logging loss of: 0.9169551730155945, at frame index: 36, to WandB
+frame index:37
+Logging loss of: 0.8740578293800354, at frame index: 37, to WandB
+frame index:38
+Logging loss of: 0.9066007733345032, at frame index: 38, to WandB
+frame index:39
+Logging loss of: 1.0165129899978638, at frame index: 39, to WandB
+frame index:40
+state: [0.31725979706487145, -0.6008727658161933, 1.844027482850472, -3.7849433799500574]type: <class 'list'>
+tensor([[1.4314, 1.9806]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 0.8133367896080017, at frame index: 40, to WandB
+frame index:41
+Logging loss of: 0.8736137747764587, at frame index: 41, to WandB
+frame index:42
+Logging loss of: 0.7620962262153625, at frame index: 42, to WandB
+frame index:43
+Logging loss of: 0.8155204653739929, at frame index: 43, to WandB
+frame index:44
+state: [0.39609993981033087, -0.7236461392356036, 2.119266901204032, -4.464877726168457]type: <class 'list'>
+tensor([[2.3621, 2.9567]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 0.758748471736908, at frame index: 44, to WandB
+frame index:45
+Logging loss of: 0.7602369785308838, at frame index: 45, to WandB
+frame index:46
+Logging loss of: 0.7986266016960144, at frame index: 46, to WandB
+frame index:47
+Logging loss of: 0.7506830096244812, at frame index: 47, to WandB
+frame index:48
+Logging loss of: 0.817082941532135, at frame index: 48, to WandB
+frame index:49
+Logging loss of: 0.8773697018623352, at frame index: 49, to WandB
+frame index:50
+Logging loss of: 0.7953363060951233, at frame index: 50, to WandB
+frame index:51
+Logging loss of: 0.814701497554779, at frame index: 51, to WandB
+frame index:52
+Logging loss of: 0.8416588306427002, at frame index: 52, to WandB
+frame index:53
+Logging loss of: 0.9226324558258057, at frame index: 53, to WandB
+frame index:54
+Logging loss of: 0.8925743103027344, at frame index: 54, to WandB
+frame index:55
+state: [0.6730293321794474, -0.9865793196635283, 2.935525968613982, -6.381560523761157]type: <class 'list'>
+tensor([[6.0892, 7.0971]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 0.7363355159759521, at frame index: 55, to WandB
+frame index:56
+Logging loss of: 0.7125291228294373, at frame index: 56, to WandB
+frame index:57
+Logging loss of: 0.7644447684288025, at frame index: 57, to WandB
+frame index:58
+Logging loss of: 0.912337064743042, at frame index: 58, to WandB
+frame index:59
+Logging loss of: 0.9330865740776062, at frame index: 59, to WandB
+frame index:60
+Logging loss of: 0.8762347102165222, at frame index: 60, to WandB
+frame index:61
+Logging loss of: 0.7287078499794006, at frame index: 61, to WandB
+frame index:62
+Logging loss of: 0.7241327166557312, at frame index: 62, to WandB
+frame index:63
+Logging loss of: 0.8760808110237122, at frame index: 63, to WandB
+frame index:64
+Logging loss of: 0.8738982081413269, at frame index: 64, to WandB
+frame index:65
+state: [0.9854243687150922, -0.8554665592569471, 3.3444550002431055, -7.643867657259751]type: <class 'list'>
+tensor([[10.7026, 12.2408]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 1.0264071226119995, at frame index: 65, to WandB
+frame index:66
+Logging loss of: 1.120550274848938, at frame index: 66, to WandB
+frame index:67
+Logging loss of: 0.7776510715484619, at frame index: 67, to WandB
+frame index:68
+state: [1.0869202020759967, -0.7122966773373625, 3.360748892975637, -7.977103605688179]type: <class 'list'>
+tensor([[12.3176, 13.9561]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 1.1100757122039795, at frame index: 68, to WandB
+frame index:69
+Logging loss of: 1.0482887029647827, at frame index: 69, to WandB
+frame index:70
+Logging loss of: 1.2465208768844604, at frame index: 70, to WandB
+frame index:71
+Logging loss of: 1.1599562168121338, at frame index: 71, to WandB
+frame index:72
+Logging loss of: 1.2999281883239746, at frame index: 72, to WandB
+frame index:73
+Logging loss of: 0.7922622561454773, at frame index: 73, to WandB
+frame index:74
+Logging loss of: 1.083895206451416, at frame index: 74, to WandB
+frame index:75
+state: [1.332835845746397, -0.2250453574252251, 3.7150106148198643, -8.008163136801718]type: <class 'list'>
+tensor([[16.0330, 17.3581]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 1.0396548509597778, at frame index: 75, to WandB
+frame index:76
+Logging loss of: 0.7635052800178528, at frame index: 76, to WandB
+frame index:77
+Logging loss of: 1.1466833353042603, at frame index: 77, to WandB
+frame index:78
+Logging loss of: 1.1115094423294067, at frame index: 78, to WandB
+frame index:79
+Logging loss of: 0.8267336487770081, at frame index: 79, to WandB
+frame index:80
+Logging loss of: 0.8579519391059875, at frame index: 80, to WandB
+frame index:81
+Logging loss of: 0.846906840801239, at frame index: 81, to WandB
+frame index:82
+Logging loss of: 0.8966242671012878, at frame index: 82, to WandB
+frame index:83
+Logging loss of: 0.8937942385673523, at frame index: 83, to WandB
+frame index:84
+Logging loss of: 0.9083676934242249, at frame index: 84, to WandB
+frame index:85
+Logging loss of: 0.7901522517204285, at frame index: 85, to WandB
+frame index:86
+Logging loss of: 0.7593986392021179, at frame index: 86, to WandB
+frame index:87
+Logging loss of: 0.7636938691139221, at frame index: 87, to WandB
+frame index:88
+Logging loss of: 0.6435658931732178, at frame index: 88, to WandB
+frame index:89
+Logging loss of: 0.8107977509498596, at frame index: 89, to WandB
+frame index:90
+Logging loss of: 0.6652178168296814, at frame index: 90, to WandB
+frame index:91
+Logging loss of: 0.5715218186378479, at frame index: 91, to WandB
+frame index:92
+state: [1.9254535910387565, 0.8954974495945114, 0.7904074864924806, -9.66849697075355]type: <class 'list'>
+tensor([[25.4315, 25.7937]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 0.5013040900230408, at frame index: 92, to WandB
+frame index:93
+state: [1.9315640445946332, 0.9344368218677642, 0.444532224950948, -9.740859882077592]type: <class 'list'>
+tensor([[25.7678, 26.1082]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 0.7986268997192383, at frame index: 93, to WandB
+frame index:94
+state: [1.93457793419397, 0.964643873014375, 0.16895540013896693, -9.730198563478702]type: <class 'list'>
+tensor([[25.9535, 26.2789]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 0.5701600313186646, at frame index: 94, to WandB
+frame index:95
+Logging loss of: 0.6634204983711243, at frame index: 95, to WandB
+frame index:96
+Logging loss of: 0.8523985743522644, at frame index: 96, to WandB
+frame index:97
+Logging loss of: 0.7028710842132568, at frame index: 97, to WandB
+frame index:98
+Logging loss of: 0.6725605130195618, at frame index: 98, to WandB
+frame index:99
+state: [1.9219564518195298, 0.9787974377506571, -0.5166062786134876, -9.100492615033001]type: <class 'list'>
+tensor([[25.9495, 26.1807]], grad_fn=<AddmmBackward>)
+tensor([1])
+Logging loss of: 0.8441653251647949, at frame index: 99, to WandB
+frame index:100
+Logging reward of: 38.39072289065344, at frame index: 100, to WandB
+Logging loss of: 0.854259192943573, at frame index: 100, to WandB
+wandb: WARNING Step cannot be set when using syncing with tensorboard. Please log your step values as a metric such as 'global_step'

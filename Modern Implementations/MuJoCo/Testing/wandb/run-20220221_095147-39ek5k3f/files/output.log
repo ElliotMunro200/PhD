@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_main.py", line 207, in <module>
+    train(args.train_iter, agent, env, args.env, evaluate,
+  File "C:\Users\Jack-Server\Documents\GitHub\PhD\Modern Implementations\MuJoCo\Testing\C_L_main.py", line 23, in train
+    wandb.watch(agent, log="all", log_freq=10)  # "Hooks into the torch model (DQN) to collect gradients and the topology."
+  File "C:\Users\Jack-Server\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_watch.py", line 72, in watch
+    raise ValueError(
+ValueError: Expected a pytorch model (torch.nn.Module). Received <class 'C_L_ddpg.DDPG'>

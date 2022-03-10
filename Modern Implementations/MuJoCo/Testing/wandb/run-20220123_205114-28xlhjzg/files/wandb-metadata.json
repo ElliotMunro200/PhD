@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.9.10",
+    "heartbeatAt": "2022-01-23T07:51:17.698001",
+    "startedAt": "2022-01-23T07:51:14.940938",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Jack-Server\\Documents\\GitHub\\PhD\\Modern Implementations\\MuJoCo\\Testing\\C_L_CartPole_Learning.py",
+    "codePath": "Modern Implementations\\MuJoCo\\Testing\\C_L_CartPole_Learning.py",
+    "git": {
+        "remote": "https://github.com/ElliotMunro200/PhD.git",
+        "commit": "6fc82337b18e0f339b7a6e4f042f9b6ad149a75b"
+    },
+    "email": "emunro2020@gmail.com",
+    "root": "C:/Users/Jack-Server/Documents/GitHub/PhD",
+    "host": "Jack-Server-PC",
+    "username": "Jack-Server",
+    "executable": "C:\\Users\\Jack-Server\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe"
+}

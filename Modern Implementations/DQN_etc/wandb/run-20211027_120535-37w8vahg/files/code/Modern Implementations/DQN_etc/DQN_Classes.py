@@ -252,8 +252,8 @@ if __name__ == "__main__":
     #DQN
     if DQN:
         env = SDP_env() #gym.make(config["env_name"])
-        num_states = env.num_states #env.observation_space.shape[0]
-        num_actions = env.num_actions #env.action_space.n
+        num_states = env.dim_states #env.observation_space.shape[0]
+        num_actions = env.dim_actions #env.action_space.n
         model = DQNet(num_states, num_actions)
         optimizer = optim.Adam(model.parameters())
         replay_buffer = ReplayBuffer(buffer_size)
@@ -263,8 +263,8 @@ if __name__ == "__main__":
     if h_DQN:
         goal_state_rep_f = 2
         env = SDP_env() #gym.make(config["env_name"])
-        num_goals = env.num_states #env.observation_space.shape[0]
-        num_actions = env.num_actions #env.action_space.n
+        num_goals = env.dim_states #env.observation_space.shape[0]
+        num_actions = env.dim_actions #env.action_space.n
         model = DQNet(goal_state_rep_f*num_goals, num_actions)
         meta_model = DQNet(num_goals, num_goals)
         optimizer = optim.Adam(model.parameters())
