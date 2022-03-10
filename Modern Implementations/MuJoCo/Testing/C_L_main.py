@@ -17,9 +17,8 @@ from DQN_Classes import train_log
 from Matplotlib_Animation import display_video
 ###########################
 import wandb
-
-
 ###########################
+
 def train(num_iterations, agent, env, env_name, evaluate, validate_steps, output, framerate, use_wandb, make_animation,
           max_episode_length=None, debug=False):
     # initialization
