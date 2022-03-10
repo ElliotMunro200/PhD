@@ -7,7 +7,6 @@ from dm_control import composer
 from dm_control import mujoco  # The basic mujoco wrapper.
 from dm_control.mujoco.wrapper.mjbindings import enums  # Access to enums and MuJoCo library functions.
 ###########################
-from C_L_normalized_env import NormalizedEnv
 from C_L_RoboLoco_Agent import RoboLoco
 from C_L_RoboLoco_Task_Env import PressWithSpecificForce
 from C_L_evaluator import Evaluator
