@@ -66,6 +66,7 @@ def train(num_iterations, agent, env, env_name, evaluate, validate_steps, output
         if reward == None:  # so that rewards can be summed.
             reward = 0.0
 
+        # determining if this new state requires an episode reset.
         done = env._reset_next_step
         if max_episode_length and episode_steps >= max_episode_length - 1:
             done = True
