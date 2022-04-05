@@ -1,0 +1,42 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.7
+    code_path: code/Modern_Implementations/MuJoCo/Testing/S_L_CartPole_DQN.py
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.9.10
+    start_time: 1642974208
+    t:
+      1:
+      - 1
+      2:
+      - 1
+      3:
+      - 1
+      - 2
+      - 16
+      4: 3.9.10
+      5: 0.12.7
+      8:
+      - 1
+      - 3
+      - 5
+batch_size:
+  desc: null
+  value: 24
+buffer_size:
+  desc: null
+  value: 100
+env_name:
+  desc: null
+  value: MyCartPole
+ep_time_limit_secs:
+  desc: null
+  value: 1
+num_total_frames:
+  desc: null
+  value: 1000

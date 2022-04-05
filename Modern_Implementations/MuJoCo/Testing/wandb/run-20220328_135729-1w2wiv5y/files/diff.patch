@@ -1,0 +1,85 @@
+diff --git a/Modern Implementations/MuJoCo/Testing/C_L_main.py b/Modern Implementations/MuJoCo/Testing/C_L_main.py
+index d5e62f2..db82ef6 100644
+--- a/Modern Implementations/MuJoCo/Testing/C_L_main.py	
++++ b/Modern Implementations/MuJoCo/Testing/C_L_main.py	
+@@ -83,7 +83,7 @@ def train(num_iterations, agent, env, env_name, evaluate, validate_steps, output
+         # [optional] every 10th episode add all frames of the episode to the animation.
+         if make_animation and episode % 10 == 0:
+             if len(episode_frames) < env._physics.time() * framerate:
+-                pixels = env._physics.render(scene_option=scene_option, camera_id='lookatcart')
++                pixels = env._physics.render(scene_option=scene_option, camera_id='cam0')
+                 # rendering the physics model scene into pixels. cameras defined in the cartpole.xml file in suite.
+                 episode_frames.append(pixels)
+             if done:  # as soon as the 10th episode finishes, extend frames with the episode frames once, and reset.
+@@ -223,10 +223,10 @@ if __name__ == "__main__":
+     print("num sim sub-steps per control timestep: " + str(n_sub_steps))
+     ctrl_timestep = sim_timestep * n_sub_steps
+     print("control timestep: " + str(ctrl_timestep))
+-    ep_time_limit = args.max_episode_time
+-    print("episode time limit: " + str(ep_time_limit))
+-    ep_step_limit = env._step_limit
++    ep_step_limit = args.max_episode_length
+     print("episode step limit: " + str(ep_step_limit))
++    ep_time_limit = ep_step_limit*ctrl_timestep
++    print("episode time limit: " + str(ep_time_limit))
+ 
+     # Visualize the joint axis
+     scene_option = mujoco.wrapper.core.MjvOption()
+diff --git a/Modern Implementations/MuJoCo/Testing/RoboLoco-v0-100000_training_steps.mp4 b/Modern Implementations/MuJoCo/Testing/RoboLoco-v0-100000_training_steps.mp4
+index f7a6f0e..8c2648a 100644
+Binary files a/Modern Implementations/MuJoCo/Testing/RoboLoco-v0-100000_training_steps.mp4 and b/Modern Implementations/MuJoCo/Testing/RoboLoco-v0-100000_training_steps.mp4 differ
+diff --git a/Modern Implementations/MuJoCo/Testing/RoboLoco-v0-2000_training_steps.mp4 b/Modern Implementations/MuJoCo/Testing/RoboLoco-v0-2000_training_steps.mp4
+index ec7f805..58f802b 100644
+Binary files a/Modern Implementations/MuJoCo/Testing/RoboLoco-v0-2000_training_steps.mp4 and b/Modern Implementations/MuJoCo/Testing/RoboLoco-v0-2000_training_steps.mp4 differ
+diff --git a/Modern Implementations/MuJoCo/Testing/S_L_PPO.py b/Modern Implementations/MuJoCo/Testing/S_L_PPO.py
+new file mode 100644
+index 0000000..6f33358
+--- /dev/null
++++ b/Modern Implementations/MuJoCo/Testing/S_L_PPO.py	
+@@ -0,0 +1,42 @@
++import argparse
++
++import gym
++#from dm_control import suite
++#from dm_control import mujoco
++#from dm_control.mujoco.wrapper.mjbindings import enums
++
++import spinup.algos.pytorch.ppo.ppo as ppo
++
++if __name__ == "__main__":
++    parser = argparse.ArgumentParser(description='PyTorch RL framework, Spinning Up PPO agent, ? env')
++    parser.add_argument('--env', default='LunarLanderContinuous-v2', type=str, help='environment name') #HalfCheetah-v2
++    parser.add_argument('--mode', default='train', type=str, help='support option: train/test')
++    parser.add_argument('--max_episode_time', default=10, type=int, help='max number of seconds in an episode')
++    parser.add_argument('--max_episode_length', default=1000, type=int, help='max number of steps in an episode')
++    parser.add_argument('--seed', default=42, type=int, help='random seed for reproducibility')
++    args = parser.parse_args()
++
++    ppo = ppo(lambda : gym.make(args.env), seed=args.seed, max_ep_len=args.max_episode_length)
++    #env_fn, actor_critic=<MagicMock spec='str' id='140554322637768'>, ac_kwargs={}, seed=0, steps_per_epoch=4000,
++    # epochs=50, gamma=0.99, clip_ratio=0.2, pi_lr=0.0003, vf_lr=0.001, train_pi_iters=80, train_v_iters=80, lam=0.97,
++    # max_ep_len=1000, target_kl=0.01, logger_kwargs={}, save_freq=10)
++
++    # [optional] MuJoCo environment
++
++    # env = suite.load('cartpole', 'balance', task_kwargs={
++    #     'time_limit': args.max_episode_time,
++    #     'random': args.seed})
++    # printing environment timestep information
++    # sim_timestep = env._physics.timestep()
++    # print("simulation timestep: " + str(sim_timestep))
++    # n_sub_steps = env._n_sub_steps
++    # print("num sim sub-steps per control timestep: " + str(n_sub_steps))
++    # ctrl_timestep = sim_timestep * n_sub_steps
++    # print("control timestep: " + str(ctrl_timestep))
++    # ep_time_limit = args.max_episode_time
++    # print("episode time limit: " + str(ep_time_limit))
++    # ep_step_limit = env._step_limit
++    # print("episode step limit: " + str(ep_step_limit))
++    # Visualize the joint axis
++    # scene_option = mujoco.wrapper.core.MjvOption()
++    # scene_option.flags[enums.mjtVisFlag.mjVIS_JOINT] = True
+\ No newline at end of file
+diff --git a/Modern Implementations/MuJoCo/Testing/__pycache__/C_L_evaluator.cpython-39.pyc b/Modern Implementations/MuJoCo/Testing/__pycache__/C_L_evaluator.cpython-39.pyc
+index 673ebff..1345901 100644
+Binary files a/Modern Implementations/MuJoCo/Testing/__pycache__/C_L_evaluator.cpython-39.pyc and b/Modern Implementations/MuJoCo/Testing/__pycache__/C_L_evaluator.cpython-39.pyc differ

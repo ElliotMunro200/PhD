@@ -1,0 +1,26 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-03-28T00:57:31.901026",
+    "startedAt": "2022-03-28T00:57:29.243607",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--train_iter=100000",
+        "--max_episode_length=1000",
+        "--use_wandb=True"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\Jack-Server\\Documents\\GitHub\\PhD\\Modern Implementations\\MuJoCo\\Testing\\C_L_main.py",
+    "codePath": "Modern Implementations\\MuJoCo\\Testing\\C_L_main.py",
+    "git": {
+        "remote": "https://github.com/ElliotMunro200/PhD.git",
+        "commit": "975c13a869cc23ac3e1c775be7f0efdacc433c1e"
+    },
+    "email": "emunro2020@gmail.com",
+    "root": "C:/Users/Jack-Server/Documents/GitHub/PhD",
+    "host": "Jack-Server-PC",
+    "username": "Jack-Server",
+    "executable": "C:\\Users\\Jack-Server\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe"
+}

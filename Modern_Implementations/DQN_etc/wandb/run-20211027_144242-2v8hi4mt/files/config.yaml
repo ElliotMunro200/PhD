@@ -1,0 +1,28 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.5
+    code_path: code/Modern_Implementations/DQN_etc/DQN_Classes.py
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1635298962
+    t:
+      1:
+      - 1
+      - 3
+      2:
+      - 1
+      - 3
+      3:
+      - 16
+      4: 3.8.10
+      5: 0.12.5
+      8:
+      - 5
+env_name:
+  desc: null
+  value: Pong-v0
