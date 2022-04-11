@@ -1,0 +1,33 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.5
+    code_path: code/Modern_Implementations/DQN_etc/DQN_h-DQN_Classes.py
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.9.4
+    session_history: code\_session_history.ipynb
+    start_time: 1634766205
+    t:
+      1:
+      - 1
+      - 3
+      2:
+      - 1
+      - 3
+      3:
+      - 1
+      - 2
+      - 16
+      4: 3.9.4
+      5: 0.12.5
+      8:
+      - 1
+      - 3
+      - 5
+env_name:
+  desc: null
+  value: CartPole-v0
